@@ -1,0 +1,73 @@
+{
+  "reviewed": "2026-10-17",
+  "scope": "These are species annotations, not confirmed strains. A gut resident normally lives in the intestine; that does not make it always useful or harmless. Some can cause infection outside the gut. Stool abundance alone does not identify harmful traits or prove a health benefit.",
+  "entries": [
+    {
+      "name": "Bacteroides uniformis",
+      "usualRole": "Gut resident; specific strains have shown potential benefits. Strain CECT 7771 improved metabolic and some immune measures in obese mice.",
+      "caution": "Those animal results do not establish a benefit from Sid’s unidentified strains, or make a lower share harmful.",
+      "sources": [
+        {
+          "label": "Specific-strain study in mice",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22844426/"
+        }
+      ]
+    },
+    {
+      "name": "Bacteroides thetaiotaomicron",
+      "usualRole": "Gut resident that helps break down complex carbohydrates. It has also been studied in CTLA-4 cancer immunotherapy.",
+      "caution": "It can cause infections outside the gut. The immunotherapy findings do not establish that this increase benefits Sid or prevents recurrence.",
+      "sources": [
+        {
+          "label": "Carbohydrate-digestion research",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12663928/"
+        },
+        {
+          "label": "CTLA-4 immunotherapy study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26541610/"
+        },
+        {
+          "label": "Infection case report",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34607418/"
+        }
+      ]
+    },
+    {
+      "name": "Bacteroides finegoldii",
+      "usualRole": "Gut resident; what its change means for Sid’s health is uncertain.",
+      "caution": "A case report found bloodstream infection in a person with major bowel disease. Finding it in stool is not evidence of that infection.",
+      "sources": [
+        {
+          "label": "Human infection case report",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36586473/"
+        }
+      ]
+    },
+    {
+      "name": "Bacteroides cellulosilyticus",
+      "usualRole": "Gut resident that can break down many complex carbohydrates in food.",
+      "caution": "The cited work studied strain WH2 in laboratory and mouse models; a useful digestive function does not make abundance a health target.",
+      "sources": [
+        {
+          "label": "Diet and carbohydrate-use study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23976882/"
+        }
+      ]
+    },
+    {
+      "name": "Bacteroides xylanisolvens",
+      "usualRole": "Gut resident that breaks down xylan, a type of plant fiber.",
+      "caution": "One particular strain, DSM 23964, passed specific safety studies. These profiles do not identify that strain or establish a treatment benefit.",
+      "sources": [
+        {
+          "label": "Species and fiber-digestion study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18398210/"
+        },
+        {
+          "label": "Specific-strain safety study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22085591/"
+        }
+      ]
+    }
+  ]
+}

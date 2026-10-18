@@ -4,17 +4,19 @@ An exploratory microbiome dashboard centered on Sid's five public longitudinal s
 
 Live site: https://microbiome-evidence-atlas.amandadilmore.chatgpt.site/
 
-This repository exports site version 12 and the accompanying local research workflows. It is a standalone snapshot; pushing here does **not** automatically deploy the hosted site.
+This repository includes the version 12 data export, local research workflows, and a guided Research frontend. It is a standalone snapshot; pushing here does **not** automatically deploy the hosted site.
 
 ## Run the website
 
 The website is plain HTML, CSS and JavaScript modules. No npm install, frontend build, API key, or backend is needed to view the included data.
 
+The homepage and `research-story.html` provide a guided interpretation of Sid's five observations. They read the prepared `sid-data.json`, `sid-ufpf-drivers.json`, `sid-ufpf-profiles.tsv`, and `sid-events.json` files alongside reviewed literature and treatment-context records. No raw-data pipeline runs in the browser. The established `sid.html` explorer remains available as the broader view.
+
 ```sh
 python3 -m http.server 8000 --bind 127.0.0.1 --directory site/dist
 ```
 
-Open http://localhost:8000/ for Sid's dashboard or http://localhost:8000/ihmp.html for the original cohort explorer. Use an HTTP server rather than opening HTML directly, because the application fetches JSON files.
+Open http://localhost:8000/ for Research, http://localhost:8000/sid.html for the full dashboard, or http://localhost:8000/ihmp.html for the original cohort explorer. Use an HTTP server rather than opening HTML directly, because the application fetches data files.
 
 ## Repository contents
 
@@ -65,3 +67,7 @@ Source URLs, checksums, method details and exclusions accompany the data. See [D
 Any ordinary static host can serve `site/dist/`. The original Sites deployment identity, credentials, nested Git history, local software environments, caches and temporary deployment bundles are excluded. To update the existing hosted site, use its Sites workflow; to deploy elsewhere, configure that host separately.
 
 Start future changes in a branch and run `python scripts/check.py` before publishing. The included functional-profiling workflow is intentionally manual and must not be treated as completed analysis.
+
+The research story includes one explorer for five bacterial groups, backed by `immune-evidence.json`. Bacteroides focuses on B. uniformis and B. thetaiotaomicron, with an expandable five-species breakdown and reviewed roles/cautions in `bacteroides-species.json`. The catalog records study design, cancer/treatment context, exact taxonomic scope, reported direction, limitations and primary links. Profile measurements are joined by genus or exact species name, with all matching SGBs summed before calculating Control quantiles. Missing matches/measurements remain unavailable; explicit zero measurements are reported as non-detections. These are research leads, not a complete literature review or an immune-strength/clinical-response score.
+
+One shared treatment section has its own interval selector, separate from bacterial sample selection. Reviewed explanations in `treatment-evidence.json` and procedure notes in `antibiotic-context.json` describe documented exposures, not inferred causes or unrecorded perioperative antibiotics. The largest-change link uses absolute consecutive percentage-point change, not statistical significance. March receipt dates and February date conflicts retain temporal-order uncertainty. Supporting evidence forms one vertical stack of expandable items.

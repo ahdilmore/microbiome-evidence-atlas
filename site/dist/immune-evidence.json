@@ -1,0 +1,115 @@
+{
+  "reviewed": "2026-10-17",
+  "scope": "Selected primary studies, not a systematic review. Treatment-response associations do not directly measure Sid's immune activity. No included study validates an osteosarcoma recurrence predictor.",
+  "candidates": [
+    {
+      "id": "bact",
+      "name": "Bacteroides",
+      "rank": "genus",
+      "taxon": "g__Bacteroides",
+      "direction": "A large shift over time",
+      "type": "Human cohort associations",
+      "population": "Melanoma",
+      "treatment": "PD-1 immunotherapy",
+      "claim": "Associations between Bacteroides and immunotherapy outcomes differ across species and cohorts. A rise or fall in the whole group cannot be labeled favorable or unfavorable.",
+      "studied": "Different species and microbiome signatures across melanoma cohorts",
+      "matchNote": "This chart shows exact species annotations mapped to the comparison profiles. It does not identify strain identity or a treatment-response signature.",
+      "limits": "The first observed sample was already during treatment. Neither the first sample nor the control median is an untreated or beneficial baseline.",
+      "sources": [
+        {
+          "label": "Lee et al., 2022 · melanoma cohorts",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8938272/"
+        }
+      ],
+      "summary": "Most of the final Bacteroides decline comes from B. uniformis, while B. thetaiotaomicron increases. Cefazolin and a hip procedure are recorded in that interval, but unavailable collection dates prevent confirming the cause. The lower relative share alone does not indicate benefit, harm, worsening health, or a fall in total bacterial count."
+    },
+    {
+      "id": "akk",
+      "name": "Akkermansia",
+      "rank": "genus",
+      "taxon": "g__Akkermansia",
+      "direction": "A late rise; immune benefit unclear",
+      "type": "Human association and mouse experiments",
+      "population": "Lung and kidney cancers; mouse models",
+      "treatment": "PD-1 blockade",
+      "claim": "A. muciniphila was associated with PD-1 treatment response in patients, with supporting bacterial-administration experiments in mice.",
+      "studied": "A. muciniphila; not all Akkermansia species",
+      "matchNote": "This chart shows the whole Akkermansia genus. Sid’s prominent annotation is sp KLE1798; equivalence to A. muciniphila is unconfirmed. A. muciniphila is not detected in any of the five supplied Sid profiles.",
+      "limits": "The genus spike does not establish the presence of this species, and more is not automatically better. No recurrence-prevention target is established here.",
+      "sources": [
+        {
+          "label": "Routy et al., 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29097494/"
+        }
+      ],
+      "summary": "Akkermansia is a group of related gut bacteria, and its share jumps in Sid’s last sample. The particular member linked to better immunotherapy responses in studies was not detected here, so this rise cannot be assumed to bring the same benefit."
+    },
+    {
+      "id": "bifido",
+      "name": "Bifidobacterium",
+      "rank": "genus",
+      "taxon": "g__Bifidobacterium",
+      "direction": "Species-specific evidence",
+      "type": "Mouse experiments and human association",
+      "population": "Melanoma",
+      "treatment": "PD-L1 blockade in mice; PD-1 treatment in patients",
+      "claim": "Selected Bifidobacterium preparations improved tumor control in mice. Human melanoma research associated B. longum with treatment response; this does not establish a benefit from the whole genus.",
+      "studied": "B. breve and B. longum; specific experimental preparations",
+      "matchNote": "A genus total can include different species from those studied. Check the species breakdown below.",
+      "limits": "Mouse supplementation and human associations answer different questions. No beneficial stool target or osteosarcoma recurrence effect has been established.",
+      "sources": [
+        {
+          "label": "Sivan et al., 2015 · mouse experiment",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26541606/"
+        },
+        {
+          "label": "Matson et al., 2018 · melanoma patients",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29302014/"
+        }
+      ],
+      "summary": "Some Bifidobacterium species have shown promise in cancer immunotherapy studies. The findings depend on the species and strain—not simply the group’s total abundance."
+    },
+    {
+      "id": "blautia",
+      "name": "Blautia",
+      "rank": "genus",
+      "taxon": "g__Blautia",
+      "direction": "Human association and preclinical benefit",
+      "type": "Patient-data reanalysis and mouse intervention",
+      "population": "Melanoma",
+      "treatment": "PD-1 blockade",
+      "claim": "Blautia was associated with favorable melanoma outcomes in a patient-data reanalysis. B. coccoides and acetate enhanced PD-1 treatment effects in mice.",
+      "studied": "Blautia genus association; B. coccoides in mouse experiments",
+      "matchNote": "The Blautia total does not confirm B. coccoides or acetate production.",
+      "limits": "Preclinical findings need clinical validation. Neither a control-group difference nor a genus total sets a treatment target for Sid.",
+      "sources": [
+        {
+          "label": "Zhang et al., 2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42463281/"
+        }
+      ],
+      "summary": "Blautia was linked to favorable melanoma outcomes, and one species improved treatment effects in mice. The group total does not confirm that species or its effects."
+    },
+    {
+      "id": "faecali",
+      "name": "Faecalibacterium",
+      "rank": "genus",
+      "taxon": "g__Faecalibacterium",
+      "direction": "More favorable response association",
+      "type": "Human association; microbiome-transfer experiments",
+      "population": "Melanoma",
+      "treatment": "PD-1 blockade",
+      "claim": "Higher Faecalibacterium abundance was associated with favorable response and immune features in a melanoma study.",
+      "studied": "Genus-level association; transferred whole microbiomes in mice",
+      "matchNote": "A genus-level association does not identify a protective species or strain.",
+      "limits": "The mouse transfers do not isolate the effect of this genus. A lower stool share does not measure reduced immunity or butyrate production.",
+      "sources": [
+        {
+          "label": "Gopalakrishnan et al., 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29097493/"
+        }
+      ],
+      "summary": "Higher Faecalibacterium levels were associated with better immunotherapy responses in a melanoma study. That association does not establish a beneficial target level."
+    }
+  ]
+}

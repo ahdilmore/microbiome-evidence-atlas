@@ -1,0 +1,17 @@
+{
+  "scope": "Procedure and antibiotic dates are documented context, not proof of the cause of a microbial change. Additional perioperative antibiotics are not inferred from surgery alone.",
+  "source": {
+    "label": "Public timeline records",
+    "url": "https://osteosarc.com/data/events.tsv"
+  },
+  "intervals": {
+    "1": {
+      "title": "Hardware removal during recorded antibiotic treatment",
+      "text": "Hardware removal is recorded on November 10, 2025. Dalbavancin is recorded from September 20, 2025 to January 9, 2026, with individual entries on November 3 and November 28 around the procedure. The October 22 sample was already within that treatment period, so it is not a pre-antibiotic baseline. These records do not confirm an additional antibiotic given during the operation."
+    },
+    "4": {
+      "title": "A hip procedure and a documented antibiotic in the final interval",
+      "text": "Left-hip core decompression and cefazolin are both recorded on March 12, 2026, between the March 10 and March 27 lab receipt dates. This is confirmed antibiotic context rather than an assumption based on surgery. Collection dates are unavailable, so the records cannot establish whether the final stool sample was collected after cefazolin."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "reviewed": "2026-10-17",
+  "scope": "Selected explanations for temporal context, not a ranking of causal probability. Treatment dates come from the prepared public timeline; biological sources do not establish a cause of Sid’s measured changes.",
+  "treatments": [
+    {
+      "title": "Metformin",
+      "explanation": "Metformin lowers blood sugar, and human research has linked its use to differences in gut bacteria. It could be relevant to the observed community change.",
+      "source": {
+        "label": "Human observational study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27999002/"
+      },
+      "candidateNotes": {
+        "bifido": "That study reported higher B. bifidum in metformin users. This makes the species breakdown worth examining, but does not establish that metformin caused Sid’s change.",
+        "akk": "The study’s Akkermansia finding concerns A. muciniphila; equivalence to Sid’s KLE1798 annotation is unconfirmed."
+      }
+    },
+    {
+      "title": "Cefazolin",
+      "explanation": "Cefazolin is an antibiotic. Its prescribing information notes that antibacterial treatment can alter the colon’s bacterial community, so it is a possible contributor to investigate. This does not predict which bacterial groups would increase or decrease.",
+      "source": {
+        "label": "Cefazolin prescribing information",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=18e7366a-1b3e-4010-8f4a-dd559d4f2146&type=display"
+      }
+    },
+    {
+      "title": "Dalbavancin",
+      "explanation": "Dalbavancin treats bacterial infections. However, a small single-dose study in healthy volunteers found no major overall effect on intestinal flora. Its timing is useful context, but it is a weak explanation for a large shift.",
+      "source": {
+        "label": "Dalbavancin intestinal-flora study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16840427/"
+      }
+    },
+    {
+      "title": "Wegovy",
+      "explanation": "Wegovy affects appetite and slows stomach emptying. Changes in food intake or digestion could be relevant context, but this does not establish a direct effect on any of these bacterial groups.",
+      "source": {
+        "label": "Wegovy prescribing information",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/215256s021lbl.pdf"
+      }
+    },
+    {
+      "title": "Zepbound",
+      "explanation": "Zepbound affects appetite and slows stomach emptying. Food intake and digestion are possible indirect links to explore; no specific bacterial effect is established here.",
+      "source": {
+        "label": "Zepbound prescribing information",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/217806s005s006s011s015s019lbl.pdf"
+      }
+    }
+  ]
+}

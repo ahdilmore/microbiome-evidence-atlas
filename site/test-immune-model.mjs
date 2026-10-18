@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {aggregate,immuneStories,parseProfiles,quantile} from './dist/immune-model.mjs';
+assert.equal(quantile([1,2,3,4],.25),1.75);
+const rows=parseProfiles('sample\tgroup\tSGB1\tSGB2\na\tSid\t.1\t.2\nb\tControl\t.3\t.4\nc\tControl\t.5\t.6');
+const f=[{id:'g__X',name:'X',members:['1','2']}],c=[{rank:'genus',taxon:'g__X'}];
+const story=immuneStories(c,rows,f,['a'])[0];assert.ok(Math.abs(story.sid[0]-.3)<1e-12);assert.equal(story.reference.median,.9);assert.equal(story.availability,'Reported at 1/1 visits');
+assert.equal(immuneStories([{rank:'genus',taxon:'g__unknown'}],rows,f,['a'])[0].availability,'unavailable');
+assert.equal(aggregate(rows[0],[]),null);
+assert.equal(aggregate({},f),null,'missing measurement columns are unavailable, not zero');
+assert.equal(immuneStories(c,rows,f,['missing'])[0].availability,'unavailable','missing sample is not a non-detection');
+const registry=JSON.parse(fs.readFileSync(new URL('./dist/immune-evidence.json',import.meta.url))),drivers=JSON.parse(fs.readFileSync(new URL('./dist/sid-ufpf-drivers.json',import.meta.url))),source=JSON.parse(fs.readFileSync(new URL('./dist/sid-data.json',import.meta.url)));
+const actual=immuneStories(registry.candidates,parseProfiles(fs.readFileSync(new URL('./dist/sid-ufpf-profiles.tsv',import.meta.url),'utf8')),[...drivers.levels.genus.features,...drivers.levels.sgb.features],source.samples.map(s=>s.id)),by=id=>actual.find(x=>x.id===id);
+assert.deepEqual(actual.map(item=>item.id),['bact','akk','bifido','blautia','faecali'],'the explorer is the five reviewed genus entries');assert.ok(Math.abs(by('bact').sid[4]*100-2.96728)<1e-5);assert.ok(Math.abs(by('akk').sid[4]*100-13.2017)<1e-4);assert.ok(Math.abs(by('bifido').sid[4]*100-4.87170112)<1e-7);console.log('immune model checks passed');

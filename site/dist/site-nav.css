@@ -1,0 +1,11 @@
+/* Shared header: research is the homepage on every page. */
+header.site-header{box-sizing:border-box;height:85px;min-height:85px;display:flex;align-items:center;justify-content:space-between;flex-wrap:nowrap;gap:24px;padding:0 3.4%;border-bottom:1px solid #d9d4c6;background:#fffefa;color:#163b36;font:14px/1.55 'DM Sans',system-ui,sans-serif}
+header.site-header .brand{display:flex;align-items:center;gap:12px;color:#163b36;text-decoration:none;font-size:20px;letter-spacing:-.7px;white-space:nowrap}
+header.site-header .mark{font-size:47px;color:#00786c;line-height:1}
+header.site-header nav{display:flex;align-items:center;gap:18px;order:0;width:auto;padding:0;margin:0;font-size:12px}
+header.site-header nav a{display:block;padding:10px 14px;border-radius:0;background:transparent;color:#163b36;font-size:12px;font-weight:400;letter-spacing:normal;text-decoration:none;white-space:nowrap}
+header.site-header nav a[aria-current=page]{font-weight:700;background:transparent}
+header.site-header nav a:hover{text-decoration:underline;text-underline-offset:3px}
+header.site-header a:focus-visible,.site-methods:focus-visible{outline:2px solid #b58b48;outline-offset:4px}
+footer .site-methods{display:inline-block;margin-top:12px;padding:0;border:0;border-radius:0;background:transparent;color:#163b36;font:inherit;font-size:12px;letter-spacing:normal;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+@media(max-width:760px){header.site-header{height:auto;min-height:74px;flex-wrap:wrap;gap:12px;padding:15px 20px}header.site-header .brand{font-size:17px}header.site-header nav{order:2;width:100%;gap:12px;flex-wrap:wrap}header.site-header nav a{padding:8px 12px}}
