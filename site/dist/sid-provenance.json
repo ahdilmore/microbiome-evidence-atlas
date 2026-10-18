@@ -1,0 +1,19 @@
+{
+  "source": "https://osteosarc.com/microbiome/",
+  "sourceTable": "https://osteosarc.com/data/microbiome/microbiome_long.tsv",
+  "report": "https://sid-sijbrandij-osteosarc-dataset.s3.us-west-2.amazonaws.com/microbiome/NGS/RCRF-H37004-20260422-Stool/processed_data/Stool_report_4_22_26.pdf",
+  "retrieved": "2026-10-17",
+  "software": "MetaPhlAn 4.1.1",
+  "database": "mpa_vJun23_CHOCOPhlAnSGB_202307",
+  "pipelineSource": "June 23, 2026 lab report covering the first six reported visits. Full preprocessing parameters are not documented here.",
+  "measure": "Share of reported SGB abundance weights; each supplied weight divided by the sum across all reported stool SGBs for that visit. Underlying integer units are unverified; these are not asserted to be raw reads, cells, or absolute microbial load.",
+  "validation": "First visit matches original lab CSV. Normalized weights reproduce all five lab-report Shannon and inverse-Simpson values at two decimals.",
+  "missing": "An absent SGB row is treated as not detected (zero in the supplied profile), not proven biological absence.",
+  "scope": "Five stool profiles in the downloadable public summary. Later archive collections have not been imported. No tumor matching, external reference, p-values or clinical scoring.",
+  "sourceSHA256": {
+    "microbiome_long.tsv": "6cd7c66d13083d535f0e39d54df25b65a5831df71b8fcaa8002170df1e48b1d2",
+    "samples.tsv": "ea4d7406fbb096e1874ad01b4e17e1d5674e5e1f06b771532c0280c2bb8b327a",
+    "original-stool-001.csv": "7baf4140f08e3a81bb5fe8c59e8bdfcd1749d31dee2dafdaf347ddbac19a2d0f",
+    "april-report.pdf": "4226264df1eb0840c7f6f5fd1b006b0e02f2f882ffdcbe01485ba105393a4dc9"
+  }
+}

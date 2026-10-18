@@ -1,0 +1,95 @@
+{
+  "audit_date": "2026-10-17",
+  "sources": {
+    "T2D16S_samp.rda": {
+      "url": "https://raw.githubusercontent.com/dozmorovlab/HMP2Data/master/data/T2D16S_samp.rda",
+      "sha256": "7427a776be4e5cd75197d8a7f12982dce0e04239f70e0e13bc5422b504c95565"
+    },
+    "T2D16S_mtx.rda": {
+      "url": "https://raw.githubusercontent.com/dozmorovlab/HMP2Data/master/data/T2D16S_mtx.rda",
+      "sha256": "d97ba53ec3cd2be469df29c6bc372f9dd6cd2471484a4618fbd14e1d50705022"
+    },
+    "T2D16S_tax.rda": {
+      "url": "https://raw.githubusercontent.com/dozmorovlab/HMP2Data/master/data/T2D16S_tax.rda",
+      "sha256": "334da5eb72fe9799b27de0d28023d380084361814cef8cc71fca7eb5f961461b"
+    }
+  },
+  "count_shape": [
+    12062,
+    2208
+  ],
+  "nonnegative_integer_counts": true,
+  "body_sites": {
+    "nasal cavity": 1167,
+    "feces": 1041
+  },
+  "fecal_unique_visit_tokens": 1018,
+  "fecal_duplicated_visit_tokens": 23,
+  "fecal_library_size_quantiles": {
+    "0": 2.0,
+    "0.25": 13145.0,
+    "0.5": 18679.0,
+    "0.75": 30224.0,
+    "1": 234415.0
+  },
+  "stanford_samples": 855,
+  "match_status_counts": {
+    "unique_exact_visit_token": 658,
+    "unmatched": 183,
+    "multiple_count_records": 14
+  },
+  "stanford_named_and_unclassified_genus_features": 45,
+  "exact_shared_genus_names": 21,
+  "unmapped_stanford_genus_names": [
+    "Alistipes",
+    "Barnesiella",
+    "Butyricicoccus",
+    "Clostridium.IV",
+    "Clostridium.XI",
+    "Clostridium.XVIII",
+    "Clostridium.XlVa",
+    "Clostridium.XlVb",
+    "Clostridium.sensu.stricto",
+    "Erysipelotrichaceae_incertae_sedis",
+    "Flavonifractor",
+    "Lachnospiracea_incertae_sedis",
+    "Oscillibacter",
+    "Parasutterella",
+    "Pseudoflavonifractor",
+    "unclassified_Bacteria",
+    "unclassified_Clostridiales",
+    "unclassified_Clostridiales_Incertae.Sedis.XIII",
+    "unclassified_Coriobacteriaceae",
+    "unclassified_Erysipelotrichaceae",
+    "unclassified_Firmicutes",
+    "unclassified_Lachnospiraceae",
+    "unclassified_Porphyromonadaceae",
+    "unclassified_Ruminococcaceae"
+  ],
+  "comparison": {
+    "unique_matched_samples": 658,
+    "sample_genus_pairs": 13818,
+    "mean_absolute_difference_percentage_points": 0.4773659198516351,
+    "median_absolute_difference_percentage_points": 0.02891991270242034,
+    "max_absolute_difference_percentage_points": 73.20645019745501,
+    "fraction_pairs_within_1e-6": 0.17614705456650745,
+    "samples_all_shared_genera_within_1e-6": 0
+  },
+  "default_IR_IS_cohort": {
+    "original_healthy_samples": 331,
+    "original_participants": 59,
+    "uniquely_matched_healthy_samples": 257,
+    "uniquely_matched_participants": 50
+  },
+  "matched_libraries_below_1000_retained_reads": 3,
+  "decision": "Do not replace the app input: these counts do not reproduce the Stanford abundance table on shared exact-name genera.",
+  "limitations": [
+    "Exact visit-token agreement supports matching but does not prove aliquot or sequencing-run identity.",
+    "Multiple records per visit are excluded from quantitative comparison, not pooled.",
+    "Genus mapping uses exact strings only; Greengenes taxonomy can split or merge taxa differently from Stanford labels.",
+    "Relative abundance denominator is all retained OTU counts in each package sample, including OTUs without genus assignments; it is not verified to equal raw sequencing depth.",
+    "Unassigned-genus reads are preserved separately and are not distributed among named genera.",
+    "The package provides processed OTU read counts, not bacterial cell counts or unprocessed FASTQ reads.",
+    "Differences may reflect processing, taxonomy, filtering or sample handling; this audit cannot uniquely attribute the cause."
+  ]
+}

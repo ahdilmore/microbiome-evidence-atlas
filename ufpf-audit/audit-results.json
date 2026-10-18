@@ -1,0 +1,633 @@
+{
+  "repository_commit": "1e7f79311c0dc47b13da99061cde41b23e8f7146",
+  "profiles": 100,
+  "metadata_rows": 96,
+  "exact_matches": 95,
+  "groups_as_Diagnosis2": {
+    "Control": {
+      "n": 16,
+      "age_min": 40.0,
+      "age_median": 64.0,
+      "age_max": 79.0,
+      "sex": {
+        "Female": 9,
+        "Male": 7
+      },
+      "reads_min": 582829,
+      "reads_median": 2937047.5,
+      "reads_max": 5726730
+    },
+    "IBD": {
+      "n": 26,
+      "age_min": 40.0,
+      "age_median": 57.5,
+      "age_max": 80.0,
+      "sex": {
+        "Female": 17,
+        "Male": 9
+      },
+      "reads_min": 139618,
+      "reads_median": 2463540.0,
+      "reads_max": 7820684
+    },
+    "PD": {
+      "n": 53,
+      "age_min": 47.0,
+      "age_median": 67.0,
+      "age_max": 79.0,
+      "sex": {
+        "Male": 33,
+        "Female": 20
+      },
+      "reads_min": 199402,
+      "reads_median": 2115344.0,
+      "reads_max": 10077039
+    }
+  },
+  "diagnosis_conflicts": [
+    {
+      "Sample": "UF-PF-2022-074-1N",
+      "Diagnosis": "Control",
+      "Diagnosis2": "PD"
+    }
+  ],
+  "conservative_labeled_profiles": 94,
+  "profiles_without_metadata": [
+    "UF-PF-2020-027-1N",
+    "UF-PF-2021-023-1N",
+    "UF-PF-2022-084-1N2",
+    "UF-PF-2022-085-3N2",
+    "UF-PF-2022-105-1N"
+  ],
+  "metadata_without_profiles": [
+    "UF-PF-2020-023-1N"
+  ],
+  "database_header": "#mpa_vJun23_CHOCOPhlAnSGB_202307",
+  "taxonomic_rows": 3670,
+  "sgb_rows": 1253,
+  "non_sgb_leaf_rows": 3,
+  "grouped_sgb_rows": 25,
+  "grouped_ids_also_seen_as_numeric_sid_ids": [
+    "16971",
+    "1990",
+    "4425"
+  ],
+  "leaf_sums_percent": [
+    99.99995,
+    100.00006
+  ],
+  "sgb_sums_percent": [
+    98.61390999999999,
+    100.00006
+  ],
+  "unknown_percent_range": [
+    0.0,
+    40.62946
+  ],
+  "unknown_normalization_max_error_percentage_points": 8.17165775401918e-06,
+  "sid_sgbs": 236,
+  "shared_sgbs": 177,
+  "sid_abundance_fraction_in_shared_sgbs": [
+    {
+      "sample": "H37004-stool-001",
+      "date": "2025-10-22",
+      "fraction": 0.959683084444922
+    },
+    {
+      "sample": "H37004-stool-002",
+      "date": "2025-12-02",
+      "fraction": 0.8864639537021124
+    },
+    {
+      "sample": "H37004-stool-003",
+      "date": "2026-02-13",
+      "fraction": 0.9308669375876255
+    },
+    {
+      "sample": "H37004-stool-004",
+      "date": "2026-03-10",
+      "fraction": 0.9232965920239372
+    },
+    {
+      "sample": "H37004-stool-005",
+      "date": "2026-03-27",
+      "fraction": 0.9394136210406875
+    }
+  ],
+  "missing_sid_sgbs": [
+    {
+      "metaphlan_id": "1962",
+      "genus": "g__Coprobacter",
+      "species": "s__Coprobacter_secundus",
+      "family": "f__Barnesiellaceae",
+      "phylum": "p__Bacteroidota"
+    },
+    {
+      "metaphlan_id": "1990",
+      "genus": "g__Porphyromonas",
+      "species": "s__Porphyromonas_sp_HMSC065F10",
+      "family": "f__Porphyromonadaceae",
+      "phylum": "p__Bacteroidota"
+    },
+    {
+      "metaphlan_id": "2299",
+      "genus": "g__Alistipes",
+      "species": "s__Alistipes_timonensis",
+      "family": "f__Rikenellaceae",
+      "phylum": "p__Bacteroidota"
+    },
+    {
+      "metaphlan_id": "3969",
+      "genus": "LKT_f__Eubacteriales_Family_XIII_Incertae_Sedis",
+      "species": "LKT_f__Eubacteriales_Family_XIII_Incertae_Sedis",
+      "family": "f__Eubacteriales_Family_XIII_Incertae_Sedis",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "4026",
+      "genus": "g__Massilicoli",
+      "species": "s__Massilicoli_timonensis",
+      "family": "f__Erysipelotrichaceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "4063",
+      "genus": "LKT_p__Firmicutes",
+      "species": "LKT_p__Firmicutes",
+      "family": "LKT_p__Firmicutes",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "4079",
+      "genus": "g__Eubacterium",
+      "species": "s__Eubacterium_limosum",
+      "family": "f__Eubacteriaceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "4425",
+      "genus": "LKT_f__Oscillospiraceae",
+      "species": "LKT_f__Oscillospiraceae",
+      "family": "f__Oscillospiraceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "4436",
+      "genus": "LKT_p__Firmicutes",
+      "species": "LKT_p__Firmicutes",
+      "family": "LKT_p__Firmicutes",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "4447",
+      "genus": "LKT_p__Firmicutes",
+      "species": "LKT_p__Firmicutes",
+      "family": "LKT_p__Firmicutes",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "4633",
+      "genus": "g__Extibacter",
+      "species": "s__Extibacter_muris",
+      "family": "f__Lachnospiraceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "4635",
+      "genus": "g__Dorea",
+      "species": "s__Dorea_sp_D27",
+      "family": "f__Lachnospiraceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "4658",
+      "genus": "LKT_f__Clostridiaceae",
+      "species": "LKT_f__Clostridiaceae",
+      "family": "f__Clostridiaceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "4718",
+      "genus": "g__Eubacteriaceae_unclassified",
+      "species": "s__Eubacteriaceae_bacterium_Marseille_Q4139",
+      "family": "f__Eubacteriaceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "4729",
+      "genus": "g__Lachnoclostridium",
+      "species": "s__Lachnoclostridium_sp_An14",
+      "family": "f__Lachnospiraceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "4774",
+      "genus": "g__Lachnoclostridium",
+      "species": "s__Lachnoclostridium_sp_An138",
+      "family": "f__Lachnospiraceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "4803",
+      "genus": "LKT_f__Lachnospiraceae",
+      "species": "LKT_f__Lachnospiraceae",
+      "family": "f__Lachnospiraceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "4953",
+      "genus": "g__Lachnospiraceae_unclassified",
+      "species": "s__Lachnospiraceae_bacterium",
+      "family": "f__Lachnospiraceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "4990",
+      "genus": "LKT_f__Lachnospiraceae",
+      "species": "LKT_f__Lachnospiraceae",
+      "family": "f__Lachnospiraceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "6014",
+      "genus": "g__Fusobacterium",
+      "species": "s__Fusobacterium_nucleatum",
+      "family": "f__Fusobacteriaceae",
+      "phylum": "p__Fusobacteria"
+    },
+    {
+      "metaphlan_id": "6570",
+      "genus": "LKT_p__Tenericutes",
+      "species": "LKT_p__Tenericutes",
+      "family": "LKT_p__Tenericutes",
+      "phylum": "p__Tenericutes"
+    },
+    {
+      "metaphlan_id": "6747",
+      "genus": "g__Erysipelatoclostridium",
+      "species": "s__Clostridium_spiroforme",
+      "family": "f__Erysipelotrichaceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "7263",
+      "genus": "g__Bittarella",
+      "species": "s__Bittarella_massiliensis",
+      "family": "f__Oscillospiraceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "8634",
+      "genus": "LKT_p__Candidatus_Melainabacteria",
+      "species": "LKT_p__Candidatus_Melainabacteria",
+      "family": "LKT_p__Candidatus_Melainabacteria",
+      "phylum": "p__Candidatus_Melainabacteria"
+    },
+    {
+      "metaphlan_id": "14049",
+      "genus": "LKT_p__Firmicutes",
+      "species": "LKT_p__Firmicutes",
+      "family": "LKT_p__Firmicutes",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "14050",
+      "genus": "LKT_p__Firmicutes",
+      "species": "LKT_p__Firmicutes",
+      "family": "LKT_p__Firmicutes",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "14124",
+      "genus": "LKT_p__Firmicutes",
+      "species": "LKT_p__Firmicutes",
+      "family": "LKT_p__Firmicutes",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "14804",
+      "genus": "g__Paraeggerthella",
+      "species": "s__Paraeggerthella_hongkongensis",
+      "family": "f__Eggerthellaceae",
+      "phylum": "p__Actinobacteria"
+    },
+    {
+      "metaphlan_id": "14805",
+      "genus": "g__Rubneribacter",
+      "species": "s__Rubneribacter_badeniensis",
+      "family": "f__Eggerthellaceae",
+      "phylum": "p__Actinobacteria"
+    },
+    {
+      "metaphlan_id": "14839",
+      "genus": "g__Ligaoa",
+      "species": "s__Ligaoa_zhengdingensis",
+      "family": "f__Oscillospiraceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "14863",
+      "genus": "LKT_f__Oscillospiraceae",
+      "species": "LKT_f__Oscillospiraceae",
+      "family": "f__Oscillospiraceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "14870",
+      "genus": "LKT_p__Firmicutes",
+      "species": "LKT_p__Firmicutes",
+      "family": "LKT_p__Firmicutes",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "14929",
+      "genus": "LKT_p__Firmicutes",
+      "species": "LKT_p__Firmicutes",
+      "family": "LKT_p__Firmicutes",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "14939",
+      "genus": "LKT_p__Firmicutes",
+      "species": "LKT_p__Firmicutes",
+      "family": "LKT_p__Firmicutes",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "14966",
+      "genus": "LKT_p__Firmicutes",
+      "species": "LKT_p__Firmicutes",
+      "family": "LKT_p__Firmicutes",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "14985",
+      "genus": "g__Butyricicoccus",
+      "species": "s__Butyricicoccus_SGB14985",
+      "family": "f__Clostridiaceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "15133",
+      "genus": "g__Pseudoflavonifractor",
+      "species": "s__Pseudoflavonifractor_phocaeensis",
+      "family": "f__Oscillospiraceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "15276",
+      "genus": "g__Anaerofilum",
+      "species": "s__Anaerofilum_sp_An201",
+      "family": "f__Oscillospiraceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "15277",
+      "genus": "g__Gemmiger",
+      "species": "s__Gemmiger_formicilis",
+      "family": "f__Eubacteriales_unclassified",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "15873",
+      "genus": "g__Actinomyces",
+      "species": "s__Actinomyces_massiliensis",
+      "family": "f__Actinomycetaceae",
+      "phylum": "p__Actinobacteria"
+    },
+    {
+      "metaphlan_id": "15878",
+      "genus": "g__Actinomyces",
+      "species": "s__Actinomyces_oris",
+      "family": "f__Actinomycetaceae",
+      "phylum": "p__Actinobacteria"
+    },
+    {
+      "metaphlan_id": "16971",
+      "genus": "g__Rothia",
+      "species": "s__Rothia_mucilaginosa",
+      "family": "f__Micrococcaceae",
+      "phylum": "p__Actinobacteria"
+    },
+    {
+      "metaphlan_id": "29334",
+      "genus": "g__Intestinimonas",
+      "species": "s__Intestinimonas_timonensis",
+      "family": "f__Eubacteriales_unclassified",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "29433",
+      "genus": "g__Lachnoclostridium",
+      "species": "s__Lachnoclostridium_edouardi",
+      "family": "f__Lachnospiraceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "33551",
+      "genus": "g__Raoultibacter",
+      "species": "s__Raoultibacter_massiliensis",
+      "family": "f__Eggerthellaceae",
+      "phylum": "p__Actinobacteria"
+    },
+    {
+      "metaphlan_id": "33566",
+      "genus": "g__Gordonibacter",
+      "species": "s__Gordonibacter_massiliensis",
+      "family": "f__Eggerthellaceae",
+      "phylum": "p__Actinobacteria"
+    },
+    {
+      "metaphlan_id": "42476",
+      "genus": "LKT_p__Firmicutes",
+      "species": "LKT_p__Firmicutes",
+      "family": "LKT_p__Firmicutes",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "48013",
+      "genus": "g__Lactonifactor",
+      "species": "s__Lactonifactor_longoviformis",
+      "family": "f__Clostridiaceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "53518",
+      "genus": "LKT_p__Firmicutes",
+      "species": "LKT_p__Firmicutes",
+      "family": "LKT_p__Firmicutes",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "54312",
+      "genus": "LKT_f__Candidatus_Borkfalkiaceae",
+      "species": "LKT_f__Candidatus_Borkfalkiaceae",
+      "family": "f__Candidatus_Borkfalkiaceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "54324",
+      "genus": "LKT_p__Firmicutes",
+      "species": "LKT_p__Firmicutes",
+      "family": "LKT_p__Firmicutes",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "59899",
+      "genus": "g__Eubacteriales_unclassified",
+      "species": "s__Clostridiales_bacterium",
+      "family": "f__Eubacteriales_unclassified",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "71883",
+      "genus": "g__Anaerotignum",
+      "species": "s__Anaerotignum_faecicola",
+      "family": "f__Lachnospiraceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "79822",
+      "genus": "g__Anaerofilum",
+      "species": "s__Anaerofilum_hominis",
+      "family": "f__Oscillospiraceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "79883",
+      "genus": "LKT_p__Firmicutes",
+      "species": "LKT_p__Firmicutes",
+      "family": "LKT_p__Firmicutes",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "82502",
+      "genus": "g__Qiania",
+      "species": "s__Qiania_dongpingensis",
+      "family": "f__Lachnospiraceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "82503",
+      "genus": "g__Youxingia",
+      "species": "s__Youxingia_wuxianensis",
+      "family": "f__Oscillospiraceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "82545",
+      "genus": "g__Gehongia",
+      "species": "s__Gehongia_tenuis",
+      "family": "f__Christensenellaceae",
+      "phylum": "p__Firmicutes"
+    },
+    {
+      "metaphlan_id": "106149",
+      "genus": "LKT_p__Firmicutes",
+      "species": "LKT_p__Firmicutes",
+      "family": "LKT_p__Firmicutes",
+      "phylum": "p__Firmicutes"
+    }
+  ],
+  "missing_metadata_counts": {
+    "Sample": 0,
+    "Sex": 0,
+    "Race/Ethnicity": 0,
+    "Diagnosis": 0,
+    "Diagnosis2": 0,
+    "Age": 0,
+    "Taking Probiotics": 34,
+    "MOCA scores": 43,
+    "Modified Schwab and England Activities of Daily Living Scale": 42,
+    "Age of PD Diagnosis": 42,
+    "Smoking": 0,
+    "Medication List": 8,
+    "Carbidopa/Levo": 0,
+    "Other PD meds": 0,
+    "Laxatives": 0,
+    "Indigestion meds": 0,
+    "Anti-TNF": 0,
+    "Anti-inflammatories (non-NSAID)": 0,
+    "Blood thinners": 0,
+    "Cholesterol meds": 0,
+    "Blood pressure meds": 0,
+    "Thyroid meds": 0,
+    "Asthma/COPD meds": 0,
+    "Cancer meds": 0,
+    "Diabetes meds": 0,
+    "Depression/anxiety meds": 0,
+    "Iron-specific supplement": 0,
+    "Estrogen": 0,
+    "Antihistamines": 0,
+    "Sleep aids": 0,
+    "NSAIDs": 0,
+    "Caffeinated coffee": 1,
+    "Age started drinking": 30,
+    "Still drinking?": 20,
+    "Caffeinated tea": 0,
+    "Still drinking?.1": 31,
+    "Caffeinated soda": 0,
+    "Age started drinking .1": 19,
+    "Still drinking?.2": 20,
+    "Head injury": 0,
+    "# Head injuries": 0,
+    "Religious Lineage": 83,
+    "Ethnic origins": 1,
+    "Endocrine conditions?": 0,
+    "Skin conditions": 0,
+    "Gastrointestinal conditions?": 0,
+    "Bone and Joint Conditions": 0,
+    "Hematologic conditions?": 0,
+    "Cancer": 0,
+    "Cancer Type": 83,
+    "UPDRS": 45,
+    "Reads": 0,
+    "Total Caffeine Intake": 0
+  },
+  "interpretation": "Same database confirmed in actual headers and commands. Profiling minor version and Sid preprocessing not fully verified. Overlap measures detection across supplied tables, not sensitivity or proof of biological absence. Cross-sectional exploratory reference only.",
+  "archive": {
+    "metadata_rows": 96,
+    "profiles": 96,
+    "exact_matches": 96,
+    "groups": {
+      "PD": 54,
+      "IBD": 26,
+      "Control": 16
+    },
+    "conservative_diagnosis_labeled_profiles": 95,
+    "source": "https://zenodo.org/records/10912505",
+    "common_profile_max_error": 0.0,
+    "year_alias_profile_max_error": 0.0,
+    "verified_profile_alias": {
+      "github": "UF-PF-2021-023-1N",
+      "archive": "UF-PF-2020-023-1N"
+    },
+    "github_extra_profiles": [
+      "UF-PF-2020-027-1N",
+      "UF-PF-2022-084-1N2",
+      "UF-PF-2022-085-3N2",
+      "UF-PF-2022-105-1N"
+    ],
+    "github_unknown_probiotics": 34,
+    "archive_unknown_probiotics": 0,
+    "primary_metadata_policy": "Use archive IDs and profiles; retain disputed diagnosis as ambiguous; preserve GitHub missing probiotics as unknown, not No.",
+    "observed_sgb_rows": 1244,
+    "shared_observed_sgbs": 176,
+    "sid_abundance_fraction_in_shared_observed_sgbs": [
+      0.959683084444922,
+      0.8841061471449779,
+      0.9303526502430094,
+      0.9228421773333145,
+      0.9393470971843567
+    ]
+  },
+  "file_sha256": {
+    "paper.xml": "0bbc7be1283709b2debccd9a6e4a2a4c8d032d885387f19d584b6e06645d6430",
+    "Metadata All Samples.csv": "9359c5fa12b1f1a1e435be53a7f1cd924eca525c5a28211538bb3de56ee2ec20",
+    "Key Resource Table.xlsx": "5dbdd0c21699dcabd60efaf01fec266bdd64456c1764dce15bd8cbc01a70433d",
+    "metaphlan_all_combined.tsv": "27fefe7c65826916cdfa3b13aa3b46e0a9c1493c80e3f81cb9f024af7763d1a9",
+    "metaphlan_unknown_all_combined.tsv": "0b312eb013ec0084b5bf753d2f51b287c9735752e7a8f0dd74177934115d826b",
+    "Bioinformatic Processing of Sequences": "d3baea97e454d277cc59eabe22ac56db9aa5d1773d3f48740d0324a4a271421d",
+    "Source Data.xlsx": "845f09dba4426db40d0fa8cb4cb36a611a97cc70d0fe6329cbea7f4b278d18c8"
+  }
+}

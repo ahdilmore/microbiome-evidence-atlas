@@ -1,0 +1,390 @@
+feature_id	names	rt_mz_peak	adducts	assay_column
+17592186315241	(R)-3-hydroxydecanoic acid	0.76_187.1352m/z	[M-H]-	hilic
+17592186315243	(R)-malate; (s)-malate	0.70_133.0133m/z	[M-H]-	c18
+17592186315245	(R)-salsolinol	2.93_180.1018m/z	[M+H]+	hilic
+17592186315247	(S)-lactate	0.92_89.0236m/z	[M-H]-	c18
+17592186315249	1,11-undecanedicarboxylate	0.76_243.1594m/z	[M-H]-	hilic
+17592186315251	1,2,3-propanetricarboxylic	1.50_175.0243m/z	[M-H]-	c18
+17592186315253	1,3,7-trimethyluric acid	1.26_209.0671m/z	[M-H]-	hilic
+17592186315255	1,7-dimethyluric acid	2.23_195.0515m/z	[M-H]-	hilic
+17592186315257	11z-eicosenoic acid	0.65_309.2784m/z	[M-H]-	hilic
+17592186315259	12(s)-hete; 15(s)-hete; 5(s)-hete	0.69_319.2262m/z	[M-H]-	hilic
+17592186315261	12,13-dihome	0.74_313.2364m/z	[M-H]-	hilic
+17592186315263	12-hydroxystearic acid	0.69_299.2580m/z	[M-H]-	hilic
+17592186315265	16-hydroxy hexadecanoic acid; 2-hydroxyhexadecanoic acid; 3-hydroxyhexadecanoic acid	0.74_271.2266m/z	[M-H]-	hilic
+17592186315267	1-hydroxy-2-naphthoate	0.67_171.0441m/z	[M-H2O+H]+	hilic
+17592186315269	1-linoleoylglycerol	0.73_377.2691m/z	[M+Na]+	hilic
+17592186315271	1-methyladenosine	3.36_282.1197m/z	[M+H]+	hilic
+17592186315273	1-methylhistidine	4.07_170.0928m/z	[M+H]+	hilic
+17592186315275	1-methylnicotinamide	0.52_137.0708m/z	[M]+	c18
+17592186315277	1-methyluric acid	1.82_181.0355m/z	[M-H]-	c18
+17592186315279	1-methylxanthine	1.85_165.0408m/z	[M-H]-	hilic
+17592186315281	2-({2-[dimethyl(2-phosphanylethyl)ammonio]ethyl}dimethylammonio)ethyl phosphinite	0.65_255.1740m/z	[M+H]+	hilic
+17592186315283	2-(3,4-dihydroxybenzoyloxy)-4,6-dihydroxybenzoate	3.67_341.0048m/z	[M+Cl]-	hilic
+17592186315285	2.3-dihydroxybenzoate	2.70_153.0180m/z	[M-H]-	c18
+17592186315287	2'.4'-dihydroxyacetophenone	0.70_151.0391m/z	[M-H]-	hilic
+17592186315289	2-amino-2-methylpropanoate; 4-aminobutanoate	0.52_102.0549m/z	[M-H]-	c18
+17592186315291	2-aminobenzamide	3.06_137.0712m/z	[M+H]+	hilic
+17592186315293	2-deoxy-d-glucose; 6-deoxy-l-galactose	0.60_182.1010m/z	[M+NH4]+	c18
+17592186315295	2'-deoxyguanosine 5'-monophosphate; adenosine 5'-monophosphate; n-acetylneuraminate	3.98_348.0691m/z	[M+H]+	hilic
+17592186315297	2'-deoxyguanosine	3.08_302.0643m/z	[M+Cl]-	hilic
+17592186315299	2'-deoxyuridine 5'-mono-phos-phate	0.92_307.0339m/z	[M-H]-	c18
+17592186315301	2-hydroxyadipic acid	3.25_161.0445m/z	[M-H]-	hilic
+17592186315303	2-hydroxybutyric acid	1.52_103.0391m/z	[M-H]-	hilic
+17592186315305	2-hydroxyhexadecanoic acid	6.09_271.2267m/z	[M-H]-	c18
+17592186315307	2-hydroxy-3-methylvaleric acid; 2-hydroxyisocaproic acid; hydroxyisocaproic acid	1.07_131.0705m/z	[M-H]-	hilic
+17592186315309	2-hydroxyisovaleric acid	1.21_117.0548m/z	[M-H]-	hilic
+17592186315311	2-hydroxymyristic acid; 3-hydroxytetradecanoic acid	0.74_243.1953m/z	[M-H]-	hilic
+17592186315313	2-hydroxyphenylacetic acid	2.78_151.0392m/z	[M-H]-	c18
+17592186315315	2-hydroxypyridine	0.88_96.0446m/z	[M+H]+	hilic
+17592186315317	2-hydroxystearate	6.60_299.2583m/z	[M-H]-	c18
+17592186315319	2-isopropylmalic acid	1.39_157.0501m/z	[M-H2O-H]-	hilic
+17592186315321	2-methylbutyroylcarnitine	2.76_268.1555m/z	[M+Na]+	hilic
+17592186315323	2-oxoisocaproic acid; mevalonolactone	0.82_129.0541m/z	[M-H]-	hilic
+17592186315325	3-(2-hydroxyphenyl)propanoate	0.68_165.0547m/z	[M-H]-	hilic
+17592186315327	3-(3-hydroxyphenyl)-3-hydroxypropanoic acid	1.43_181.0502m/z	[M-H]-	hilic
+17592186315329	3-(3-hydroxyphenyl)-3-hydroxypropanoic acid; 4-hydroxyphenyllactic acid	2.23_181.0495m/z	[M-H]-	c18
+17592186315331	3-(4-hydroxyphenyl)propionic acid	3.16_149.0599m/z	[M-H2O+H]+	hilic
+17592186315333	3.4-dihydroxyphenylacetate	0.65_151.0391m/z	[M-H2O+H]+	hilic
+17592186315335	3-aminoisobutyrate	0.63_104.0706m/z	[M+H]+	c18
+17592186315337	3-carboxy-4-methyl-5-propyl-2-furanpropionic acid	0.90_239.0916m/z	[M-H]-	hilic
+17592186315339	3-cis-hydroxy-b,e-caroten-3'-one	0.73_568.4578m/z	[M+NH4]+	hilic
+17592186315342	3-dehydrocarnitine	3.41_160.0967m/z	[M+H]+	hilic
+17592186315344	3-hydroxy-3-methylglutarate	2.52_161.0464m/z	[M-H]-	hilic
+17592186315346	3-hydroxyanthranilate	0.76_136.0376m/z	[M-H2O+H]+	hilic
+17592186315348	3-hydroxydecanedioic acid	1.57_217.1067m/z	[M-H]-	hilic
+17592186315350	3-hydroxydodecanoic acid	0.75_215.1642m/z	[M-H]-	hilic
+17592186315352	3-hydroxyglutarate	0.51_147.0287m/z	[M-H]-	c18
+17592186315354	3-hydroxyhexadecanoic acid	5.91_271.2266m/z	[M-H]-	c18
+17592186315356	3-hydroxyhippuric acid	2.72_194.0449m/z	[M-H]-	hilic
+17592186315358	3-hydroxyisovaleric acid	1.92_117.0551m/z	[M-H]-	c18
+17592186315360	3-hydroxytetradecanoic acid	5.36_243.1953m/z	[M-H]-	c18
+17592186315362	3-methyl-2-oxindole	0.70_146.0596m/z	[M-H]-	hilic
+17592186315364	3-methyladipic acid	2.45_159.0650m/z	[M-H]-	c18
+17592186315366	3-methylcrotonylglycine	1.65_138.0551m/z	[M-H2O-H]-	hilic
+17592186315368	3-methylglutarylcarnitine	2.82_325.0952m/z	[M+K-2H]-	hilic
+17592186315370	4-acetamido-2-aminobutanoic acid	3.86_143.0815m/z	[M-H2O+H]+	hilic
+17592186315372	4-acetamidophenylglucuronide	1.84_328.1022m/z	[M+H]+	c18
+17592186315374	4-hydroxy-2-quinolinecarboxylic acid; kynurenic acid	2.27_190.0488m/z	[M+H]+	c18
+17592186315376	4-hydroxy-l-proline; 5-aminolevulinic acid; cis-4-hydroxy-d-proline; trans-4-hydroxyproline	3.61_130.0504m/z	[M-H]-	hilic
+17592186315378	4-hydroxyphenyllactic acid	2.09_181.0495m/z	[M-H]-	hilic
+17592186315380	4-imidazoleacetic acid	3.52_127.0505m/z	[M+H]+	hilic
+17592186315382	4-phosphopantothenoylcysteine	1.91_385.0829m/z	[M-H2O+H]+	c18
+17592186315384	4-pyridoxate	1.75_166.0502m/z	[M-H2O+H]+	c18
+17592186315386	5,6-dihydrouridine	0.95_269.0736m/z	[M+Na]+	c18
+17592186315388	5,6-dihydrouridine	3.83_291.0826m/z	[M+FA-H]-	hilic
+17592186315390	5-acetylamino-6-amino-3-methyluracil	2.75_197.0665m/z	[M-H]-	hilic
+17592186315392	5-acetylamino-6-formylamino-3-methyluracil	1.36_225.0618m/z	[M-H]-	hilic
+17592186315394	5-aminoimidazole-4-carboxamide-1-beta-d-ribofuranosyl 5'-monophosphate	0.92_337.0508m/z	[M-H]-	c18
+17592186315396	5-aminolevulinic acid	0.51_132.0645m/z	[M+H]+	c18
+17592186315398	5-hydroxyhexanoic acid	2.15_131.0704m/z	[M-H]-	c18
+17592186315400	5-keto-d-gluconate	3.72_193.0367m/z	[M-H]-	hilic
+17592186315402	5'-methylthioadenosine	1.43_298.0977m/z	[M+H]+	hilic
+17592186315404	5-oxo-d-proline; 5-oxo-l-proline	1.25_128.0344m/z	[M-H]-	c18
+17592186315406	5-phenylvaleric acid	4.26_177.0909m/z	[M-H]-	c18
+17592186315408	5-valerolactone	0.90_199.0968m/z	[2M-H]-	hilic
+17592186315410	6-hydroxynicotinate; 6-hydroxynicotinic acid	1.74_140.0339m/z	[M+H]+	c18
+17592186315412	6-keto prostaglandin f1a; thromboxane b2	0.75_369.2295m/z	[M-H]-	hilic
+17592186315414	6-phosphogluconic acid	4.32_314.9900m/z	[M+K]+	hilic
+17592186315416	7-methylguanine	2.72_166.0726m/z	[M+H]+	hilic
+17592186315418	7-oxo-cholesterol	0.70_445.3320m/z	[M+FA-H]-	hilic
+17592186315420	8-deoxy-11,13-dihydroxygrosheimin	4.72_263.1276m/z	[M-H2O+H]+	c18
+17592186315422	8-methoxykynurenate	1.92_237.0883m/z	[M+NH4]+	c18
+17592186315424	acetylcadaverine	3.10_145.1337m/z	[M+H]+	hilic
+17592186315426	acetylcarnitine	0.94_204.1234m/z	[M+H]+	c18
+17592186315428	aconitate	1.49_173.0076m/z	[M-H]-	c18
+17592186315430	acylcarnitine(c14:0)	1.98_372.3097m/z	[M+H]+	hilic
+17592186315432	acylcarnitine(c16:0)	1.88_400.3416m/z	[M+H]+	hilic
+17592186315434	acylcarnitine(c18:0)	1.79_428.3713m/z	[M+H]+	hilic
+17592186315436	acylcarnitine(c18:1 )	1.80_426.3570m/z	[M+H]+	hilic
+17592186315438	acylcarnitine(c18:2n-6)	1.85_424.3421m/z	[M+H]+	hilic
+17592186315440	acylcarnitine(c4:0); butyrylcarnitine; isobutyryl-l-carnitine	2.88_232.1545m/z	[M+H]+	hilic
+17592186315443	acylcarnitine(c6:0)	2.60_260.1857m/z	[M+H]+	hilic
+17592186315445	adenosine 5'-diphosphoribose	0.76_560.0738m/z	[M+H]+	c18
+17592186315447	adenosine-5'-diphosphoglucose	0.63_634.0888m/z	[M+FA-H]-	c18
+17592186315449	adipic acid	0.70_129.0555m/z	[M-H2O+H]+	hilic
+17592186315451	allantoin	2.87_139.0251m/z	[M-H2O-H]-	hilic
+17592186315453	alloxan	3.44_160.0352m/z	[M+NH4]+	hilic
+17592186315455	alpha-d-galactopyranuronosyl-(1->4)-alpha-d-galactopyranuronosyl-(1->4)-d-galacturonic acid	0.61_547.1180m/z	[M+H]+	c18
+17592186315457	alpha-d-glucose	0.52_203.0528m/z	[M+Na]+	c18
+17592186315459	alpha-hydroxyisobutyric acid	1.16_103.0393m/z	[M-H]-	hilic
+17592186315461	alpha-n-phenylacetyl-l-glutamine	2.88_265.1185m/z	[M+H]+	hilic
+17592186315463	aniline	3.37_116.0471m/z	[M+Na]+	hilic
+17592186315465	arachidonic acid	0.66_303.2318m/z	[M-H]-	hilic
+17592186315467	arachidonoylcarnitine	2.03_448.3413m/z	[M+H]+	hilic
+17592186315469	aspartyl-threonine	0.64_235.0927m/z	[M+H]+	c18
+17592186315471	azelaic acid	0.90_233.1022m/z	[M+FA-H]-	hilic
+17592186315473	benzaldehyde	3.11_151.0393m/z	[M+FA-H]-	c18
+17592186315475	benzofuran	1.52_119.0492m/z	[M+H]+	c18
+17592186315477	benzyl alcohol	0.76_107.0493m/z	[M-H]-	hilic
+17592186315479	betaine; l-valine	3.29_156.0423m/z	[M+K]+	hilic
+17592186315481	biliverdin	0.92_583.2555m/z	[M+H]+	hilic
+17592186315483	biotin	0.86_289.0816m/z	[M+FA-H]-	hilic
+17592186315485	butyrylcarnitine; isobutyryl-l-carnitine	2.04_232.1539m/z	[M+H]+	c18
+17592186315487	caffeine	0.74_195.0881m/z	[M+H]+	hilic
+17592186315489	ceramide(40:1)	0.64_666.6013m/z	[M+FA-H]-	hilic
+17592186315491	chavicol o-beta-glucopyranoside	0.70_279.1201m/z	[M-H2O+H]+	hilic
+17592186315493	chenodeoxycholate; deoxycholate	5.02_391.2838m/z	[M-H]-	c18
+17592186315495	chenodeoxycholic acid glycine conjugate	2.51_450.3196m/z	Microbial	hilic
+17592186315497	cholate	4.33_407.2803m/z	[M-H]-	c18
+17592186315499	cholesterol glucuronide	2.21_585.3744m/z	[M+Na]+	c18
+17592186315501	choline	2.73_104.1078m/z	[M]+	hilic
+17592186315503	cinnamoylglycine; cinnamoylglycine-trans	1.91_204.0653m/z	[M-H]-	hilic
+17592186315505	cis-4-hydroxycyclohexylacetic acid	0.86_157.0863m/z	[M-H]-	hilic
+17592186315507	cis-quinceoxepane	0.68_181.1587m/z	[M+H]+	hilic
+17592186315509	citrate	1.09_193.0340m/z	[M+H]+	c18
+17592186315511	citrulline	0.54_174.0874m/z	[M-H]-	c18
+17592186315513	corticosterone	0.68_345.2062m/z	[M-H]-	hilic
+17592186315515	cortisol 21-acetate	0.64_449.2117m/z	[M+FA-H]-	hilic
+17592186315517	cortisol	0.83_363.2168m/z	[M+H]+	hilic
+17592186315519	cortisone	3.50_361.1993m/z	[M+H]+	c18
+17592186315521	cotinine	1.65_177.1020m/z	[M+H]+	c18
+17592186315523	coumaric acid	1.52_165.0545m/z	[M+H]+	c18
+17592186315525	creatine	3.61_132.0771m/z	[M+H]+	hilic
+17592186315527	creatinine	0.54_136.0481m/z	[M+Na]+	c18
+17592186315529	cyclo(-leu-pro)	2.71_211.1432m/z	[M+H]+	c18
+17592186315531	cys-gly, oxidized	4.52_355.0736m/z	[M+H]+	hilic
+17592186315533	d-(+)-galactosamine; d-(+)-glucosamine; d-mannosamine	0.52_180.0864m/z	[M+H]+	c18
+17592186315535	d-2-hydroxyglutarate; l-2-hydroxyglutarate	1.10_129.0182m/z	[M-H2O-H]-	c18
+17592186315537	d-aspartate; l-aspartate	0.51_132.0291m/z	[M-H]-	c18
+17592186315539	decanoylcarnitine	2.31_316.2484m/z	[M+H]+	hilic
+17592186315541	deoxycarnitine	3.37_146.1178m/z	[M+H]+	hilic
+17592186315544	deoxycholate	0.73_393.3013m/z	[M+H]+	hilic
+17592186315546	deoxycholic acid glycine conjugate	2.43_448.3062m/z	[M-H]-	hilic
+17592186315548	deoxycorticosterone acetate	0.65_353.2155m/z	[M-H2O-H]-	hilic
+17592186315550	dethiobiotin	0.74_215.1420m/z	[M+H]+	hilic
+17592186315552	d-gluconate; d-glucono-1.5-lactone; gluconic acid	0.55_195.0501m/z	[M-H]-	c18
+17592186315554	d-glucosamine 6-sulfate	3.84_258.0286m/z	[M-H]-	hilic
+17592186315556	diacetylspermidine	3.14_230.1860m/z	[M+H]+	hilic
+17592186315558	diacetylspermine	3.73_287.2430m/z	[M+H]+	hilic
+17592186315560	dihydroferulic acid	0.82_195.0653m/z	[M-H]-	hilic
+17592186315562	dimethyl succinate	4.72_147.0651m/z	[M+H]+	c18
+17592186315564	d-ornithine; l-ornithine	4.15_133.0974m/z	[M+H]+	hilic
+17592186315566	d-pantothenic acid	2.01_220.1171m/z	[M+H]+	c18
+17592186315568	d-psicose	3.26_179.0550m/z	[M-H]-	hilic
+17592186315570	d-saccharic acid; galactarate	0.56_209.0293m/z	[M-H]-	c18
+17592186315572	d-tryptophan	3.16_205.0975m/z	[M+H]+	hilic
+17592186315574	ectoine	3.55_143.0815m/z	[M+H]+	hilic
+17592186315576	free fatty acid (18:1) (oleic acid)	6.76_281.2476m/z	[M-H]-	c18
+17592186315578	endomorphin-1	0.91_655.2822m/z	[M+FA-H]-	hilic
+17592186315580	enterolactone	0.66_297.1145m/z	[M-H]-	hilic
+17592186315582	equol	0.82_241.0860m/z	[M-H]-	hilic
+17592186315584	ergothioneine	0.63_230.0952m/z	[M+H]+	c18
+17592186315586	erythronic acid; threonic acid	3.51_135.0291m/z	[M-H]-	hilic
+17592186315588	ferulate sulfate	1.29_273.0063m/z	[M-H]-	hilic
+17592186315590	ferulate	0.63_193.0506m/z	[M-H]-	hilic
+17592186315592	free fatty acid (16:0) (palmitic acid)	6.66_255.2320m/z	[M-H]-	c18
+17592186315594	free fatty acid (16:1) (palmitoleic acid)	6.25_253.2151m/z	[M-H]-	c18
+17592186315596	free fatty acid (18:2) (linoleic acid)	6.37_279.2320m/z	[M-H]-	c18
+17592186315598	free fatty acid (18:3) (linolenic acid)	6.09_277.2172m/z	[M-H]-	c18
+17592186315600	free fatty acid (20:4) (arachidonic acid)	6.31_303.2316m/z	[M-H]-	c18
+17592186315602	free fatty acid (20:5) (eicosapentaenoic acid)	6.37_347.2198m/z	[M+FA-H]-	c18
+17592186315604	free fatty acid (22:6) (docosahexaenoic acid)	6.22_327.2322m/z	[M-H]-	c18
+17592186315606	gabapentin	3.24_172.1330m/z	[M+H]+	hilic
+17592186315608	galactitol	3.44_205.0665m/z	[M+Na]+	hilic
+17592186315610	gamma-cehc	0.75_263.1275m/z	[M-H]-	hilic
+17592186315612	gluconic acid	3.73_195.0501m/z	[M-H]-	hilic
+17592186315614	glutaconic acid	1.86_175.0233m/z	[M+FA-H]-	c18
+17592186315616	glutaric acid	1.38_113.0236m/z	[M-H2O-H]-	hilic
+17592186315618	glutarylcarnitine	1.71_276.1440m/z	[M+H]+	c18
+17592186315620	glutathione disulfide	1.62_611.1533m/z	[M-H]-	c18
+17592186315622	glutathione	1.03_308.0914m/z	[M+H]+	c18
+17592186315624	glyceraldehyde	0.56_89.0233m/z	[M-H]-	c18
+17592186315626	glycerophosphocholine	3.80_258.1109m/z	[M+H]+	hilic
+17592186315628	glycine	0.52_76.0392m/z	[M+H]+	c18
+17592186315630	glycocholate	3.88_464.3010m/z	[M-H]-	c18
+17592186315632	glycodeoxycholic acid (gdca)	4.46_448.3059m/z	[M-H]-	c18
+17592186315634	glycyl-threonine	0.52_159.0763m/z	[M-H2O+H]+	c18
+17592186315636	guanosine 5'-diphospho-d-mannose	0.69_650.0769m/z	[M+FA-H]-	c18
+17592186315638	hexadecanedioic acid	0.75_285.2057m/z	[M-H]-	hilic
+17592186315640	hippurate	2.52_178.0499m/z	[M-H]-	c18
+17592186315642	histidine formayldehyde	0.49_170.0924m/z	[M+H]+	c18
+17592186315645	histidinyl-proline	3.00_275.1103m/z	[M+Na]+	hilic
+17592186315647	homoserine	0.52_118.0502m/z	[M-H]-	c18
+17592186315649	hyaluronic acid	3.80_448.1422m/z	[M+Na]+	hilic
+17592186315651	hydrocinnamic acid	0.70_151.0754m/z	[M+H]+	hilic
+17592186315653	hydroquinone	0.73_109.0286m/z	[M-H]-	hilic
+17592186315655	hydroxybutyrylcarnitine	3.34_248.1508m/z	[M+H]+	hilic
+17592186315657	hydroxycotinine	1.32_193.0969m/z	[M+H]+	hilic
+17592186315659	hydroxyisovaleroyl carnitine	3.23_300.1225m/z	[M+K]+	hilic
+17592186315661	hydroxyoctanoic acid	0.89_159.1019m/z	[M-H]-	hilic
+17592186315663	hypoxanthine	1.21_135.0300m/z	[M-H]-	c18
+17592186315665	imidazolepropionic acid	3.26_139.0500m/z	[M-H]-	hilic
+17592186315667	indole	3.16_118.0662m/z	[M+H]+	hilic
+17592186315669	indole-3-aldehyde	3.09_144.0446m/z	[M-H]-	c18
+17592186315671	indole-3-lactic acid	1.37_204.0656m/z	[M-H]-	hilic
+17592186315673	indoleacetaldehyde	2.16_160.0758m/z	[M+H]+	c18
+17592186315675	indoxyl sulfate	2.51_212.0013m/z	[M-H]-	c18
+17592186315677	inosine 5'-diphosphate	0.57_429.0160m/z	[M+H]+	c18
+17592186315679	inosine	3.01_291.0707m/z	[M+Na]+	hilic
+17592186315681	isocitric acid	3.47_191.0182m/z	[M-H]-	hilic
+17592186315683	isoursodeoxycholic acid	0.89_391.2842m/z	[M-H]-	hilic
+17592186315685	kynurenine; l-kynurenine	1.91_207.0764m/z	[M-H]-	c18
+17592186315687	l,l-cyclo(leucylprolyl)	0.74_211.1428m/z	[M+H]+	hilic
+17592186315689	l-2-phosphoglyceric acid	4.07_230.9913m/z	[M+FA-H]-	hilic
+17592186315691	l-arginine	0.48_175.1189m/z	[M+H]+	c18
+17592186315693	l-asparagine	3.84_131.0450m/z	[M-H]-	hilic
+17592186315695	l-carnitine	3.44_162.1142m/z	[M+H]+	hilic
+17592186315697	l-cystathionine	0.52_205.0634m/z	[M-H2O+H]+	c18
+17592186315699	l-cysteine	0.54_122.0278m/z	[M+H]+	c18
+17592186315701	l-cystine	4.39_241.0312m/z	[M+H]+	hilic
+17592186315703	leucine	3.15_130.0866m/z	[M-H]-	hilic
+17592186315705	l-glutamic acid	3.78_146.0452m/z	[M-H]-	hilic
+17592186315707	l-glutamine	0.50_147.0769m/z	[M+H]+	c18
+17592186315709	l-histidine	4.08_156.0773m/z	[M+H]+	hilic
+17592186315711	l-histidinol	3.93_124.0872m/z	[M-H2O+H]+	hilic
+17592186315713	l-isoleucine	3.20_132.1019m/z	[M+H]+	hilic
+17592186315715	lithocholic acid glycine conjugate	1.67_432.3115m/z	[M-H]-	hilic
+17592186315717	ll-2.6-diaminoheptanedioate	4.37_191.1026m/z	[M+H]+	hilic
+17592186315719	l-lysine	4.13_147.1130m/z	[M+H]+	hilic
+17592186315721	l-methionine	0.95_150.0581m/z	[M+H]+	c18
+17592186315723	l-n.gamma.-monomethylarginine	4.05_189.1344m/z	[M+H]+	hilic
+17592186315725	l-octanoylcarnitine	2.42_288.2173m/z	[M+H]+	hilic
+17592186315727	l-phenylalanine	1.91_166.0864m/z	[M+H]+	c18
+17592186315729	l-pipecolic acid	0.91_130.0862m/z	[M+H]+	c18
+17592186315731	l-proline	3.44_116.0709m/z	[M+H]+	hilic
+17592186315733	l-serine	3.81_104.0345m/z	[M-H]-	hilic
+17592186315735	l-targinine (free base)	0.51_189.1342m/z	[M+H]+	c18
+17592186315737	l-threonine	3.67_118.0500m/z	[M-H]-	hilic
+17592186315739	l-tryptophan	2.16_205.0970m/z	[M+H]+	c18
+17592186315741	l-tyrosine	1.50_180.0655m/z	[M-H]-	c18
+17592186315743	lumichrome	0.93_243.0864m/z	[M+H]+	hilic
+17592186315746	lysine acetylaldehyde	3.96_175.1440m/z	[M+H]+	hilic
+17592186315748	lysine formayldehyde	4.01_161.1284m/z	[M+H]+	hilic
+17592186315750	lysophosphatidic acid(18:0)	2.61_483.2722m/z	[M+FA-H]-	hilic
+17592186315752	lysophosphatidic acid(18:1)	2.62_481.2559m/z	[M+FA-H]-	hilic
+17592186315754	lysophosphatidylcholine(14:0)	2.70_468.3089m/z	[M+H]+	hilic
+17592186315756	lysophosphatidylcholine(15:0)	2.62_480.3090m/z	[M-H]-	hilic
+17592186315758	lysophosphatidylcholine(16:0)	2.67_496.3435m/z	[M+H]+	hilic
+17592186315760	lysophosphatidylcholine(16:1)	2.69_494.3248m/z	[M+H]+	hilic
+17592186315762	lysophosphatidylcholine(16:1)	2.61_492.3077m/z	[M-H]-	hilic
+17592186315764	lysophosphatidylcholine(17:0)	2.66_510.3573m/z	[M+H]+	hilic
+17592186315766	lysophosphatidylcholine(17:1)	5.14_508.3393m/z	[M+H]+	c18
+17592186315768	lysophosphatidylcholine(18:0)	2.65_524.3738m/z	[M+H]+	hilic
+17592186315770	lysophosphatidylcholine(18:1)	2.60_566.3455m/z	[M+FA-H]-	hilic
+17592186315772	lysophosphatidylcholine(18:2)	5.06_520.3411m/z	[M+H]+	c18
+17592186315774	lysophosphatidylcholine(20:0)	2.63_552.4019m/z	[M+H]+	hilic
+17592186315776	lysophosphatidylcholine(20:2)	5.53_548.3708m/z	[M+H]+	c18
+17592186315778	lysophosphatidylcholine(20:3); lysophosphatidylcholine(22:6)	2.64_568.3406m/z	[M+H]+; [M+Na]+	hilic
+17592186315780	lysophosphatidylcholine(20:4)	5.07_544.3401m/z	[M+H]+	c18
+17592186315782	lysophosphatidylcholine(20:5)	2.60_586.3139m/z	[M+FA-H]-	hilic
+17592186315784	lysophosphatidylcholine(22:5)	5.32_614.3461m/z	[M+FA-H]-	c18
+17592186315786	lysophosphatidylcholine(22:6)	5.05_568.3399m/z	[M+H]+	c18
+17592186315788	lysophosphatidylethanolamine(16:0)	2.76_454.2934m/z	[M+H]+	hilic
+17592186315790	lysophosphatidylethanolamine(18:0)	5.76_482.3240m/z	[M+H]+	c18
+17592186315792	lysophosphatidylethanolamine(18:1)	5.37_480.3082m/z	[M+H]+	c18
+17592186315794	lysophosphatidylethanolamine(18:2)	2.75_478.2941m/z	[M+H]+	hilic
+17592186315796	lysophosphatidylethanolamine(18:2)	5.04_476.2777m/z	[M-H]-	c18
+17592186315798	lysophosphatidylethanolamine(20:4)	4.97_502.2925m/z	[M+H]+	c18
+17592186315800	lysophosphatidylethanolamine(22:0)	2.64_538.3897m/z	[M+H]+	hilic
+17592186315802	lysophosphatidylethanolamine(22:6)	2.72_526.2897m/z	[M+H]+	hilic
+17592186315804	maltose; melibiose; sucrose	3.74_365.1049m/z	[M+Na]+	hilic
+17592186315806	melibiose	3.91_365.1049m/z	[M+Na]+	hilic
+17592186315808	methylmalonate	0.74_117.0189m/z	[M-H]-	c18
+17592186315810	mevalonic acid	1.69_147.0655m/z	[M-H]-	hilic
+17592186315812	monoethylhexyl phthalic acid	5.63_279.1589m/z	[M+H]+	c18
+17592186315814	myristelaidic acid; myristoleic acid	0.75_271.1906m/z	[M+FA-H]-	hilic
+17592186315816	myristic acid	0.67_227.2010m/z	[M-H]-	hilic
+17592186315818	n-(3-acetamidopropyl)pyrrolidin-2-one	1.20_185.1282m/z	[M+H]+	hilic
+17592186315820	n(pai)-methyl-l-histidine	0.51_168.0765m/z	[M-H]-	c18
+17592186315822	n1-methyl-2-pyridone-5-carboxamide	1.36_153.0660m/z	[M+H]+	hilic
+17592186315824	n8-acetylspermidine	3.84_188.1753m/z	[M+H]+	hilic
+17592186315826	n-acetyl-beta-alanine	1.71_130.0502m/z	[M-H]-	hilic
+17592186315828	n-acetyl-d-mannosamine	3.18_256.0584m/z	[M+Cl]-	hilic
+17592186315830	n-acetyl-d-tryptophan	2.79_247.1097m/z	[M+H]+	c18
+17592186315832	n-acetyllactosamine	3.73_406.1312m/z	[M+Na]+	hilic
+17592186315834	n-acetyl-l-alanine	2.56_130.0501m/z	[M-H]-	hilic
+17592186315836	n-acetyl-l-aspartic acid	0.89_198.0359m/z	[M+Na]+	c18
+17592186315838	n-acetylneuraminate	0.58_310.1119m/z	[M+H]+	c18
+17592186315840	n-acetylputrescine	3.12_131.1171m/z	[M+H]+	hilic
+17592186315842	nalpha-acetyl-l-lysine	3.63_211.1051m/z	[M+Na]+	hilic
+17592186315844	nepsilon.nepsilon.nepsilon-trimethyllysine	3.98_189.1596m/z	[M+H]+	hilic
+17592186315847	ng, ng-dimethyl-l-arginine	3.88_203.1500m/z	[M+H]+	hilic
+17592186315849	nicardipine	0.92_478.1963m/z	[M-H]-	hilic
+17592186315851	nicotinamide mononucleotide	0.57_317.0569m/z	[M-H2O+H]+	c18
+17592186315853	nicotinamide	0.97_123.0553m/z	[M+H]+	hilic
+17592186315855	nicotinate	2.41_124.0398m/z	[M+H]+	hilic
+17592186315857	n-methyl-d-aspartic acid	0.50_130.0506m/z	[M-H2O+H]+	c18
+17592186315859	nutriacholic acid	0.72_389.2658m/z	[M-H]-	hilic
+17592186315861	o-acetyl-l-carnitine	3.22_204.1236m/z	[M+H]+	hilic
+17592186315863	omega-hydroxydodecanoic acid	4.23_215.1631m/z	[M-H]-	c18
+17592186315865	palmitoylethanolamide	6.01_300.2901m/z	[M+H]+	c18
+17592186315867	paraxanthine; theobromine; theophylline	2.15_181.0718m/z	[M+H]+	c18
+17592186315869	p-cresol sulfate	0.76_187.0069m/z	[M-H]-	hilic
+17592186315871	p-cresol-glucuronide	2.70_283.0814m/z	[M-H]-	c18
+17592186315873	perfluorooctanesulfonic acid	0.56_498.9303m/z	[M-H]-	hilic
+17592186315875	perfluorooctanoic acid	0.67_412.9657m/z	[M-H]-	hilic
+17592186315877	phenacetin	0.84_202.0856m/z	[M+Na]+	hilic
+17592186315879	phenol sulfate	2.38_172.9904m/z	[M-H]-	c18
+17592186315881	phenol	3.22_93.0337m/z	[M-H]-	c18
+17592186315883	phenyllactic acid	1.26_165.0547m/z	[M-H]-	hilic
+17592186315885	phosphatidylcholine(32:2)	2.13_774.5385m/z	[M+FA-H]-	hilic
+17592186315887	phosphocholine	3.91_184.0731m/z	[M+H]+	hilic
+17592186315889	phylloquinone	0.78_473.3324m/z	[M+Na]+	hilic
+17592186315891	piperine	4.55_286.1442m/z	[M+H]+	c18
+17592186315893	plas_lysophosphatidylcholine(o-16:2(9e,10e)/0:0)[u]	2.67_500.3077m/z	[M+Na]+	hilic
+17592186315895	plas_lysophosphatidylcholine(p-16:0)	2.62_480.3447m/z	[M+H]+	hilic
+17592186315897	plas_lysophosphatidylcholine(p-18:0/0:0) or plas	2.67_508.3703m/z	[M+H]+	hilic
+17592186315899	plas_lysophosphatidylcholine(p-18:0/0:0) or plas	2.59_508.3752m/z	[M+H]+	hilic
+17592186315901	plaslysophosphatidylcholine(o-16:0/0:0)	2.64_526.3449m/z	[M+FA-H]-	hilic
+17592186315903	plaslysophosphatidylcholine(p-16:0)	5.40_480.3437m/z	[M+H]+	c18
+17592186315905	plaslysophosphatidylcholine(p-18:0)	5.54_508.3757m/z	[M+H]+	c18
+17592186315907	plaslysophosphatidylcholine(p-18:0/0:0) or plaslysophosphatidylcholine(o-18:1)	2.62_552.3632m/z	[M+FA-H]-	hilic
+17592186315909	proline betaine	3.28_144.1028m/z	[M+H]+	hilic
+17592186315911	propionylcarnitine	3.04_218.1388m/z	[M+H]+	hilic
+17592186315913	propylparaben	0.89_179.0705m/z	[M-H]-	hilic
+17592186315915	prostaglandin a1	0.74_337.2383m/z	[M+H]+	hilic
+17592186315917	pseudouridine	0.94_245.0769m/z	[M+H]+	c18
+17592186315919	putative glycodeoxycholic acid (gdca)	4.37_432.3098m/z	[M-H2O+H]+	c18
+17592186315921	butylparaben or isobutylparaben	4.15_193.0859m/z	[M-H]-	c18
+17592186315923	equol	4.27_241.0861m/z	[M-H]-	c18
+17592186315925	glutamylglycine	0.64_187.0712m/z	[M-H2O+H]+	c18
+17592186315927	heptylparaben	5.24_235.1345m/z	[M-H]-	c18
+17592186315929	ibuprofen glucuronide	3.99_381.1535m/z	[M-H]-	c18
+17592186315931	p-hydroxybenzoic acid	3.22_137.0236m/z	[M-H]-	c18
+17592186315933	pyridoxamine	0.47_213.0847m/z	[M+FA-H]-	c18
+17592186315935	pyroglutamic acid	3.79_128.0343m/z	[M-H]-	hilic
+17592186315937	quinate	3.60_191.0552m/z	[M-H]-	hilic
+17592186315939	quinine	1.95_325.1916m/z	[M+H]+	hilic
+17592186315941	quinoline	2.16_130.0652m/z	[M+H]+	c18
+17592186315943	reichstein?s substance s	0.92_391.2130m/z	[M+FA-H]-	hilic
+17592186315945	riboflavin	2.91_377.1450m/z	[M+H]+	hilic
+17592186315948	ribonic acid	0.55_165.0394m/z	[M-H]-	c18
+17592186315950	salicyluric acid	1.61_194.0449m/z	[M-H]-	hilic
+17592186315952	serylalanine	0.64_177.0866m/z	[M+H]+	c18
+17592186315954	sphinganine	4.77_284.2939m/z	[M-H2O+H]+	c18
+17592186315956	sphingomyelin(32:1)	2.52_719.5345m/z	[M+FA-H]-	hilic
+17592186315958	sphingomyelin(32:2)	2.52_717.5186m/z	[M+FA-H]-	hilic
+17592186315960	sphingomyelin(34:1)	2.50_747.5665m/z	[M+FA-H]-	hilic
+17592186315962	sphingomyelin(34:2)	2.09_745.5569m/z	[M+FA-H]-	hilic
+17592186315964	sphingomyelin(36:1)	2.48_775.5965m/z	[M+FA-H]-	hilic
+17592186315966	sphingomyelin(36:1)	2.48_729.5896m/z	[M-H]-	hilic
+17592186315968	sphingosine	0.64_282.2791m/z	[M-H2O+H]+	hilic
+17592186315970	stearic acid	0.66_283.2626m/z	[M-H]-	hilic
+17592186315972	stearoylethanolamide	0.61_328.3207m/z	[M+H]+	hilic
+17592186315974	sterol	0.68_293.2114m/z	[M+FA-H]-	hilic
+17592186315976	suberic acid	0.92_173.0812m/z	[M-H]-	hilic
+17592186315978	succinate	1.96_117.0184m/z	[M-H]-	hilic
+17592186315980	syringic acid	0.86_199.0612m/z	[M+H]+	hilic
+17592186315982	taurine	3.44_124.0067m/z	[M-H]-	hilic
+17592186315984	taurocholic acid	2.88_514.2841m/z	[M-H]-	hilic
+17592186315986	taurolithocholate	4.82_506.2960m/z	[M+Na]+	c18
+17592186315988	testosterone	6.32_271.2050m/z	[M-H2O+H]+	c18
+17592186315990	tetradecanoylcarnitine	4.79_372.3130m/z	[M+H]+	c18
+17592186315992	theobromine	2.02_181.0719m/z	[M+H]+	c18
+17592186315994	theophylline	0.95_181.0722m/z	[M+H]+	hilic
+17592186315996	thiocysteine	4.38_151.9824m/z	[M-H]-	hilic
+17592186315998	thyroxine	2.68_775.6805m/z	[M-H]-	hilic
+17592186316000	tiglylcarnitine	2.24_244.1539m/z	[M+H]+	c18
+17592186316002	tmao	2.88_76.0758m/z	[M+H]+	hilic
+17592186316004	trazodone	1.11_372.1603m/z	[M+H]+	hilic
+17592186316006	trigonelline	0.58_138.0552m/z	[M+H]+	c18
+17592186316008	tyrosol	2.82_139.0755m/z	[M+H]+	c18
+17592186316010	urate	1.11_169.0358m/z	[M+H]+	c18
+17592186316012	uridine 5'-diphosphate	0.57_448.9932m/z	[M+FA-H]-	c18
+17592186316014	uridine	2.53_243.0614m/z	[M-H]-	hilic
+17592186316016	uridine-5-monophosphate	0.82_323.0258m/z	[M-H]-	c18
+17592186316018	urocanate	0.95_173.9855m/z	[M+K-2H]-	c18
+17592186316020	ursodeoxycholic acid (udca)	4.39_437.2902m/z	[M+FA-H]-	c18
+17592186316022	xanthine	2.75_151.0252m/z	[M-H]-	hilic
+17592186316024	xanthurenic acid	2.15_206.0472m/z	[M+H]+	c18

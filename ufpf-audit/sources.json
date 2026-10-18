@@ -1,0 +1,38 @@
+[
+  {
+    "source": "https://raw.githubusercontent.com/maevekrueger/UFPF_metagenomics/1e7f79311c0dc47b13da99061cde41b23e8f7146/Bioinformatic%20Processing%20of%20Sequences",
+    "file": "Bioinformatic Processing of Sequences",
+    "sha256": "d3baea97e454d277cc59eabe22ac56db9aa5d1773d3f48740d0324a4a271421d",
+    "bytes": 5783
+  },
+  {
+    "source": "https://raw.githubusercontent.com/maevekrueger/UFPF_metagenomics/1e7f79311c0dc47b13da99061cde41b23e8f7146/Key%20Resource%20Table.xlsx",
+    "file": "Key Resource Table.xlsx",
+    "sha256": "5dbdd0c21699dcabd60efaf01fec266bdd64456c1764dce15bd8cbc01a70433d",
+    "bytes": 17388
+  },
+  {
+    "source": "https://raw.githubusercontent.com/maevekrueger/UFPF_metagenomics/1e7f79311c0dc47b13da99061cde41b23e8f7146/README.md",
+    "file": "README.md",
+    "sha256": "086722b8fd7483c24139227ebbe78fdafb8f97ec3adef3b0573e9de69ee54bc7",
+    "bytes": 14077
+  },
+  {
+    "source": "https://raw.githubusercontent.com/maevekrueger/UFPF_metagenomics/1e7f79311c0dc47b13da99061cde41b23e8f7146/UFPF/Metadata%20All%20Samples.csv",
+    "file": "Metadata All Samples.csv",
+    "sha256": "9359c5fa12b1f1a1e435be53a7f1cd924eca525c5a28211538bb3de56ee2ec20",
+    "bytes": 35384
+  },
+  {
+    "source": "https://raw.githubusercontent.com/maevekrueger/UFPF_metagenomics/1e7f79311c0dc47b13da99061cde41b23e8f7146/UFPF/Metaphlan%20output/metaphlan_all_combined.tsv",
+    "file": "metaphlan_all_combined.tsv",
+    "sha256": "27fefe7c65826916cdfa3b13aa3b46e0a9c1493c80e3f81cb9f024af7763d1a9",
+    "bytes": 1982011
+  },
+  {
+    "source": "https://raw.githubusercontent.com/maevekrueger/UFPF_metagenomics/1e7f79311c0dc47b13da99061cde41b23e8f7146/UFPF/Metaphlan%20output/metaphlan_unknown_all_combined.tsv",
+    "file": "metaphlan_unknown_all_combined.tsv",
+    "sha256": "0b312eb013ec0084b5bf753d2f51b287c9735752e7a8f0dd74177934115d826b",
+    "bytes": 2173575
+  }
+]

@@ -1,0 +1,1786 @@
+{
+  "sha": "1e7f79311c0dc47b13da99061cde41b23e8f7146",
+  "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/trees/1e7f79311c0dc47b13da99061cde41b23e8f7146",
+  "tree": [
+    {
+      "path": ".Rhistory",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e4e6692649801a83bc6fd109c6fdcf5d4894376",
+      "size": 22299,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/3e4e6692649801a83bc6fd109c6fdcf5d4894376"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd67eac6691ca75ea8d272e449c12b35e8b13b14",
+      "size": 12,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/cd67eac6691ca75ea8d272e449c12b35e8b13b14"
+    },
+    {
+      "path": "Bioinformatic Processing of Sequences",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d7d21cf602d9960a23dc98e4c368f1745df17ac",
+      "size": 5783,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/9d7d21cf602d9960a23dc98e4c368f1745df17ac"
+    },
+    {
+      "path": "HMP2_Payami",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "568ba2f8434f04b5644b32ca8eec8b5eeab365f4",
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/trees/568ba2f8434f04b5644b32ca8eec8b5eeab365f4"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2eaffe16a22777b696a9e5d31b2391bbc1fa00d4",
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/trees/2eaffe16a22777b696a9e5d31b2391bbc1fa00d4"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "093b8997104ad8388b2a483cd11eb161682f4222",
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/trees/093b8997104ad8388b2a483cd11eb161682f4222"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/Wallen all ancombc2 taxa output.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e046c8840c5ee205efe7ae1fb2758fb541d782da",
+      "size": 80299,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/e046c8840c5ee205efe7ae1fb2758fb541d782da"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/depleted Wallen PD paths.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "538e8b2eecaa0aab57dc4119166450f6b78d8996",
+      "size": 23171,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/538e8b2eecaa0aab57dc4119166450f6b78d8996"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/depleted genus IBD.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9038b600ee8fa92f668e8362fe0201a55eb9e89d",
+      "size": 1261,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/9038b600ee8fa92f668e8362fe0201a55eb9e89d"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/depleted genus species Wallen PD.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45a6f6b5743f69c1ba8f73355b848d064e552a50",
+      "size": 3361,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/45a6f6b5743f69c1ba8f73355b848d064e552a50"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/depleted pathways IBD.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa200c0f677bd4eea04ae94ce4a507a64374b730",
+      "size": 26094,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/fa200c0f677bd4eea04ae94ce4a507a64374b730"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/depleted pathways shared wo sex age.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93de7753c5923fd694478b70bf7ea6b06aadeba4",
+      "size": 7398,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/93de7753c5923fd694478b70bf7ea6b06aadeba4"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/depleted species IBD.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7fd367dd70d7c24a8d8efe937688fa93d35d9db",
+      "size": 16532,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/e7fd367dd70d7c24a8d8efe937688fa93d35d9db"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/enriched Wallen PD paths.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "229d1c82a937034ba95d56fc18661c6464a15148",
+      "size": 6961,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/229d1c82a937034ba95d56fc18661c6464a15148"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/enriched genus IBD.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed63fa8bf85a6ebff9969e8873977563fa4444e4",
+      "size": 7492,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/ed63fa8bf85a6ebff9969e8873977563fa4444e4"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/enriched genus species Wallen PD.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06ffc2cedebd0f8ee167b2218440571c2628b7b0",
+      "size": 4179,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/06ffc2cedebd0f8ee167b2218440571c2628b7b0"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/enriched pathways IBD.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22f82c542e6964383e8a5192c0c8d6a2ba1cdadb",
+      "size": 31800,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/22f82c542e6964383e8a5192c0c8d6a2ba1cdadb"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/enriched pathways shared wo sex age.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "263f57fbdabd80b70da24a29f70b15247692e2b4",
+      "size": 1798,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/263f57fbdabd80b70da24a29f70b15247692e2b4"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/enriched species IBD.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aaf72f8b09b77659e8a1fd9cdc6f31a93904eb04",
+      "size": 4484,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/aaf72f8b09b77659e8a1fd9cdc6f31a93904eb04"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/table HMP2 IBD genus ancombc2 output wo sex age.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82a0f1c3a2410004ff153c3fd7e7ab31da529509",
+      "size": 12300,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/82a0f1c3a2410004ff153c3fd7e7ab31da529509"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/table HMP2 IBD pathways ancombc2 output wo sex age.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0ab87a9ee32b152adedf97b6511abca510c46e0",
+      "size": 18808,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/f0ab87a9ee32b152adedf97b6511abca510c46e0"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/table HMP2 IBD significant genus wo sex age.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7bdbe9f582a17edc55c692fc273ce4d9bbdaf8a",
+      "size": 10369,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/c7bdbe9f582a17edc55c692fc273ce4d9bbdaf8a"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/table HMP2 IBD significant species wo sex age.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "997d1d1700cd77a5f95428b864be2be1884bccab",
+      "size": 13537,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/997d1d1700cd77a5f95428b864be2be1884bccab"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/table HMP2 IBD significant species.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9a4a200007533556e4d50a181d1f6f774043505",
+      "size": 10920,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/e9a4a200007533556e4d50a181d1f6f774043505"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/table HMP2 IBD species ancombc2 output wo sex age.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e946300e55347f6c10fa1bad87960f23d98f0faa",
+      "size": 14875,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/e946300e55347f6c10fa1bad87960f23d98f0faa"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/table Wallen PD genus ancombc2 output wo sex age.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c07d5cd1e7ea0be8edbe031cca8d020b1408c71",
+      "size": 12144,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/9c07d5cd1e7ea0be8edbe031cca8d020b1408c71"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/table Wallen PD genus ancombc2 output.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de7a4ebbf18f385961ac9fb200ebd788799b4dd5",
+      "size": 12144,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/de7a4ebbf18f385961ac9fb200ebd788799b4dd5"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/table Wallen PD pathways ancombc2 output wo sex age.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afebecd23750f0536e1bc64363d4f0e3f1263dc9",
+      "size": 21734,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/afebecd23750f0536e1bc64363d4f0e3f1263dc9"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/table Wallen PD pathways ancombc2 output.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f605e3b71f84bc08139b2d0763b60f09f08e6bed",
+      "size": 26464,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/f605e3b71f84bc08139b2d0763b60f09f08e6bed"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/table Wallen PD significant genus wo sex age.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a072c5d00a4cf54a8e6d2f10e972a89670e9fd05",
+      "size": 6776,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/a072c5d00a4cf54a8e6d2f10e972a89670e9fd05"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/table Wallen PD significant genus.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d12b161a18ae9458f4a3fd865c707841ab531c54",
+      "size": 6776,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/d12b161a18ae9458f4a3fd865c707841ab531c54"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/table Wallen PD significant species wo sex age.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ee53d1da9f996d3456ef9ef53ab108c73047b24",
+      "size": 7250,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/7ee53d1da9f996d3456ef9ef53ab108c73047b24"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/table Wallen PD significant species.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ae08c3ebd406a83bbd7182ee41804a1c7c3b664",
+      "size": 7249,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/6ae08c3ebd406a83bbd7182ee41804a1c7c3b664"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/table Wallen PD species ancombc2 output wo sex age.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7ccda7e347dbf5b8a2f7db2e0d602abc80ee9aa",
+      "size": 19466,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/a7ccda7e347dbf5b8a2f7db2e0d602abc80ee9aa"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/table Wallen PD species ancombc2 output.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4231ecb291a552153313a0655f922b3d39f9995b",
+      "size": 19466,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/4231ecb291a552153313a0655f922b3d39f9995b"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/ANCOMBC2 tables/table shared pathways ancombc2 output.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fef9ebdfc83eebaa296e3ee8d16acda90d5d890",
+      "size": 11540,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/3fef9ebdfc83eebaa296e3ee8d16acda90d5d890"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/HMP2 IBD genus ancombc2 output.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "feb51d757f71b7b75dbf5250985e562bba00a582",
+      "size": 71376,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/feb51d757f71b7b75dbf5250985e562bba00a582"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/HMP2 IBD genus bias corrected abund.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4cc2242d3303d885deb1a8f376e5438b8d38c49",
+      "size": 70960,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/a4cc2242d3303d885deb1a8f376e5438b8d38c49"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/HMP2 IBD pathway ancombc2 output.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "435e89dd6a7afaae975dda93b338ee10bcfd741f",
+      "size": 617345,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/435e89dd6a7afaae975dda93b338ee10bcfd741f"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/HMP2 IBD pathway bias corrected abund.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "caece0b2585dc1c5864d83fd764b2b327e8aa90e",
+      "size": 585937,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/caece0b2585dc1c5864d83fd764b2b327e8aa90e"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/HMP2 IBD species ancombc2 output.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b296427f322d3549bf1bf1e720f69f162decee3",
+      "size": 137894,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/9b296427f322d3549bf1bf1e720f69f162decee3"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/HMP2 IBD species bias corrected abund.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "311d2129d384cc0066324fdcb5993aff155a1e4e",
+      "size": 135832,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/311d2129d384cc0066324fdcb5993aff155a1e4e"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/Wallen PD ancombc2 metacyc pathways.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36feb746cd701114ff0d166aa48fc6c97e3370b6",
+      "size": 1709839,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/36feb746cd701114ff0d166aa48fc6c97e3370b6"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/Wallen PD genus ancombc2 output.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ea70f0d452fd59cf643119275aaf665c2582fa4",
+      "size": 302407,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/3ea70f0d452fd59cf643119275aaf665c2582fa4"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/Wallen PD genus bias corrected abund.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e87deb6a941d7301809481c08fd46edb5944b09e",
+      "size": 299601,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/e87deb6a941d7301809481c08fd46edb5944b09e"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/Wallen PD paths bias corrected abund ancombc2.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f7ee9620d2f8449c872c02784e65b45ea7aa14b",
+      "size": 1741566,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/5f7ee9620d2f8449c872c02784e65b45ea7aa14b"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/Wallen PD species ancombc2 output.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1146d8eb16b23ac5db291663be37ac57192a9d0",
+      "size": 543569,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/d1146d8eb16b23ac5db291663be37ac57192a9d0"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/Wallen PD species bias corrected abund.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd417e58228adafddf9cc0d2f1866503e55bc95f",
+      "size": 548010,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/cd417e58228adafddf9cc0d2f1866503e55bc95f"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/depleted genus species Wallen PD.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02fbf80092faed805840a8452be2bfbe94af7b69",
+      "size": 1678,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/02fbf80092faed805840a8452be2bfbe94af7b69"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/depleted pathways shared.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80ffb46db22bb8fee276a6836b44cd98257421c4",
+      "size": 3200,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/80ffb46db22bb8fee276a6836b44cd98257421c4"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/enriched genus species Wallen PD.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "693c2891c5b84a7ec5e293001462e246f22d6768",
+      "size": 2042,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/693c2891c5b84a7ec5e293001462e246f22d6768"
+    },
+    {
+      "path": "HMP2_Payami/ANCOMBC2/enriched pathways shared.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2db6533d5d84ae9afede2df7d541c91203e22fea",
+      "size": 990,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/2db6533d5d84ae9afede2df7d541c91203e22fea"
+    },
+    {
+      "path": "HMP2_Payami/HMP2 Consolidated and Age Filtered Pathways.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc9c27923f34c21f525bb1f147deb9fcf462ecf0",
+      "size": 603481,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/fc9c27923f34c21f525bb1f147deb9fcf462ecf0"
+    },
+    {
+      "path": "HMP2_Payami/HMP2 IBD Age Filtered All Levels Counts.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa6bf95efdba8883a69826443fe504d7f07f1641",
+      "size": 254643,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/fa6bf95efdba8883a69826443fe504d7f07f1641"
+    },
+    {
+      "path": "HMP2_Payami/HMP2 IBD Age Filtered All Levels relab.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38b0df35381920ec18a657ab57c259d59b93375e",
+      "size": 244301,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/38b0df35381920ec18a657ab57c259d59b93375e"
+    },
+    {
+      "path": "HMP2_Payami/HMP2 IBD Age Filtered genus Counts.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e45864f12d23c1ac3a1a874c95a702e9cf0020aa",
+      "size": 75242,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/e45864f12d23c1ac3a1a874c95a702e9cf0020aa"
+    },
+    {
+      "path": "HMP2_Payami/HMP2 IBD Age Filtered genus relab.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be492c349eb9d2a7307f93c0a5be32793fd313e4",
+      "size": 54604,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/be492c349eb9d2a7307f93c0a5be32793fd313e4"
+    },
+    {
+      "path": "HMP2_Payami/HMP2 IBD Age Filtered phylum Counts.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8af640773defe7901fcb615b6c8ab69b7fc5ef58",
+      "size": 12969,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/8af640773defe7901fcb615b6c8ab69b7fc5ef58"
+    },
+    {
+      "path": "HMP2_Payami/HMP2 IBD Age Filtered phylum relab.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6575789f6b59b1cf7748010374eefcbe44b04ca4",
+      "size": 9563,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/6575789f6b59b1cf7748010374eefcbe44b04ca4"
+    },
+    {
+      "path": "HMP2_Payami/HMP2 IBD Age Filtered species Counts.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82a8a901449921afd59d45d0810ca3d0bab8527e",
+      "size": 154988,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/82a8a901449921afd59d45d0810ca3d0bab8527e"
+    },
+    {
+      "path": "HMP2_Payami/HMP2 IBD Age Filtered species clr counts.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ec45040ecc05bc8a3b20f24588b2a11f7e087ec",
+      "size": 155136,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/3ec45040ecc05bc8a3b20f24588b2a11f7e087ec"
+    },
+    {
+      "path": "HMP2_Payami/HMP2 IBD Age Filtered species relab.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cd87049c8c7db0e011afb2ff1f588a849af8e8a",
+      "size": 123689,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/8cd87049c8c7db0e011afb2ff1f588a849af8e8a"
+    },
+    {
+      "path": "HMP2_Payami/HMP2 IBD Combined Age Filtered species clr counts.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af9e598a00cea8148e02a825c690757800a9d9a1",
+      "size": 158353,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/af9e598a00cea8148e02a825c690757800a9d9a1"
+    },
+    {
+      "path": "HMP2_Payami/HMP2 IBD diagnosis dataframe.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a94832f38956d074b6ee4b01b2b8c88c47475584",
+      "size": 1192,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/a94832f38956d074b6ee4b01b2b8c88c47475584"
+    },
+    {
+      "path": "HMP2_Payami/HMP2 Pathways Age Filtered.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83578e91ed4809b690f98d957a319c17fb56a813",
+      "size": 3036545,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/83578e91ed4809b690f98d957a319c17fb56a813"
+    },
+    {
+      "path": "HMP2_Payami/IBD Metadata Age Filtered.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65fee03a77d9406b6b8fb53b9394b414132c8823",
+      "size": 32541,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/65fee03a77d9406b6b8fb53b9394b414132c8823"
+    },
+    {
+      "path": "HMP2_Payami/IBD_metadata_metagenomics_2018_08_20.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a08ce41231de072c7cc40db189366bf7063eaa0",
+      "size": 2245845,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/9a08ce41231de072c7cc40db189366bf7063eaa0"
+    },
+    {
+      "path": "HMP2_Payami/IBD_metadata_metagenomics_2018_08_20.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b6fd64bc40c3e26d879bfd3df55199ba5fea314",
+      "size": 1047329,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/8b6fd64bc40c3e26d879bfd3df55199ba5fea314"
+    },
+    {
+      "path": "HMP2_Payami/PAYAMI DATA- Source_Data_24Oct2022.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2536b11e127fe4095274e0e45235c8a7f0248fae",
+      "size": 52074437,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/2536b11e127fe4095274e0e45235c8a7f0248fae"
+    },
+    {
+      "path": "HMP2_Payami/Phyloseq Objects",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "40ca1766e69d8b2b6e7f962a89fb3910399b5aee",
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/trees/40ca1766e69d8b2b6e7f962a89fb3910399b5aee"
+    },
+    {
+      "path": "HMP2_Payami/Phyloseq Objects/HMP2 IBD genus phyloseq object.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "415be2c95b474841e682f431c5b3e5bf13493d85",
+      "size": 106922,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/415be2c95b474841e682f431c5b3e5bf13493d85"
+    },
+    {
+      "path": "HMP2_Payami/Phyloseq Objects/HMP2 IBD pathways phyloseq object.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "497fdcce03a57860cbb7b1c98094064b22803627",
+      "size": 613740,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/497fdcce03a57860cbb7b1c98094064b22803627"
+    },
+    {
+      "path": "HMP2_Payami/Phyloseq Objects/HMP2 IBD species phyloseq object.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "052f15bda056aaa17084cde67364d6859db386f1",
+      "size": 185192,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/052f15bda056aaa17084cde67364d6859db386f1"
+    },
+    {
+      "path": "HMP2_Payami/Phyloseq Objects/Wallen PD genus phyloseq object.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5cef8289f0e0f16544daddaca10a3c0d261cb9e",
+      "size": 322919,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/e5cef8289f0e0f16544daddaca10a3c0d261cb9e"
+    },
+    {
+      "path": "HMP2_Payami/Phyloseq Objects/Wallen PD pathways phyloseq object.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e09b178217535adac8d86c648c24b16785a52c3",
+      "size": 1664130,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/4e09b178217535adac8d86c648c24b16785a52c3"
+    },
+    {
+      "path": "HMP2_Payami/Phyloseq Objects/Wallen PD species phyloseq object.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a508c11cc6343a7942dec51dadc054a00efc6a4",
+      "size": 577591,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/4a508c11cc6343a7942dec51dadc054a00efc6a4"
+    },
+    {
+      "path": "HMP2_Payami/Wallen Counts.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5e007745034bf5f7ae30ced6e5ae78adb31ef0a",
+      "size": 858092,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/f5e007745034bf5f7ae30ced6e5ae78adb31ef0a"
+    },
+    {
+      "path": "HMP2_Payami/Wallen PD Metadata.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdca6939c7f70dc33f8ec3e98a1f33683b2fc780",
+      "size": 24743,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/fdca6939c7f70dc33f8ec3e98a1f33683b2fc780"
+    },
+    {
+      "path": "HMP2_Payami/Wallen_counts_genus.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecbe8dbe4c2898ce66f6d29796de81885959542c",
+      "size": 299321,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/ecbe8dbe4c2898ce66f6d29796de81885959542c"
+    },
+    {
+      "path": "HMP2_Payami/Wallen_counts_phylum.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10ec0b8ab206815b9110b5300c9a05b66437763a",
+      "size": 31656,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/10ec0b8ab206815b9110b5300c9a05b66437763a"
+    },
+    {
+      "path": "HMP2_Payami/Wallen_counts_species.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a62b43e34d57d783b5feb63fc23d433b727feeb",
+      "size": 586275,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/6a62b43e34d57d783b5feb63fc23d433b727feeb"
+    },
+    {
+      "path": "HMP2_Payami/Wallen_relab_genus.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9838b3f29c93330b0ea75b564131e89df995610c",
+      "size": 298977,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/9838b3f29c93330b0ea75b564131e89df995610c"
+    },
+    {
+      "path": "HMP2_Payami/Wallen_relab_phylum.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "317c92f0fd70f4c824d38778eaf7bfd278c54df2",
+      "size": 30897,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/317c92f0fd70f4c824d38778eaf7bfd278c54df2"
+    },
+    {
+      "path": "HMP2_Payami/Wallen_relab_species.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93df8487564f9ea41942b1a841159a9c20ea7c28",
+      "size": 587211,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/93df8487564f9ea41942b1a841159a9c20ea7c28"
+    },
+    {
+      "path": "HMP2_Payami/Wallen_species_clr_counts.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47cb168175bbf6b96e01d228410169f8749aede7",
+      "size": 620654,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/47cb168175bbf6b96e01d228410169f8749aede7"
+    },
+    {
+      "path": "HMP2_Payami/hmp2_metadata_2018-08-20.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc69cd25415f0905d447198c93665cb6b2b25e96",
+      "size": 8975115,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/bc69cd25415f0905d447198c93665cb6b2b25e96"
+    },
+    {
+      "path": "HMP2_Payami/old NOT age filtered HMP2 IBD metadata.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f6359e81d2547a9cc4a68eb61af5f5850869fa5",
+      "size": 108644,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/5f6359e81d2547a9cc4a68eb61af5f5850869fa5"
+    },
+    {
+      "path": "HMP2_Payami/pathabundances.tsv.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf7aba17029c62151593b3f2fcbd2821d5cfcda2",
+      "size": 10794873,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/cf7aba17029c62151593b3f2fcbd2821d5cfcda2"
+    },
+    {
+      "path": "HMP2_Payami/taxonomic_profiles.tsv.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56f88d0a746b25a7058885be1d1475907db21e1d",
+      "size": 470475,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/56f88d0a746b25a7058885be1d1475907db21e1d"
+    },
+    {
+      "path": "HMP2_Payami_scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0fd66c61b6a02646e8aa9f82d630bb0cab6335e6",
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/trees/0fd66c61b6a02646e8aa9f82d630bb0cab6335e6"
+    },
+    {
+      "path": "HMP2_Payami_scripts/CLR transformation on species counts.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c22898ef12a01009daba3e19144cfdecc234f0ce",
+      "size": 1566,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/c22898ef12a01009daba3e19144cfdecc234f0ce"
+    },
+    {
+      "path": "HMP2_Payami_scripts/HMP2 Wallen ancombc2.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35b01ecca477423e03e11ff55c1fe2f48315aaf1",
+      "size": 4757,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/35b01ecca477423e03e11ff55c1fe2f48315aaf1"
+    },
+    {
+      "path": "HMP2_Payami_scripts/PCoA Species CLR Counts.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2287ee51c899f8bd409c97ac91e2e478a15bab2",
+      "size": 5559,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/b2287ee51c899f8bd409c97ac91e2e478a15bab2"
+    },
+    {
+      "path": "HMP2_Payami_scripts/beta diversity w confounders.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecee83fe5c78b0b694a0deea8938abbe44d7360e",
+      "size": 9456,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/ecee83fe5c78b0b694a0deea8938abbe44d7360e"
+    },
+    {
+      "path": "HMP2_Payami_scripts/calculating counts + age filtering HMP2 dataset.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcca62e47f8ad457c445f7899211d878f66ee778",
+      "size": 6120,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/dcca62e47f8ad457c445f7899211d878f66ee778"
+    },
+    {
+      "path": "HMP2_Payami_scripts/cleaning metaphlan relab output Wallen HMP2.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15f216590e8b827e0fb6e719a303533bb2dde0ac",
+      "size": 5246,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/15f216590e8b827e0fb6e719a303533bb2dde0ac"
+    },
+    {
+      "path": "HMP2_Payami_scripts/consolidating HMP2 pathways for phyloseq.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a0c1ac91f61b1845d8a3a508d3d4de97ab262e2",
+      "size": 1654,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/2a0c1ac91f61b1845d8a3a508d3d4de97ab262e2"
+    },
+    {
+      "path": "HMP2_Payami_scripts/creating HMP2 pathway phyloseq object.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f618900919249300758377f557426ab89131762d",
+      "size": 3213,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/f618900919249300758377f557426ab89131762d"
+    },
+    {
+      "path": "HMP2_Payami_scripts/creating Wallen pathway phyloseq object.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f13c45bdd34a7373bdc95caa0621ecc9b66ad90c",
+      "size": 3097,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/f13c45bdd34a7373bdc95caa0621ecc9b66ad90c"
+    },
+    {
+      "path": "HMP2_Payami_scripts/creating genus level phyloseq objects.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8a2acb348a0a5ab919091a9847340f721611a5f",
+      "size": 7684,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/d8a2acb348a0a5ab919091a9847340f721611a5f"
+    },
+    {
+      "path": "HMP2_Payami_scripts/creating species level phyloseq objects.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52fd5972555a31e4d2cc6b3672ea267c8e538580",
+      "size": 7752,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/52fd5972555a31e4d2cc6b3672ea267c8e538580"
+    },
+    {
+      "path": "HMP2_Payami_scripts/creating tables ANCOMBC2 output.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdd3b95c49d96503029507497403ea51cf17cbcf",
+      "size": 9983,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/cdd3b95c49d96503029507497403ea51cf17cbcf"
+    },
+    {
+      "path": "HMP2_Payami_scripts/demographics tables.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1df68d169a6e54a4a25dd4c88a4e79fe6c3f30a8",
+      "size": 11730,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/1df68d169a6e54a4a25dd4c88a4e79fe6c3f30a8"
+    },
+    {
+      "path": "HMP2_Payami_scripts/getting bias corrected log abundances from ancombc2.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7661691910b85e1054c6ae470d0a0c7f883e9cb9",
+      "size": 3047,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/7661691910b85e1054c6ae470d0a0c7f883e9cb9"
+    },
+    {
+      "path": "HMP2_Payami_scripts/taxa and pathway venn diagrams.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c68a328a8bddd3703ff4f517894d4e2a5aa4f58",
+      "size": 7566,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/6c68a328a8bddd3703ff4f517894d4e2a5aa4f58"
+    },
+    {
+      "path": "Key Resource Table.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4191867bf79fc7800e515b5df15d14faeeffe2a7",
+      "size": 17388,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/4191867bf79fc7800e515b5df15d14faeeffe2a7"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e67e32c79966cf4be82b6c06a2bfeb255b8a7b2",
+      "size": 1073,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/1e67e32c79966cf4be82b6c06a2bfeb255b8a7b2"
+    },
+    {
+      "path": "Module_scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4989845d52ccb70a65f9eb4cd8d3894b615f9068",
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/trees/4989845d52ccb70a65f9eb4cd8d3894b615f9068"
+    },
+    {
+      "path": "Module_scripts/pathway module analysis.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1309536c1771c0cf1f30def49b81b4cbf6fdda2f",
+      "size": 13880,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/1309536c1771c0cf1f30def49b81b4cbf6fdda2f"
+    },
+    {
+      "path": "Module_scripts/taxonomic module analysis.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9372b8226f751affae1c051eb4f9fb11d73d506",
+      "size": 14282,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/e9372b8226f751affae1c051eb4f9fb11d73d506"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee0bb062210ac65bd86c4f2e184606dc12418067",
+      "size": 14077,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/ee0bb062210ac65bd86c4f2e184606dc12418067"
+    },
+    {
+      "path": "Regression scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f6400a66a27c3e00a3aaa4668921920c30512721",
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/trees/f6400a66a27c3e00a3aaa4668921920c30512721"
+    },
+    {
+      "path": "Regression scripts/multivariate regression HMP2 IBD.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6acec2feb43edd3b297a4dab62374bf9e180db53",
+      "size": 11006,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/6acec2feb43edd3b297a4dab62374bf9e180db53"
+    },
+    {
+      "path": "Regression scripts/multivariate regression UFPF.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66aa840a8650ba0c1969d0eb0ce1f38da8476545",
+      "size": 4628,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/66aa840a8650ba0c1969d0eb0ce1f38da8476545"
+    },
+    {
+      "path": "Regression scripts/multivariate regression Wallen PD.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a39edc2ec2f750afa6d1a7d68c8dad00e5ce37d9",
+      "size": 6937,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/a39edc2ec2f750afa6d1a7d68c8dad00e5ce37d9"
+    },
+    {
+      "path": "Subject Questionnaires.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd1fa9d1651d43632bae61949ffa0697ea247978",
+      "size": 642042,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/dd1fa9d1651d43632bae61949ffa0697ea247978"
+    },
+    {
+      "path": "Supplementary Tables.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3160e8dc0af309284ee1fad5fa1896aa8670860",
+      "size": 189168,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/b3160e8dc0af309284ee1fad5fa1896aa8670860"
+    },
+    {
+      "path": "UFPF",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1ae1cec9ab4c22094b04f43e0edf0b8500be8440",
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/trees/1ae1cec9ab4c22094b04f43e0edf0b8500be8440"
+    },
+    {
+      "path": "UFPF/ANCOMBC2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9af687c6987332fd963d6cc46f174141cf4659e4",
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/trees/9af687c6987332fd963d6cc46f174141cf4659e4"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a26ebeda9e647a383bf52d8ce9de6945d214e2a",
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/trees/7a26ebeda9e647a383bf52d8ce9de6945d214e2a"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5bf541d1badfe39e59e00f39f2ee345825ab6c7",
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/trees/e5bf541d1badfe39e59e00f39f2ee345825ab6c7"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "53e927f348324fb6560f7bf97dd9c84c014846ed",
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/trees/53e927f348324fb6560f7bf97dd9c84c014846ed"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Genus",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e8e15d08da00f374a46065e38e22500b3ba9f9cd",
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/trees/e8e15d08da00f374a46065e38e22500b3ba9f9cd"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Genus/All genus ibd_vs_control_neg.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c964ec3631b7f04796da2d009800523e33e9352",
+      "size": 2629,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/0c964ec3631b7f04796da2d009800523e33e9352"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Genus/All genus ibd_vs_control_pos.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e5faebffecd3beca47d0aa3deba0a7bd6e63c7e",
+      "size": 2042,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/9e5faebffecd3beca47d0aa3deba0a7bd6e63c7e"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Genus/All genus pd_vs_control_neg.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d0d7a21a8ae24484d23049acd2b62e86ab3f529",
+      "size": 2954,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/3d0d7a21a8ae24484d23049acd2b62e86ab3f529"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Genus/All genus pd_vs_control_pos.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "690938ba075b4dc96e89cc0057ed96eae04102e4",
+      "size": 1715,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/690938ba075b4dc96e89cc0057ed96eae04102e4"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Genus/All genus pd_vs_ibd_neg.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b2342d2d9666d3fc270936584c235a694126bc2",
+      "size": 3042,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/2b2342d2d9666d3fc270936584c235a694126bc2"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Genus/All genus pd_vs_ibd_pos.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7090e1b96fec53b3d5f495912b3144b60bab9901",
+      "size": 1627,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/7090e1b96fec53b3d5f495912b3144b60bab9901"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Pathways",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3725bbb903e62ec0a10d543507fe28a87b47198e",
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/trees/3725bbb903e62ec0a10d543507fe28a87b47198e"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Pathways/depleted pathways IBD.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3787f702618a1808d8c3ae0adf649d6d07cb03c",
+      "size": 2401,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/d3787f702618a1808d8c3ae0adf649d6d07cb03c"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Pathways/depleted pathways IBD.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b839c7ae29f17bf8d9e9026989b7561b4ef7abf",
+      "size": 1255,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/9b839c7ae29f17bf8d9e9026989b7561b4ef7abf"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Pathways/depleted pathways PD.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df4cdeb97b5099f92c53dcc47483de3ca1447101",
+      "size": 204,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/df4cdeb97b5099f92c53dcc47483de3ca1447101"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Pathways/depleted pathways PD.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a49d7202163c353d98cc08dcb4613215a9322a6e",
+      "size": 305,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/a49d7202163c353d98cc08dcb4613215a9322a6e"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Pathways/depleted pathways PDvIBD.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b08a0a2759cf7b5059e57cf0cd3abf674c049f1",
+      "size": 14550,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/2b08a0a2759cf7b5059e57cf0cd3abf674c049f1"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Pathways/depleted pathways PDvIBD.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47317cd436157ba5913f7cf85e9fdb732708d2f4",
+      "size": 5266,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/47317cd436157ba5913f7cf85e9fdb732708d2f4"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Pathways/enriched pathways IBD.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c55c10ec765f7832f902dbdecb43324ccc4bd16",
+      "size": 10038,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/0c55c10ec765f7832f902dbdecb43324ccc4bd16"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Pathways/enriched pathways IBD.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "855f16ba6f8c377a0fa8553f54d148d3b5449916",
+      "size": 3639,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/855f16ba6f8c377a0fa8553f54d148d3b5449916"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Pathways/enriched pathways PD.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9da25dae590d591c6a7cdd15d430108e02987173",
+      "size": 191,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/9da25dae590d591c6a7cdd15d430108e02987173"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Pathways/enriched pathways PDvIBD.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59457f8eace5fad36173b81dc939914ed7a4df09",
+      "size": 1751,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/59457f8eace5fad36173b81dc939914ed7a4df09"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Pathways/enriched pathways PDvIBD.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be7c1ca305b8602c44aa1631627e700e23701ef3",
+      "size": 1032,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/be7c1ca305b8602c44aa1631627e700e23701ef3"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Pathways/table IBD depleted paths.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b5124036cf4955de35aaa604fa44743683b438e",
+      "size": 7944,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/9b5124036cf4955de35aaa604fa44743683b438e"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Pathways/table IBD enriched paths.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90eb582ecadabbed2e3293a6d9375978e4584573",
+      "size": 676975,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/90eb582ecadabbed2e3293a6d9375978e4584573"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Pathways/table IBD enriched paths.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "675321575ea64879d6f852313c06302444369689",
+      "size": 11873,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/675321575ea64879d6f852313c06302444369689"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Pathways/table PD depleted paths.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b5eb5ace1a14b809016fd6a929707b0e7de9c99",
+      "size": 650670,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/7b5eb5ace1a14b809016fd6a929707b0e7de9c99"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Pathways/table PD depleted paths.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29cc3073b076d956d7b56dcafe3f4f2f71370a58",
+      "size": 6558,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/29cc3073b076d956d7b56dcafe3f4f2f71370a58"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Species",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6fdd7c464396fc50de4989fcc4bee724c8dc0eb5",
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/trees/6fdd7c464396fc50de4989fcc4bee724c8dc0eb5"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Species/All species ibd_vs_control_neg.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0807aeadb0e0d07701834f2625ec59fb6f9aca15",
+      "size": 5703,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/0807aeadb0e0d07701834f2625ec59fb6f9aca15"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Species/All species ibd_vs_control_pos.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "253ece6c79af82c56cfb83a32620835c64cc438b",
+      "size": 4401,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/253ece6c79af82c56cfb83a32620835c64cc438b"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Species/All species pd_vs_control_neg.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcb5c8336037bd32a7314615c7226c2f15e3cdce",
+      "size": 5488,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/dcb5c8336037bd32a7314615c7226c2f15e3cdce"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Species/All species pd_vs_control_pos.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "260cc89b82a2db243a27ee206fefd2355d324438",
+      "size": 4612,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/260cc89b82a2db243a27ee206fefd2355d324438"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Species/All species pd_vs_ibd_neg.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8e6c74e1f143b2e1e5199d9e953091a53bf1c64",
+      "size": 5694,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/b8e6c74e1f143b2e1e5199d9e953091a53bf1c64"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/Enriched vs Depleted/Species/All species pd_vs_ibd_pos.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8466d76b00b8ab24d2044c6d546b9419499b5d3b",
+      "size": 4437,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/8466d76b00b8ab24d2044c6d546b9419499b5d3b"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/table all IBD depleted paths.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "344ce4297498fffd4e5a26bc7b9aa559bf57e7bc",
+      "size": 656655,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/344ce4297498fffd4e5a26bc7b9aa559bf57e7bc"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/table all species ancombc2 output.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d0b4f01ae0518ce6f65da9111e01e86c2b5dd70",
+      "size": 806049,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/8d0b4f01ae0518ce6f65da9111e01e86c2b5dd70"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/table all species ancombc2 output.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39de4828995a925f6cdb5487b83a2adf3d810df4",
+      "size": 32979,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/39de4828995a925f6cdb5487b83a2adf3d810df4"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/table genus taxonomic output.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f51045740ec6db73948b72677b7cdc20cd02f22d",
+      "size": 742775,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/f51045740ec6db73948b72677b7cdc20cd02f22d"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/Old versions/table genus taxonomic output.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b01385fb8e8a55bcca7b833dd9a69aaab9142ca",
+      "size": 22050,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/5b01385fb8e8a55bcca7b833dd9a69aaab9142ca"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/depleted pathways IBD.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b1aa8298bcb43f9ace83648a65523b1c691cb7d",
+      "size": 2518,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/7b1aa8298bcb43f9ace83648a65523b1c691cb7d"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/depleted pathways IBD.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42ebb6ba44680e82a6e6c2d7eaa87031def24623",
+      "size": 1284,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/42ebb6ba44680e82a6e6c2d7eaa87031def24623"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/depleted pathways PD.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32d896d2ffcdb71b1eed10ea8f4d7380c2a90c52",
+      "size": 73,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/32d896d2ffcdb71b1eed10ea8f4d7380c2a90c52"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/depleted pathways PD.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9da25dae590d591c6a7cdd15d430108e02987173",
+      "size": 191,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/9da25dae590d591c6a7cdd15d430108e02987173"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/depleted pathways PDvIBD.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c35e4a918bd2ea201da9700c6c33c15682ad55ee",
+      "size": 12193,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/c35e4a918bd2ea201da9700c6c33c15682ad55ee"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/depleted pathways PDvIBD.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aca60d478b4bb2ff7d09818525f905e261c35dbb",
+      "size": 4412,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/aca60d478b4bb2ff7d09818525f905e261c35dbb"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/enriched genera IBD.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2d786492423e4b4cb680e78b8949cbcd4fa3b3f",
+      "size": 996,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/b2d786492423e4b4cb680e78b8949cbcd4fa3b3f"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/enriched pathways IBD.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4eb5e556e70ffa54b92d3c008eac8004cc6c7595",
+      "size": 8317,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/4eb5e556e70ffa54b92d3c008eac8004cc6c7595"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/enriched pathways IBD.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c61fb25b0b0c492d18c170c9a5d3dccc3471ff2b",
+      "size": 3156,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/c61fb25b0b0c492d18c170c9a5d3dccc3471ff2b"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/enriched pathways PD.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9da25dae590d591c6a7cdd15d430108e02987173",
+      "size": 191,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/9da25dae590d591c6a7cdd15d430108e02987173"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/enriched pathways PDvIBD.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de8d125c14f2413e61ce180fd1117da3e90bd885",
+      "size": 2014,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/de8d125c14f2413e61ce180fd1117da3e90bd885"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/enriched pathways PDvIBD.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67c49fcfde5d6c395f36671b1409978c7039d6f7",
+      "size": 1145,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/67c49fcfde5d6c395f36671b1409978c7039d6f7"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/enriched species IBD.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6639aab858ee4140df90d61321960dfe584522e",
+      "size": 722,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/b6639aab858ee4140df90d61321960dfe584522e"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/table IBD sig pathways wo sex age.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07cb7d86a2a076d280ee4c0c67b7a7431ef86be9",
+      "size": 23966,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/07cb7d86a2a076d280ee4c0c67b7a7431ef86be9"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/table all pathways wo sex age.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07688787936e0c0a39b5879aa601b4eb079e1f5d",
+      "size": 62487,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/07688787936e0c0a39b5879aa601b4eb079e1f5d"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/table all species ancombc2 output wo sex age.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e12f7d9165149dd511b35fc33104d9ba4a47fb4b",
+      "size": 32976,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/e12f7d9165149dd511b35fc33104d9ba4a47fb4b"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/table genus taxonomic output wo sex age.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6d5fb92d1e482e77f5235e353e3e1bcd8a16f27",
+      "size": 22070,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/a6d5fb92d1e482e77f5235e353e3e1bcd8a16f27"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/ANCOMBC2 tables/table pathway output wo sex age.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c3b2743d39d8493178adcf16b550192ea5c5ac8",
+      "size": 26144,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/4c3b2743d39d8493178adcf16b550192ea5c5ac8"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/UFPF ancombc2 genus.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dd404597a0b91d972cfa300a11278bca44bcc63",
+      "size": 69121,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/1dd404597a0b91d972cfa300a11278bca44bcc63"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/UFPF ancombc2 pathways.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f2ce6d173b283b649ab8aa0899dd15389169bba",
+      "size": 247816,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/5f2ce6d173b283b649ab8aa0899dd15389169bba"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/UFPF ancombc2 species.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db20d887a535d8723241ca6f8d4a3bc9d66c277e",
+      "size": 116351,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/db20d887a535d8723241ca6f8d4a3bc9d66c277e"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/bias corrected abund genus.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72211e46b46c8d1b3413b2697ac26f17bfc88c23",
+      "size": 40534,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/72211e46b46c8d1b3413b2697ac26f17bfc88c23"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/bias corrected abund pathways.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad51e891a471f50976c7b1b4a049cde06028a85b",
+      "size": 201825,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/ad51e891a471f50976c7b1b4a049cde06028a85b"
+    },
+    {
+      "path": "UFPF/ANCOMBC2/bias corrected abund species.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ced29052e93759992aed8b54eddd2d0f90685ee8",
+      "size": 55693,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/ced29052e93759992aed8b54eddd2d0f90685ee8"
+    },
+    {
+      "path": "UFPF/Effect of Meds",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b25ee34857ae2c6d9140ad105dcbe69bd391ff21",
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/trees/b25ee34857ae2c6d9140ad105dcbe69bd391ff21"
+    },
+    {
+      "path": "UFPF/Effect of Meds/ancombc2 genus effect of meds.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9446fab2015dd58c97cf647d7a4e1dc3860f1ee",
+      "size": 95890,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/c9446fab2015dd58c97cf647d7a4e1dc3860f1ee"
+    },
+    {
+      "path": "UFPF/Effect of Meds/ancombc2 species effect of meds.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "972b8bd5031ced5bc873f1c7fd7edbf406045e44",
+      "size": 146602,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/972b8bd5031ced5bc873f1c7fd7edbf406045e44"
+    },
+    {
+      "path": "UFPF/Effect of Meds/medication effects on genus.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74af47648a17a27f3282e8a45fd8620d2f32395f",
+      "size": 2233,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/74af47648a17a27f3282e8a45fd8620d2f32395f"
+    },
+    {
+      "path": "UFPF/Effect of Meds/medication effects on species.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d8d2bda2112671e8317f2d70734bd79b53b0065",
+      "size": 1250,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/9d8d2bda2112671e8317f2d70734bd79b53b0065"
+    },
+    {
+      "path": "UFPF/Humann output",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb425194b0dde00cf92b4f841285321ce8069bfd",
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/trees/bb425194b0dde00cf92b4f841285321ce8069bfd"
+    },
+    {
+      "path": "UFPF/Humann output/consolidated pathways.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a71c200f457cb9ccc916896ae30a4a54a210680",
+      "size": 167971,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/9a71c200f457cb9ccc916896ae30a4a54a210680"
+    },
+    {
+      "path": "UFPF/Humann output/pathway_abundance_all.tsv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae786c0bffdafde5558dcdddf5f4b37cc1f8fa6a",
+      "size": 1024823,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/ae786c0bffdafde5558dcdddf5f4b37cc1f8fa6a"
+    },
+    {
+      "path": "UFPF/Metadata All Samples.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "003bb654ad79804bb34b510384e468004516d7b0",
+      "size": 35384,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/003bb654ad79804bb34b510384e468004516d7b0"
+    },
+    {
+      "path": "UFPF/Metadata.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f26e865bb7cfebfd8642b3acfb494f7cc895298",
+      "size": 9936,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/2f26e865bb7cfebfd8642b3acfb494f7cc895298"
+    },
+    {
+      "path": "UFPF/Metaphlan output",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6dc48336724adfcce58e99ede0833fb7395ae92c",
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/trees/6dc48336724adfcce58e99ede0833fb7395ae92c"
+    },
+    {
+      "path": "UFPF/Metaphlan output/Counts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6888eeee85e73ba5e078d4566204945605ae9d96",
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/trees/6888eeee85e73ba5e078d4566204945605ae9d96"
+    },
+    {
+      "path": "UFPF/Metaphlan output/Counts/Counts WITHOUT unclassified.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69b01ddb2bcc37bf1058b1932ab7e61ac0453b42",
+      "size": 260237,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/69b01ddb2bcc37bf1058b1932ab7e61ac0453b42"
+    },
+    {
+      "path": "UFPF/Metaphlan output/Counts/Counts w Unclassified.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "834342c840fe54a35ba5f11a7c60923a6cb2bfb7",
+      "size": 261168,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/834342c840fe54a35ba5f11a7c60923a6cb2bfb7"
+    },
+    {
+      "path": "UFPF/Metaphlan output/Counts/genus raw counts.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee11a065bacbf3b37aa0b9ba1064403adadf8c6a",
+      "size": 58203,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/ee11a065bacbf3b37aa0b9ba1064403adadf8c6a"
+    },
+    {
+      "path": "UFPF/Metaphlan output/Counts/phylum raw counts.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29d8adb79a33007436e2417d57a00db9ac442541",
+      "size": 5422,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/29d8adb79a33007436e2417d57a00db9ac442541"
+    },
+    {
+      "path": "UFPF/Metaphlan output/Counts/species raw counts.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "152499eea20afc6fc7b81426bc90e452f4f9415c",
+      "size": 91435,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/152499eea20afc6fc7b81426bc90e452f4f9415c"
+    },
+    {
+      "path": "UFPF/Metaphlan output/metaphlan_all_combined.tsv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d32ae18fe54ae3c596490320a1c41bb5a834231",
+      "size": 1982011,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/7d32ae18fe54ae3c596490320a1c41bb5a834231"
+    },
+    {
+      "path": "UFPF/Metaphlan output/metaphlan_unknown_all_combined.tsv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d01575578fd936b73501668ccb8f046696a4d56",
+      "size": 2173575,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/6d01575578fd936b73501668ccb8f046696a4d56"
+    },
+    {
+      "path": "UFPF/Metaphlan output/rel_ab_cleaned.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7c14b6f561b2d1ffa1a2c100ce759b9904148d4",
+      "size": 231034,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/a7c14b6f561b2d1ffa1a2c100ce759b9904148d4"
+    },
+    {
+      "path": "UFPF/Metaphlan output/rel_ab_unkn_cleaned.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "632495a414eb21007087ebe9f69457a6eb2401f2",
+      "size": 253073,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/632495a414eb21007087ebe9f69457a6eb2401f2"
+    },
+    {
+      "path": "UFPF/Phyloseq Objects",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6e1b72f2db7eeb2ae2bc7d53171557fc942223f0",
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/trees/6e1b72f2db7eeb2ae2bc7d53171557fc942223f0"
+    },
+    {
+      "path": "UFPF/Phyloseq Objects/humann pathways phyloseq object.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1947772343ffb3cd2e2a797dc23b2896a53e6cf1",
+      "size": 158790,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/1947772343ffb3cd2e2a797dc23b2896a53e6cf1"
+    },
+    {
+      "path": "UFPF/Phyloseq Objects/phyloseq object genus effect of meds.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12c86988624d72d58fadc245fbd5795bcfbb3492",
+      "size": 52312,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/12c86988624d72d58fadc245fbd5795bcfbb3492"
+    },
+    {
+      "path": "UFPF/Phyloseq Objects/phyloseq object genus.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "948ef7180e7ff0a12ea5a15c6f5d722da0a4990d",
+      "size": 52524,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/948ef7180e7ff0a12ea5a15c6f5d722da0a4990d"
+    },
+    {
+      "path": "UFPF/Phyloseq Objects/phyloseq object species effect of meds.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4fbe7b71e25f02770ea4e23fbf4233ab907633b",
+      "size": 69349,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/e4fbe7b71e25f02770ea4e23fbf4233ab907633b"
+    },
+    {
+      "path": "UFPF/Phyloseq Objects/phyloseq object species.rds",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "927d156896bd7bb1e2aabf90e5d15279040c4041",
+      "size": 69574,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/927d156896bd7bb1e2aabf90e5d15279040c4041"
+    },
+    {
+      "path": "UFPF_metagenomics.Rproj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e353763df8418574965f84428c16ed6b3a92fb66",
+      "size": 208,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/e353763df8418574965f84428c16ed6b3a92fb66"
+    },
+    {
+      "path": "UFPF_scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9747023554e1e6f31b0b4bfe084d382b2d7d106a",
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/trees/9747023554e1e6f31b0b4bfe084d382b2d7d106a"
+    },
+    {
+      "path": "UFPF_scripts/PCoA aitchison distances.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67b8dd9a1e3fb8774250ba1b5ffa17e64c85fca8",
+      "size": 3510,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/67b8dd9a1e3fb8774250ba1b5ffa17e64c85fca8"
+    },
+    {
+      "path": "UFPF_scripts/beta diversity w confounders.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ac1ec781961668636687c9b3bc1f1f414c59937",
+      "size": 4010,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/8ac1ec781961668636687c9b3bc1f1f414c59937"
+    },
+    {
+      "path": "UFPF_scripts/consolidating pathway data.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34eb8f898539ecc81c44be97b1ed24d9b124fcfb",
+      "size": 2424,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/34eb8f898539ecc81c44be97b1ed24d9b124fcfb"
+    },
+    {
+      "path": "UFPF_scripts/creating pathway phyloseq object + ancombc2.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1d8e01ba47b9e810071af090c09c94db613ea4d",
+      "size": 8192,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/b1d8e01ba47b9e810071af090c09c94db613ea4d"
+    },
+    {
+      "path": "UFPF_scripts/creating tables of ANCOMBC2 output.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1112ee692e69fddab03e85661ce8e86b8db53b3",
+      "size": 5921,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/f1112ee692e69fddab03e85661ce8e86b8db53b3"
+    },
+    {
+      "path": "UFPF_scripts/creating taxa phyloseq object + ancombc2.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28f4ae027b08c0e4d3497f598a0fe84b9afe9f6b",
+      "size": 9514,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/28f4ae027b08c0e4d3497f598a0fe84b9afe9f6b"
+    },
+    {
+      "path": "UFPF_scripts/demographics metadata table.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2b3f0157c147bdcc8aa3c86648b5aa69a874a68",
+      "size": 3519,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/c2b3f0157c147bdcc8aa3c86648b5aa69a874a68"
+    },
+    {
+      "path": "UFPF_scripts/getting bias corrected abundances ancombc2.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f06ed201e3cbf8dfc1722bfb0dbb82d384f4626d",
+      "size": 1586,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/f06ed201e3cbf8dfc1722bfb0dbb82d384f4626d"
+    },
+    {
+      "path": "UFPF_scripts/getting individual counts.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb5e94b81fd7045035e5eeded073bc968ef34dda",
+      "size": 4624,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/fb5e94b81fd7045035e5eeded073bc968ef34dda"
+    },
+    {
+      "path": "UFPF_scripts/pathway venn diagrams.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5978d899b8d0d9ba120a18ab4b6478d2b6a3e78d",
+      "size": 2626,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/5978d899b8d0d9ba120a18ab4b6478d2b6a3e78d"
+    },
+    {
+      "path": "UFPF_scripts/phylum genus species raw counts.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6196a90a11a9d1a21c979f748a012a6fb08ec0c",
+      "size": 1360,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/d6196a90a11a9d1a21c979f748a012a6fb08ec0c"
+    },
+    {
+      "path": "UFPF_scripts/plotting ancombc2 taxa.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1040e61958f1b4f51b167317729e7e574a769370",
+      "size": 6636,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/1040e61958f1b4f51b167317729e7e574a769370"
+    },
+    {
+      "path": "WGCNA Tables.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e60b0fe620a22f8e08041def58c1e44368e0b03",
+      "size": 185310,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/8e60b0fe620a22f8e08041def58c1e44368e0b03"
+    },
+    {
+      "path": "caffeine intake.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9dbbf7141193a2742022000ea5b97c78eb1839c",
+      "size": 15495,
+      "url": "https://api.github.com/repos/maevekrueger/UFPF_metagenomics/git/blobs/c9dbbf7141193a2742022000ea5b97c78eb1839c"
+    }
+  ],
+  "truncated": false
+}

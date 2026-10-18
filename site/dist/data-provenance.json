@@ -1,0 +1,35 @@
+{
+  "dataset": "HMP2Data T2D16S",
+  "taxonomy": "Greengenes 13_5",
+  "version": "greengenes-v1",
+  "source": "https://github.com/dozmorovlab/HMP2Data",
+  "retrieved": "2026-10-17",
+  "rawFecalSamples": 1041,
+  "otuFeatures": 12062,
+  "namedGenusFeatures": 201,
+  "minimumRetainedReads": 1000,
+  "exclusions": {
+    "eligible": 634,
+    "no_exact_visit_metadata": 358,
+    "ambiguous_duplicate_visit": 45,
+    "below_1000_retained_reads": 3,
+    "body_site_filename_conflict": 1
+  },
+  "eligibleSamples": 634,
+  "eligibleParticipants": 73,
+  "healthySamples": 346,
+  "healthyParticipants": 72,
+  "defaultSamples": 258,
+  "defaultParticipants": 50,
+  "defaultIR": 27,
+  "defaultIS": 23,
+  "denominator": "All retained OTU counts per fecal sample, including OTUs without a genus assignment.",
+  "duplicatePolicy": "Exclude every count record with a duplicated fecal visit token; do not pool or choose replicates.",
+  "analysis": "Median per participant across Healthy visits; unadjusted rank tests on count-derived relative abundances; not CLR or DREAM.",
+  "thresholdNote": "1000 retained reads is a transparent exploratory QC choice, not a threshold reproduced from the source paper.",
+  "sourceSHA256": {
+    "fecal_otu_counts.csv.gz": "1c31c57ef885fb74623f3be864f0a4200404ba0cba74bf4dac1291195345dff3",
+    "otu_taxonomy.csv": "2ae89ff78509383784ee0fc903f1e365ea8e8b078dd383adedffb42a483d6079",
+    "fecal_sample_metadata.csv": "d0969a793793dc2720f1905c5a947a3ba3a77e57f727affc1af3d92028504054"
+  }
+}

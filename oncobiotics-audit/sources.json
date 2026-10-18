@@ -1,0 +1,52 @@
+{
+  "merged_table.tsv": {
+    "url": "https://ndownloader.figshare.com/files/58731886",
+    "bytes": 3792748,
+    "sha256": "6e5b94c48a066a7e6ce3ed4f1d168299cfc38beaa9b9a202d9e2cfe94106453f"
+  },
+  "figshare-metadata.json": {
+    "url": "https://api.figshare.com/v2/articles/30336373",
+    "bytes": 7746,
+    "sha256": "cfa2953984d4cb67fd22a3bf614e1880e5035f03684fb3620f9f70248447f00c"
+  },
+  "article.html": {
+    "url": "https://www.nature.com/articles/s41591-025-04067-x",
+    "bytes": 555815,
+    "sha256": "f79e5885e4d6d50ee2c9e4e6236075a4e38b973cc7a06a81187c5343efc1ba4a"
+  },
+  "figure5.csv": {
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-025-04067-x/MediaObjects/41591_2025_4067_MOESM6_ESM.csv",
+    "bytes": 3792748,
+    "sha256": "6e5b94c48a066a7e6ce3ed4f1d168299cfc38beaa9b9a202d9e2cfe94106453f"
+  },
+  "figure5.xlsx": {
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-025-04067-x/MediaObjects/41591_2025_4067_MOESM7_ESM.xlsx",
+    "bytes": 528784,
+    "sha256": "eedc62b04dc13377fa673f31fc6c2fc42be6341bd66b5de05bcef5eddaae3e79"
+  },
+  "extended5.csv": {
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-025-04067-x/MediaObjects/41591_2025_4067_MOESM11_ESM.csv",
+    "bytes": 6061,
+    "sha256": "f4308494cb3f8249d6c3699c7c99b4efa567cf6ef20c0d4286e20b863fc8f62a"
+  },
+  "mpa_vJan21_CHOCOPhlAnSGB_202103_species.txt.bz2": {
+    "url": "https://cmprod1.cibio.unitn.it/biobakery4/metaphlan_databases/mpa_vJan21_CHOCOPhlAnSGB_202103_species.txt.bz2",
+    "bytes": 388780,
+    "sha256": "2099b4bfc55e152528a66005caf45199df6ad66206e869a0193f119f7661fc41"
+  },
+  "mpa_vOct22_CHOCOPhlAnSGB_202212_species.txt.bz2": {
+    "url": "https://cmprod1.cibio.unitn.it/biobakery4/metaphlan_databases/mpa_vOct22_CHOCOPhlAnSGB_202212_species.txt.bz2",
+    "bytes": 514256,
+    "sha256": "a9b57de2121627201c146a0177e31d0d8ac2a60ba4accc589849101a2cd0b309"
+  },
+  "mpa_vJun23_CHOCOPhlAnSGB_202307_species.txt.bz2": {
+    "url": "https://cmprod1.cibio.unitn.it/biobakery4/metaphlan_databases/mpa_vJun23_CHOCOPhlAnSGB_202307_species.txt.bz2",
+    "bytes": 642655,
+    "sha256": "80be5afe3aa08ed4ba6b524d6b5639bbe89d9674b3dd4168698563c902c9856e"
+  },
+  "reporting-summary.pdf": {
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-025-04067-x/MediaObjects/41591_2025_4067_MOESM1_ESM.pdf",
+    "bytes": 7082129,
+    "sha256": "eb73fdfedb5b1b6f2cc21672dc460414d192f90bcf07299bcf53d713c6bb53eb"
+  }
+}

@@ -1,0 +1,351 @@
+timeline	date	end_date	category	subcategory	group	title	dose
+Avascular necrosis of the hip	2026-04-15		Imaging	CT	CT	Dental	
+Avascular necrosis of the hip	2025-03-05		Imaging	DXA	DXA	DXA	
+Avascular necrosis of the hip	2025-12-29		Imaging	MRI	MRI	Bone Survey	
+Avascular necrosis of the hip	2026-01-21		Imaging	MRI	MRI	Hips	
+Avascular necrosis of the hip	2026-03-05		Imaging	MRI	MRI	Jaw	
+Avascular necrosis of the hip	2026-03-09		Imaging	MRI	MRI	Bone Survey	
+Avascular necrosis of the hip	2026-05-11		Imaging	MRI	MRI	Bone Survey	
+Avascular necrosis of the hip	2023-08-03		Imaging	PET	PET	18F-FDG	
+Avascular necrosis of the hip	2023-09-25		Imaging	PET	PET	18F-FDG	
+Avascular necrosis of the hip	2023-12-01		Imaging	PET	PET	18F-FDG	
+Avascular necrosis of the hip	2024-05-02		Imaging	PET	PET	18F-FDG	
+Avascular necrosis of the hip	2024-08-14		Imaging	PET	PET	18F-FDG	
+Avascular necrosis of the hip	2024-10-11		Imaging	PET	PET	18F-Na	
+Avascular necrosis of the hip	2024-10-23		Imaging	PET	PET	68Ga-FAP	
+Avascular necrosis of the hip	2025-01-06		Imaging	PET	PET	18F-FDG	
+Avascular necrosis of the hip	2025-01-17		Imaging	PET	PET	68Ga-FAP	
+Avascular necrosis of the hip	2025-03-10		Imaging	PET	PET	18F-FDG	
+Avascular necrosis of the hip	2025-03-26		Imaging	PET	PET	68Ga-FAP	
+Avascular necrosis of the hip	2025-04-16		Imaging	PET	PET	18F-FDG	
+Avascular necrosis of the hip	2025-05-21		Imaging	PET	PET	18F-FDG	
+Avascular necrosis of the hip	2025-06-18		Imaging	PET	PET	68Ga-FAP	
+Avascular necrosis of the hip	2023-01-30		Imaging	Xray	Xray	Whole body	
+Avascular necrosis of the hip	2025-08-04		Imaging	Xray	Xray	Whole body	
+Avascular necrosis of the hip	2026-02-19		Imaging	Xray	Xray	Pelvis	
+Avascular necrosis of the hip	2026-02-26		Imaging	Xray	Xray	Pelvis	
+Avascular necrosis of the hip	2026-03-06		Imaging	Xray	Xray	Chest	
+Avascular necrosis of the hip	2025-10-01		Symptoms			Hip pain began	
+Avascular necrosis of the hip	2026-03-12		Treatments	Antibiotics	Cell wall synthesis inhibitors	Cefazolin	
+Avascular necrosis of the hip	2026-04-14		Treatments	Antibiotics	Cell wall synthesis inhibitors	Cefazolin	
+Avascular necrosis of the hip	2026-02-25		Treatments	Autologous biologics	Cell therapies	Autologous adipose-derived MSCs + exosomes	
+Avascular necrosis of the hip	2023-04-23	2023-04-26	Treatments	Steroids	Steroids	Dexamethasone	12mg
+Avascular necrosis of the hip	2024-05-17	2024-05-21	Treatments	Steroids	Steroids	Dexamethasone	64mg
+Avascular necrosis of the hip	2024-05-21	2024-05-30	Treatments	Steroids	Steroids	Dexamethasone	10mg
+Avascular necrosis of the hip	2024-05-31	2024-06-12	Treatments	Steroids	Steroids	Dexamethasone	52mg
+Avascular necrosis of the hip	2024-06-13	2024-06-21	Treatments	Steroids	Steroids	Dexamethasone	10mg
+Avascular necrosis of the hip	2026-03-12		Treatments	Surgery	Surgery	Core decompression (L hip) + BMAC + PRP	
+Avascular necrosis of the hip	2026-04-14		Treatments	Surgery	Surgery	Core decompression (R hip) + BMAC + PRP	
+Avascular necrosis of the hip	2024-06-25		Treatments	Targeted therapy	Monoclonal antibodies	XGeva	
+Avascular necrosis of the hip	2024-09-23		Treatments	Targeted therapy	Monoclonal antibodies	XGeva	
+Avascular necrosis of the hip	2024-11-01		Treatments	Targeted therapy	Monoclonal antibodies	XGeva	
+Avascular necrosis of the hip	2025-01-24		Treatments	Targeted therapy	Monoclonal antibodies	XGeva	
+Avascular necrosis of the hip	2025-03-13		Treatments	Targeted therapy	Monoclonal antibodies	XGeva	
+Avascular necrosis of the hip	2025-05-21		Treatments	Targeted therapy	Monoclonal antibodies	XGeva	
+Avascular necrosis of the hip	2025-07-29		Treatments	Targeted therapy	Monoclonal antibodies	XGeva	
+Avascular necrosis of the hip	2025-12-01		Treatments	Targeted therapy	Monoclonal antibodies	XGeva	
+Avascular necrosis of the hip	2026-07-03	2026-07-12	Treatments	Targeted therapy	Small molecule inhibitors	Celebrex	
+Avascular necrosis of the hip	2026-08-03	2026-08-03	Treatments	Surgery	Surgery	Total hip replacement (left hip)	
+Endocrine	2025-01-10		Imaging	Ultrasound	Ultrasound	Thyroid	
+Endocrine	2025-03-21	2026-02-19	Treatments	Targeted therapy	Small molecule inhibitors	Zepbound	
+Endocrine	2025-06-15	2026-04-22	Treatments	Targeted therapy	Small molecule inhibitors	Methimazole	5 mg
+Endocrine	2026-05-27	2026-06-30	Treatments	Targeted therapy	Small molecule inhibitors	Methimazole	2.5 mg
+Endocrine	2026-07-01	2026-09-16	Treatments	Targeted therapy	Small molecule inhibitors	Methimazole	2.5 mg
+Endocrine	2026-02-20	2026-03-04	Treatments	Targeted therapy	Small molecule inhibitors	Wegovy	
+Endocrine	2026-03-04	2026-05-12	Treatments	Targeted therapy	Small molecule inhibitors	Metformin	
+Endocrine	2026-03-13	2026-09-16	Treatments	Targeted therapy	Small molecule inhibitors	Wegovy	
+Infection	2025-04-16		Imaging	MRI of T-spine	MRI of T-spine		
+Infection	2025-04-22		Imaging	MRI of T-spine	MRI of T-spine		
+Infection	2025-09-02		Imaging	MRI of T-spine	MRI of T-spine		
+Infection	2025-09-30		Imaging	MRI of T-spine	MRI of T-spine		
+Infection	2025-10-16		Imaging	MRI of T-spine	MRI of T-spine		
+Infection	2025-10-24		Imaging	MRI of T-spine	MRI of T-spine		
+Infection	2025-11-05		Imaging	MRI of T-spine	MRI of T-spine		
+Infection	2025-11-26		Imaging	MRI of T-spine	MRI of T-spine		
+Infection	2025-12-02		Imaging	MRI of T-spine	MRI of T-spine		
+Infection	2025-12-12		Imaging	MRI of T-spine	MRI of T-spine		
+Infection	2025-12-17		Imaging	MRI of T-spine	MRI of T-spine		
+Infection	2025-12-29		Imaging	MRI of T-spine	MRI of T-spine		
+Infection	2026-01-05		Imaging	MRI of T-spine	MRI of T-spine		
+Infection	2026-01-15		Imaging	MRI of T-spine	MRI of T-spine		
+Infection	2026-01-21		Imaging	MRI of T-spine	MRI of T-spine		
+Infection	2026-02-18		Imaging	MRI of T-spine	MRI of T-spine		
+Infection	2026-03-18		Imaging	MRI of T-spine	MRI of T-spine		
+Infection	2025-09-03		Pathology	Fluid	Fluid	6 week cultures: Rare Staphylococcus epidermidis, Staphylococcus haemolyticus, Cutibacterium modestum	
+Infection	2025-10-08		Pathology	Fluid	Fluid	Cultures negative	
+Infection	2025-11-18		Pathology	Fluid	Fluid	Benign, increased eosinophils	
+Infection	2025-11-19		Pathology	Fluid	Fluid	Negative for malignancy, cultures negative	
+Infection	2025-09-03		Pathology	Tissue	Tissue	Organizing hematoma/serum and focal granulation tissue and prior procedure site changes	
+Infection	2025-10-08		Pathology	Tissue	Tissue	Paucicellular fibroadipose tissue; no tumor or significant inflammation present	
+Infection	2025-09-03		Procedures	Fluid drainage	Fluid drainage	Seroma	
+Infection	2025-10-08		Procedures	Fluid drainage	Fluid drainage	Seroma	
+Infection	2025-11-18		Procedures	Fluid drainage	Fluid drainage	Seroma	
+Infection	2025-11-19		Procedures	Fluid drainage	Fluid drainage	CSF patch	
+Osteosarcoma	2025-04-17		Procedures	Surgery	Surgery	T4/5 resection	
+Infection	2025-11-10		Procedures	Surgery	Surgery	Hardware removal	
+Infection	2026-10-07	2026-10-07	Procedures	Surgery	Surgery	CSF patch	
+Infection	2025-09-03	2025-09-19	Treatments	Antibiotics	Antimetabolites	Bactrim	
+Infection	2025-08-31	2025-09-02	Treatments	Antibiotics	Cell wall synthesis inhibitors	Amoxicillin	
+Infection	2025-09-03	2025-09-19	Treatments	Antibiotics	Cell wall synthesis inhibitors	Amoxicillin	
+Infection	2025-09-20	2026-01-09	Treatments	Antibiotics	Cell wall synthesis inhibitors	Dalbavancin	
+Infection	2025-09-20		Treatments	Antibiotics	Cell wall synthesis inhibitors	Dalbavancin	
+Infection	2025-09-28		Treatments	Antibiotics	Cell wall synthesis inhibitors	Dalbavancin	
+Infection	2025-11-03		Treatments	Antibiotics	Cell wall synthesis inhibitors	Dalbavancin	
+Infection	2025-11-28		Treatments	Antibiotics	Cell wall synthesis inhibitors	Dalbavancin	
+Infection	2026-01-09		Treatments	Antibiotics	Cell wall synthesis inhibitors	Dalbavancin	
+Infection	2026-03-12		Treatments	Antibiotics	Cell wall synthesis inhibitors	Cefazolin	
+Infection	2025-09-03	2025-09-15	Treatments	Antibiotics	DNA/RNA synthesis inhibitors	Levofloxacin	
+Infection	2025-09-16	2025-09-19	Treatments	Antibiotics	DNA/RNA synthesis inhibitors	Ciprofloxacin	
+Infection	2026-09-24		Treatments			mFlusiva	
+Infection	2026-09-24		Treatments			Covid vaccine	
+Infection	2025-08-28		Symptoms			Fluid leakage	
+Infection	2026-04-21		Symptoms			Wound opened	
+Infection	2026-05-05		Procedures			Mattress suture	
+Infection	2026-05-29		Treatments	Other	Other	Silver nitrate	
+Infection	2026-06-15	2026-07-14	Treatments	Other	Other	ReyaGel	
+Osteosarcoma	2023-01-31		Imaging	CT	CT	Chest	
+Osteosarcoma	2023-02-13		Imaging	CT	CT	Abdomen-Pelvis	
+Osteosarcoma	2023-03-21		Imaging	CT	CT	CAP	
+Osteosarcoma	2023-05-19		Imaging	CT	CT	CAP	
+Osteosarcoma	2023-06-13		Imaging	CT	CT	Chest-PE	
+Osteosarcoma	2023-07-12		Imaging	CT	CT	CAP	
+Osteosarcoma	2023-08-14		Imaging	CT	CT	Chest	
+Osteosarcoma	2023-09-25		Imaging	CT	CT	CAP	
+Osteosarcoma	2023-10-02		Imaging	CT	CT	Chest	
+Osteosarcoma	2023-10-23		Imaging	CT	CT	Chest	
+Osteosarcoma	2023-12-01		Imaging	CT	CT	Chest	
+Osteosarcoma	2024-06-22		Imaging	CT	CT	T-spine	
+Osteosarcoma	2024-08-14		Imaging	CT	CT	Chest	
+Osteosarcoma	2024-08-28		Imaging	CT	CT	Angiography: Chest	
+Osteosarcoma	2024-09-30		Imaging	CT	CT	CAP	
+Osteosarcoma	2024-11-26		Imaging	CT	CT	CAP	
+Osteosarcoma	2025-01-06		Imaging	CT	CT	CAP	
+Osteosarcoma	2025-03-10		Imaging	CT	CT	CAP	
+Osteosarcoma	2025-09-03		Imaging	CT	CT	T-spine	
+Osteosarcoma	2025-10-02		Imaging	CT	CT	Chest	
+Osteosarcoma	2025-12-18		Imaging	CT	CT	CAP	
+Osteosarcoma	2026-04-16		Imaging	CT	CT	Chest	
+Osteosarcoma	2026-05-11		Imaging	CT	CT	CAP	
+Osteosarcoma	2022-11-10		Imaging	MRI	MRI	T-spine	
+Osteosarcoma	2022-11-12		Imaging	MRI	MRI	Spine	
+Osteosarcoma	2022-12-22		Imaging	MRI	MRI	Chest, T-spine	
+Osteosarcoma	2023-03-21		Imaging	MRI	MRI	T-spine	
+Osteosarcoma	2023-05-19		Imaging	MRI	MRI	T-spine	
+Osteosarcoma	2023-07-12		Imaging	MRI	MRI	T-spine	
+Osteosarcoma	2023-07-31		Imaging	MRI	MRI	T-spine	
+Osteosarcoma	2024-01-22		Imaging	MRI	MRI	T-spine	
+Osteosarcoma	2024-04-26		Imaging	MRI	MRI	T-spine	
+Osteosarcoma	2024-05-17		Imaging	MRI	MRI	Spine	
+Osteosarcoma	2024-05-18		Imaging	MRI	MRI	Spine	
+Osteosarcoma	2024-05-30		Imaging	MRI	MRI	T-spine	
+Osteosarcoma	2024-06-21		Imaging	MRI	MRI	Spine	
+Osteosarcoma	2024-08-14		Imaging	MRI	MRI	T-spine	
+Osteosarcoma	2024-09-10		Imaging	MRI	MRI	T-spine	
+Osteosarcoma	2024-11-27		Imaging	MRI	MRI	T-spine	
+Osteosarcoma	2024-12-13		Imaging	MRI	MRI	Cardiac	
+Osteosarcoma	2025-01-06		Imaging	MRI	MRI	T-spine	
+Osteosarcoma	2025-01-23		Imaging	MRI	MRI	Brain	
+Osteosarcoma	2025-03-11		Imaging	MRI	MRI	T-spine	
+Osteosarcoma	2025-04-16		Imaging	MRI	MRI	T-spine	
+Osteosarcoma	2025-04-22		Imaging	MRI	MRI	T-spine	
+Osteosarcoma	2025-09-02		Imaging	MRI	MRI	T-spine	
+Osteosarcoma	2025-09-30		Imaging	MRI	MRI	T-spine	
+Osteosarcoma	2025-10-16		Imaging	MRI	MRI	T-spine	
+Osteosarcoma	2025-12-29		Imaging	MRI	MRI	Bone Survey	
+Osteosarcoma	2026-03-09		Imaging	MRI	MRI	Bone Survey	
+Osteosarcoma	2026-05-08		Imaging	MRI	MRI	T-spine	
+Osteosarcoma	2026-05-11		Imaging	MRI	MRI	Bone Survey	
+Osteosarcoma	2026-09-04		Imaging	MRI	MRI	T-spine	
+Osteosarcoma	2023-10-19		Imaging	PET	PET	18F-FDG	
+Osteosarcoma	2023-12-01		Imaging	PET	PET	18F-FDG	
+Osteosarcoma	2024-01-15		Imaging	PET	PET	18F-FDG	
+Osteosarcoma	2024-05-02		Imaging	PET	PET	18F-FDG	
+Osteosarcoma	2024-08-14		Imaging	PET	PET	18F-FDG	
+Osteosarcoma	2024-10-11		Imaging	PET	PET	18F-Na	
+Osteosarcoma	2024-10-23		Imaging	PET	PET	68Ga-FAP	
+Osteosarcoma	2025-01-06		Imaging	PET	PET	18F-FDG	
+Osteosarcoma	2025-01-17		Imaging	PET	PET	68Ga-FAP	
+Osteosarcoma	2025-03-10		Imaging	PET	PET	18F-FDG	
+Osteosarcoma	2025-03-26		Imaging	PET	PET	68Ga-FAP	
+Osteosarcoma	2025-04-16		Imaging	PET	PET	18F-FDG	
+Osteosarcoma	2025-05-21		Imaging	PET	PET	18F-FDG	
+Osteosarcoma	2025-06-18		Imaging	PET	PET	68Ga-FAP	
+Osteosarcoma	2025-08-27		Imaging	PET	PET	68Ga-B7H3	
+Osteosarcoma	2026-02-02		Imaging	PET	PET	68Ga-EphA2	
+Osteosarcoma	2026-02-03		Imaging	PET	PET	68Ga-B7H3	
+Osteosarcoma	2026-02-04		Imaging	PET	PET	68Ga-FAP	
+Osteosarcoma	2026-07-15		Imaging	PET	PET	68Ga-FAP	
+Osteosarcoma	2026-07-30		Imaging	PET	PET	68Ga-Granzyme B	
+Osteosarcoma	2022-12-15		Imaging	Xray	Xray	Spinal angiogram	
+Osteosarcoma	2024-06-11		Omics	Functional testing	Mass response drug testing	Travera	
+Osteosarcoma	2024-06-06		Omics	Functional testing	Organoid drug testing	UCLA	
+Osteosarcoma	2022-11-14		Omics	Genomics	Gene panel	UC500	
+Osteosarcoma	2022-12-16		Omics	Genomics	Gene panel	Tempus xT	
+Osteosarcoma	2025-10-24		Omics	Genomics	Shotgun metagenomics	Microbiome analysis	
+Osteosarcoma	2025-12-02		Omics	Genomics	Shotgun metagenomics	Microbiome analysis	
+Osteosarcoma	2026-02-16		Omics	Genomics	Shotgun metagenomics	Microbiome analysis	
+Osteosarcoma	2026-03-07		Omics	Genomics	Shotgun metagenomics	Microbiome analysis	
+Osteosarcoma	2026-03-25		Omics	Genomics	Shotgun metagenomics	Microbiome analysis	
+Osteosarcoma	2026-04-19		Omics	Genomics	Shotgun metagenomics	Microbiome analysis	
+Osteosarcoma	2026-05-30		Omics	Genomics	Shotgun metagenomics	Microbiome analysis	
+Osteosarcoma	2026-07-15		Omics	Genomics	Shotgun metagenomics	Microbiome analysis	
+Osteosarcoma	2026-08-20		Omics	Genomics	Shotgun metagenomics	Microbiome analysis	
+Osteosarcoma	2026-10-03		Omics	Genomics	Shotgun metagenomics	Microbiome analysis	
+Osteosarcoma	2022-12-16		Omics	Genomics	WES	Altera	
+Osteosarcoma	2022-12-16		Omics	Genomics	WES	Boston Gene	
+Osteosarcoma	2022-12-16		Omics	Genomics	WES	CeGaT	
+Osteosarcoma	2022-12-16		Omics	Genomics	WES	Personalis NextDx	
+Osteosarcoma	2022-12-16		Omics	Genomics	WES	Tempus xE	
+Osteosarcoma	2024-06-11		Omics	Genomics	WES	Boston Gene	
+Osteosarcoma	2022-12-16		Omics	Genomics	WGS	Personalis Next Personal Dx	
+Osteosarcoma	2024-06-06		Omics	Genomics	WGS	UCLA	
+Osteosarcoma	2025-01-28		Omics	Genomics	WGS	UCLA	
+Osteosarcoma	2022-12-16		Omics	Transcriptomics	RNAseq	Altera	
+Osteosarcoma	2022-12-16		Omics	Transcriptomics	RNAseq	Boston Gene	
+Osteosarcoma	2022-12-16		Omics	Transcriptomics	RNAseq	CeGaT	
+Osteosarcoma	2022-12-16		Omics	Transcriptomics	RNAseq	Personalis NextDx	
+Osteosarcoma	2022-12-16		Omics	Transcriptomics	RNAseq	Tempus xR	
+Osteosarcoma	2024-06-06		Omics	Transcriptomics	RNAseq	UCLA	
+Osteosarcoma	2024-06-11		Omics	Transcriptomics	RNAseq	Boston Gene	
+Osteosarcoma	2025-01-28		Omics	Transcriptomics	RNAseq	UCLA	
+Osteosarcoma	2025-01-25		Omics	Transcriptomics	scRNAseq	PBMCs	
+Osteosarcoma	2025-04-09		Omics	Transcriptomics	scRNAseq	PBMCs	
+Osteosarcoma	2025-05-01		Omics	Transcriptomics	scRNAseq	PBMCs	
+Osteosarcoma	2025-06-25		Omics	Transcriptomics	scRNAseq	PBMCs	
+Osteosarcoma	2025-07-24		Omics	Transcriptomics	scRNAseq	PBMCs	
+Osteosarcoma	2025-08-21		Omics	Transcriptomics	scRNAseq	PBMCs	
+Osteosarcoma	2025-09-22		Omics	Transcriptomics	scRNAseq	PBMCs	
+Osteosarcoma	2025-11-06		Omics	Transcriptomics	scRNAseq	PBMCs	
+Osteosarcoma	2022-11-14		Pathology	Tissue	Tissue	UCSF	
+Osteosarcoma	2022-12-16		Pathology	Tissue	Tissue	UCSF	
+Osteosarcoma	2024-05-10		Pathology	Tissue	Tissue	UCSF	
+Osteosarcoma	2024-06-06		Pathology	Tissue	Tissue	UCLA	
+Osteosarcoma	2024-06-11		Pathology	Tissue	Tissue	UCLA	
+Osteosarcoma	2025-01-28		Pathology	Tissue	Tissue	UCLA	
+Osteosarcoma	2025-04-17		Pathology	Tissue	Tissue	MSKCC	
+Osteosarcoma	2022-11-14		Procedures	Biopsy	Biopsy	T5	
+Osteosarcoma	2024-05-14		Procedures			Apheresis	
+Osteosarcoma	2025-12-03		Procedures			Apheresis	
+Osteosarcoma	2024-05-10		Procedures	Biopsy	Biopsy	T5	
+Osteosarcoma	2024-06-06		Procedures	Biopsy	Biopsy	T4	
+Osteosarcoma	2024-06-11		Procedures	Biopsy	Biopsy	T4/5	
+Osteosarcoma	2024-10-24		Procedures	Biopsy	Biopsy	Vaccination site	
+Osteosarcoma	2024-10-29		Procedures	Biopsy	Biopsy	T4/5	
+Osteosarcoma	2025-01-28		Procedures	Biopsy	Biopsy	T4/5	
+Osteosarcoma	2025-02-28		Procedures	Biopsy	Biopsy	Hilar lymph node	
+Osteosarcoma	2022-12-16		Procedures	Surgery	Surgery	T4/5	
+Osteosarcoma	2025-04-17		Procedures	Surgery	Surgery	T4/5	
+Osteosarcoma	2023-02-14		Treatments	Chemotherapy	DNA damaging agents	Cisplatin	
+Osteosarcoma	2023-02-14		Treatments	Chemotherapy	DNA damaging agents	Doxorubicin	
+Osteosarcoma	2023-03-07		Treatments	Chemotherapy	DNA damaging agents	Cisplatin	
+Osteosarcoma	2023-03-07		Treatments	Chemotherapy	DNA damaging agents	Doxorubicin	
+Osteosarcoma	2023-03-30		Treatments	Chemotherapy	DNA damaging agents	Cisplatin	
+Osteosarcoma	2023-03-30		Treatments	Chemotherapy	DNA damaging agents	Doxorubicin	
+Osteosarcoma	2023-04-19		Treatments	Chemotherapy	DNA damaging agents	Cisplatin	
+Osteosarcoma	2023-04-19		Treatments	Chemotherapy	DNA damaging agents	Doxorubicin	
+Osteosarcoma	2023-05-10		Treatments	Chemotherapy	DNA damaging agents	Doxorubicin	
+Osteosarcoma	2023-05-10		Treatments	Chemotherapy	DNA damaging agents	Ifosfamide	
+Osteosarcoma	2023-06-02		Treatments	Chemotherapy	DNA damaging agents	Doxorubicin	
+Osteosarcoma	2023-06-02		Treatments	Chemotherapy	DNA damaging agents	Ifosfamide	
+Osteosarcoma	2023-07-17	2024-01-26	Treatments	Chemotherapy	DNA damaging agents	SQ3370 (Doxorubicin Biogel click)	
+Osteosarcoma	2024-05-22		Treatments	Chemotherapy	DNA damaging agents	Trabectedin	
+Osteosarcoma	2023-05-10		Treatments	Chemotherapy	Protective agents	Mesna	
+Osteosarcoma	2023-06-02		Treatments	Chemotherapy	Protective agents	Mesna	
+Osteosarcoma	2023-10-10		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (JLFv1)	
+Osteosarcoma	2023-10-17		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (JLFv1)	
+Osteosarcoma	2023-10-20		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (JLFv1)	
+Osteosarcoma	2023-12-18		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (CeGaT)	
+Osteosarcoma	2023-12-19		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (CeGaT)	
+Osteosarcoma	2023-12-20		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (CeGaT)	
+Osteosarcoma	2024-02-01		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (JLFv1)	
+Osteosarcoma	2024-02-07		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (CeGaT)	
+Osteosarcoma	2024-03-16		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (CeGaT)	
+Osteosarcoma	2024-04-23		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (JLFv2)	
+Osteosarcoma	2024-04-26		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (JLFv2)	
+Osteosarcoma	2024-04-27		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (CeGaT)	
+Osteosarcoma	2024-04-29		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (JLFv2)	
+Osteosarcoma	2024-05-03		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (JLFv2)	
+Osteosarcoma	2024-05-10		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (JLFv2)	
+Osteosarcoma	2024-06-19		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (JLFv2)	
+Osteosarcoma	2024-06-24		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (CeGaT)	
+Osteosarcoma	2024-07-17		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (JLFv2)	
+Osteosarcoma	2024-08-17		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (CeGaT)	
+Osteosarcoma	2024-10-21		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (CeGaT)	
+Osteosarcoma	2024-10-21		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (JLFv2)	
+Osteosarcoma	2025-05-06		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (JLFv3)	
+Osteosarcoma	2025-05-09		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (JLFv3)	
+Osteosarcoma	2025-05-13		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (JLFv3)	
+Osteosarcoma	2025-05-20		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (JLFv3)	
+Osteosarcoma	2025-05-27		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (JLFv3)	
+Osteosarcoma	2025-06-25		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (JLFv3)	
+Osteosarcoma	2025-07-22		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (JLFv3)	
+Osteosarcoma	2025-08-20		Treatments	Immunotherapy	Cancer vaccines	Peptide neoantigen vaccine (JLFv3)	
+Osteosarcoma	2025-12-29		Treatments	Immunotherapy	Cancer vaccines	mRNA neoantigen vaccine	30 ug
+Osteosarcoma	2026-02-13		Treatments	Immunotherapy	Cancer vaccines	mRNA neoantigen vaccine	30 ug
+Osteosarcoma	2026-03-09		Treatments	Immunotherapy	Cancer vaccines	mRNA neoantigen vaccine	30 ug
+Osteosarcoma	2026-04-20		Treatments	Immunotherapy	Cancer vaccines	mRNA neoantigen vaccine	100 ug
+Osteosarcoma	2026-05-11		Treatments	Immunotherapy	Cancer vaccines	mRNA neoantigen vaccine	300 ug
+Osteosarcoma	2026-06-01		Treatments	Immunotherapy	Cancer vaccines	mRNA neoantigen vaccine	300 ug
+Osteosarcoma	2026-06-22		Treatments	Immunotherapy	Cancer vaccines	mRNA neoantigen vaccine	300 ug
+Osteosarcoma	2024-08-06	2025-03-20	Treatments	Immunotherapy	Cell therapies	SNK-01	
+Osteosarcoma	2024-08-26		Treatments	Immunotherapy	Cell therapies	SNK-01	
+Osteosarcoma	2024-12-09		Treatments	Immunotherapy	Cell therapies	SNK-01	
+Osteosarcoma	2025-01-21		Treatments	Immunotherapy	Cell therapies	SNK-01	
+Osteosarcoma	2025-02-18		Treatments	Immunotherapy	Cell therapies	SNK-01	
+Osteosarcoma	2025-03-20		Treatments	Immunotherapy	Cell therapies	SNK-01	
+Osteosarcoma	2026-02-25		Treatments	Immunotherapy	Cell therapies	Autologous adipose-derived mesenchymal stem cells + exosomes	
+Osteosarcoma	2024-07-17		Treatments	Immunotherapy	Immune checkpoint inhibitors	Dostarlimab	
+Osteosarcoma	2024-08-05		Treatments	Immunotherapy	Immune checkpoint inhibitors	Ipilimumab	
+Osteosarcoma	2024-08-12		Treatments	Immunotherapy	Immune checkpoint inhibitors	Dostarlimab	
+Osteosarcoma	2024-09-23		Treatments	Immunotherapy	Immune checkpoint inhibitors	Dostarlimab	
+Osteosarcoma	2024-10-11		Treatments	Immunotherapy	Immune checkpoint inhibitors	Dostarlimab	
+Osteosarcoma	2024-11-01		Treatments	Immunotherapy	Immune checkpoint inhibitors	Dostarlimab	
+Osteosarcoma	2024-11-01		Treatments	Immunotherapy	Immune checkpoint inhibitors	Ipilimumab	
+Osteosarcoma	2024-11-22		Treatments	Immunotherapy	Immune checkpoint inhibitors	Dostarlimab	
+Osteosarcoma	2024-12-13		Treatments	Immunotherapy	Immune checkpoint inhibitors	Dostarlimab	
+Osteosarcoma	2025-01-03		Treatments	Immunotherapy	Immune checkpoint inhibitors	Dostarlimab	
+Osteosarcoma	2025-01-24		Treatments	Immunotherapy	Immune checkpoint inhibitors	Dostarlimab	
+Osteosarcoma	2025-01-24		Treatments	Immunotherapy	Immune checkpoint inhibitors	Ipilimumab	
+Osteosarcoma	2025-02-21		Treatments	Immunotherapy	Immune checkpoint inhibitors	Dostarlimab	
+Osteosarcoma	2025-03-13		Treatments	Immunotherapy	Immune checkpoint inhibitors	Dostarlimab	
+Osteosarcoma	2025-05-21		Treatments	Immunotherapy	Immune checkpoint inhibitors	Dostarlimab	
+Osteosarcoma	2025-05-21		Treatments	Immunotherapy	Immune checkpoint inhibitors	Ipilimumab	
+Osteosarcoma	2025-07-29		Treatments	Immunotherapy	Immune checkpoint inhibitors	Dostarlimab	
+Osteosarcoma	2025-12-01		Treatments	Immunotherapy	Immune checkpoint inhibitors	Dostarlimab	
+Osteosarcoma	2025-12-29		Treatments	Immunotherapy	Immune checkpoint inhibitors	Dostarlimab	500 mg
+Osteosarcoma	2026-01-23		Treatments	Immunotherapy	Immune checkpoint inhibitors	Dostarlimab	500 mg
+Osteosarcoma	2026-02-13		Treatments	Immunotherapy	Immune checkpoint inhibitors	Dostarlimab	500 mg
+Osteosarcoma	2026-03-09		Treatments	Immunotherapy	Immune checkpoint inhibitors	Dostarlimab	500 mg
+Osteosarcoma	2026-03-30		Treatments	Immunotherapy	Immune checkpoint inhibitors	Dostarlimab	500 mg
+Osteosarcoma	2026-04-20		Treatments	Immunotherapy	Immune checkpoint inhibitors	Dostarlimab	500 mg
+Osteosarcoma	2026-05-11		Treatments	Immunotherapy	Immune checkpoint inhibitors	Dostarlimab	500 mg
+Osteosarcoma	2026-06-01		Treatments	Immunotherapy	Immune checkpoint inhibitors	Dostarlimab	500 mg
+Osteosarcoma	2024-08-27		Treatments	Immunotherapy	Immune modulators	Anktiva	
+Osteosarcoma	2025-05-12		Treatments	Immunotherapy	Immune modulators	GM-CSF	
+Osteosarcoma	2025-05-26		Treatments	Immunotherapy	Immune modulators	GM-CSF	
+Osteosarcoma	2025-08-18		Treatments	Immunotherapy	Immune modulators	GM-CSF	
+Osteosarcoma	2024-10-10		Treatments	Immunotherapy	Oncolytic viruses	AdAPT-001 (IT)	
+Osteosarcoma	2024-10-29		Treatments	Immunotherapy	Oncolytic viruses	AdAPT-001 (IT)	
+Osteosarcoma	2024-11-27		Treatments	Immunotherapy	Oncolytic viruses	AdAPT-001 (IT)	
+Osteosarcoma	2025-01-07		Treatments	Immunotherapy	Oncolytic viruses	AdAPT-001 (IT)	
+Osteosarcoma	2025-02-28		Treatments	Immunotherapy	Oncolytic viruses	AdAPT-001 (IT)	
+Osteosarcoma	2025-04-09		Treatments	Immunotherapy	Oncolytic viruses	AdAPT-001 (IT)	
+Osteosarcoma	2025-08-18		Treatments	Immunotherapy	Oncolytic viruses	AdAPT-001 (SQ)	
+Osteosarcoma	2024-06-12	2024-08-02	Treatments	Radiation	Proton	Proton therapy	
+Osteosarcoma	2023-01-30	2023-02-09	Treatments	Radiation	SBRT	Thoracic spine	
+Osteosarcoma	2024-05-20	2024-08-28	Treatments	Targeted therapy	Gene therapy	DeltaRex-G	
+Osteosarcoma	2024-06-25	2025-12-29	Treatments	Targeted therapy	Monoclonal antibodies	XGeva	
+Osteosarcoma	2025-02-05		Treatments	Targeted therapy	Radioligand therapies	177Lu-FAPi	
+Osteosarcoma	2025-03-26		Treatments	Targeted therapy	Radioligand therapies	225Ac-FAPi	
+Osteosarcoma	2025-06-18		Treatments	Targeted therapy	Radioligand therapies	225Ac-FAPi	
+Osteosarcoma	2024-05-20		Treatments	Targeted therapy	Small molecule inhibitors	Pazopanib	
+Osteosarcoma	2024-05-21		Treatments	Targeted therapy	Small molecule inhibitors	Pazopanib	
+Osteosarcoma	2024-05-22		Treatments	Targeted therapy	Small molecule inhibitors	Pazopanib	
+Osteosarcoma	2024-08-05		Treatments	Targeted therapy	Small molecule inhibitors	nab-sirolimus	
+Osteosarcoma	2025-04-17		Omics	Transcriptomics	scRNAseq	UCSF ONT	
+Osteosarcoma	2025-01-28		Omics	Transcriptomics	scRNAseq	UCSF ONT	
+Osteosarcoma	2024-06-06		Omics	Transcriptomics	scRNAseq	UCSF ONT	
+Osteosarcoma	2022-12-16		Omics	Genomics	Time point	T0	
+Osteosarcoma	2024-06-06		Omics	Genomics	Time point	T1	
+Osteosarcoma	2025-01-28		Omics	Genomics	Time point	T2	
+Osteosarcoma	2025-04-17		Omics	Genomics	Time point	T3	

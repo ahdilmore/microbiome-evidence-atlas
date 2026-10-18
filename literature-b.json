@@ -1,0 +1,86 @@
+[
+  {
+    "genus": "Prevotella",
+    "title": "Human gut microbes impact host serum metabolome and insulin sensitivity",
+    "claim": "P. copri was one of the species driving an association between microbial branched-chain amino-acid synthesis and insulin resistance. Giving P. copri to mice worsened glucose tolerance and insulin resistance.",
+    "scope": "Species-specific: Prevotella copri",
+    "studyType": "Human observational study plus mouse experiments",
+    "population": "277 non-diabetic Danish individuals; experimental mice",
+    "limitation": "Human association does not establish causation. A genus-level Prevotella measurement cannot identify P. copri or its metabolic genes; mouse effects do not establish a treatment effect in people.",
+    "url": "https://www.nature.com/articles/nature18646",
+    "doi": "10.1038/nature18646",
+    "year": 2016
+  },
+  {
+    "genus": "Prevotella",
+    "title": "Dietary Fiber-Induced Improvement in Glucose Metabolism Is Associated with Increased Abundance of Prevotella",
+    "claim": "After a short barley-bread intervention, participants whose glucose metabolism improved had more P. copri and a higher Prevotella-to-Bacteroides ratio. This illustrates how associations can depend on dietary context.",
+    "scope": "Genus ratio and species-specific P. copri findings",
+    "studyType": "Human dietary intervention with mouse microbiota-transfer experiments",
+    "population": "Healthy adults consuming barley-kernel bread for three days; germ-free mice",
+    "limitation": "Short intervention and responder comparison. The study does not show that increasing every Prevotella species improves insulin sensitivity, or that this pattern applies to the iPOP cohort.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26552345/",
+    "doi": "10.1016/j.cmet.2015.10.001",
+    "year": 2015
+  },
+  {
+    "genus": "Blautia",
+    "title": "Oral administration of Blautia wexlerae ameliorates obesity and type 2 diabetes via metabolic remodeling of the gut microbiota",
+    "claim": "Blautia, especially B. wexlerae, was less abundant in association with obesity and type 2 diabetes in Japanese adults. B. wexlerae administration improved metabolic outcomes in high-fat-diet mice.",
+    "scope": "Genus association; species-specific mouse intervention",
+    "studyType": "Human cross-sectional study plus mouse experiments",
+    "population": "Japanese adults; mice fed a high-fat diet",
+    "limitation": "Human findings are observational, and the intervention was in mice. A Blautia genus abundance cannot establish that B. wexlerae is present or justify probiotic advice.",
+    "url": "https://www.nature.com/articles/s41467-022-32015-7",
+    "doi": "10.1038/s41467-022-32015-7",
+    "year": 2022
+  },
+  {
+    "genus": "Blautia",
+    "title": "Gut microbial carbohydrate metabolism contributes to insulin resistance",
+    "claim": "A microbial group containing Blautia and Dorea was examined in relation to insulin resistance and excess fecal carbohydrates, illustrating a different context from the B. wexlerae findings.",
+    "scope": "Genus-level community and carbohydrate associations",
+    "studyType": "Human observational multi-omics study with bacterial culture and mouse experiments",
+    "population": "306 adults recruited at health check-ups; diagnosed diabetes was excluded",
+    "limitation": "Community-level associations cannot assign the same function to all Blautia species or establish that changing Blautia alone would alter a person's insulin sensitivity.",
+    "url": "https://www.nature.com/articles/s41586-023-06466-x",
+    "doi": "10.1038/s41586-023-06466-x",
+    "year": 2023
+  },
+  {
+    "genus": "Ruminococcus",
+    "title": "Ruminococcus bromii is a keystone species for the degradation of resistant starch in the human colon",
+    "claim": "R. bromii breaks down resistant starch and can make starch-derived nutrients available to other gut bacteria in culture, offering a possible dietary-function context for this genus.",
+    "scope": "Species-specific: Ruminococcus bromii",
+    "studyType": "Bacterial culture and human fecal-community experiments",
+    "population": "Human gut bacterial isolates and fecal communities",
+    "limitation": "This is functional biology, not evidence that Ruminococcus abundance predicts or treats insulin resistance. Genus abundance does not identify R. bromii or measure starch fermentation.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3400402/",
+    "doi": "10.1038/ismej.2012.4",
+    "year": 2012
+  },
+  {
+    "genus": "Ruminococcus",
+    "title": "Eight-week exercise training in humans with obesity: Marked improvements in insulin sensitivity and modest changes in gut microbiome",
+    "claim": "An eight-week exercise intervention improved insulin sensitivity and was accompanied by an increase in the Ruminococcus gauvreauii group, which correlated with the insulin-sensitivity measure.",
+    "scope": "Ruminococcus gauvreauii group, as reported by the study",
+    "studyType": "Small human exercise intervention",
+    "population": "14 participants with obesity",
+    "limitation": "Exercise has many effects; correlated microbial changes do not establish mediation. This small study's taxonomic group should not be equated with every feature labeled Ruminococcus.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34467673/",
+    "doi": "10.1002/oby.23252",
+    "year": 2021
+  },
+  {
+    "genus": "Alistipes",
+    "title": "Gut microbial carbohydrate metabolism contributes to insulin resistance",
+    "claim": "A. indistinctus consumed several carbohydrates in culture. Administering it to high-fat-diet mice reduced intestinal monosaccharides and improved insulin-resistance-related outcomes.",
+    "scope": "Species-specific: Alistipes indistinctus",
+    "studyType": "Human observational multi-omics study with bacterial culture and mouse experiments",
+    "population": "Adults without diagnosed diabetes; bacterial cultures and high-fat-diet mice",
+    "limitation": "The intervention evidence is preclinical. An Alistipes genus measurement cannot establish the presence or activity of A. indistinctus or predict a benefit in patients.",
+    "url": "https://www.nature.com/articles/s41586-023-06466-x",
+    "doi": "10.1038/s41586-023-06466-x",
+    "year": 2023
+  }
+]

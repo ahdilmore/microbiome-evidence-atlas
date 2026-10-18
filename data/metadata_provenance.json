@@ -1,0 +1,53 @@
+{
+  "retrieved_date": "2026-10-17",
+  "sources": {
+    "subject": "http://hmp2-data.stanford.edu/script.php?table=subject",
+    "visit": "http://hmp2-data.stanford.edu/script.php?table=visit"
+  },
+  "source_subject_rows": 107,
+  "source_visit_rows": 1416,
+  "abundance_samples": 855,
+  "exact_visit_matches": 784,
+  "unmatched_visit_samples": 71,
+  "subjects_via_exact_visits": 96,
+  "subject_prefix_candidates_all_samples": 96,
+  "exact_visit_event_counts": {
+    "Infection": 89,
+    "Infection_L": 56,
+    "Imz": 84,
+    "Ant": 13,
+    "Healthy": 452,
+    "Fiber": 2,
+    "Post-Travel": 7,
+    "Allergy": 1,
+    "Exercise": 1,
+    "Surgery": 1,
+    "Ant_L": 6,
+    "Imz_L": 24,
+    "Weight-gain": 23,
+    "Weight-loss": 16,
+    "Stress": 4,
+    "Post-Travel_L": 1,
+    "Colonoscopy": 3,
+    "Colonoscopy_L": 1
+  },
+  "exact_matched_subject_IR_IS_counts": {
+    "IR": 33,
+    "Unknown": 35,
+    "IS": 28
+  },
+  "notes": [
+    "Left join preserves all abundance sample IDs and order. Visit metadata is populated only on exact SampleID=VisitID matches.",
+    "For unmatched visits, subject-level metadata is joined using the SampleID prefix, explicitly marked as a candidate relationship. No suffixes are stripped to guess visit matches.",
+    "Subject age, BMI and SSPG are subject-level portal values, not verified visit-specific measurements.",
+    "CollectionDate contains numeric source values; date origin and unit are not established. Preserve without conversion.",
+    "NA, Unknown and empty strings retained from source.",
+    "Repeated samples from the same participant are not independent.",
+    "Source event labels and notes are retained verbatim and require harmonization before analysis."
+  ],
+  "sha256": {
+    "gut_16s_abundance.tsv": "6f3b9928cdc7a9943bdd62c235d39fa0d2f4fba576fd79c33c225baee5bf743a",
+    "source/subject.html": "2d855a24c78dab0679e7b4922b609132375a9e5f05454824594857e1042b5736",
+    "source/visit.html": "308bb73ebaed4ded9fd0b703ec376150b806b052e118bd552a43bc5bb04d14de"
+  }
+}

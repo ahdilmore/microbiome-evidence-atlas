@@ -1,0 +1,17 @@
+CANCER COHORT FALLBACK AUDIT — 2026-10-17
+
+Recommendation: stop depending on an ONCOBIOTICS author response for the hackathon. The CRC staging collection at https://zenodo.org/records/15069069 is downloaded and has successfully linked sample metadata. It is suitable for a separately labelled exploratory cancer-reference module. It is NOT an exact database match to Sid, and does not establish a cancer classifier for Sid.
+
+Repository documentation: MetaPhlAn 4 Jan21, --statq 0.1. Sid: MetaPhlAn 4.1.1, mpa_vJun23_CHOCOPhlAnSGB_202307. Database and estimator settings differ; a shared taxon name does not eliminate measurement bias. Prefer within-study CRC-versus-control contrasts and literature context. Any Sid side-by-side abundance display needs explicit taxonomy mapping and coverage reporting first. Hold combined UniFrac/PCoA and diagnostic scores until harmonization has been established.
+
+Downloaded files: metadata.tar.gz and metaphlan4_profiles.tar.gz. MD5 checksums match the published repository values. Numeric SGB-level entries are finite, nonnegative, and per-sample sums are approximately 100. Each downloaded profile column matches its study's metadata Name field. These checks do not establish equivalence of extraction, sequencing, preprocessing, or Sid's abundance units.
+
+IMPORTANT COUNT DISCREPANCY: The paper title describes 3,741 stool metagenomes from 18 cohorts. The downloaded archives contain 17 TSV profile tables and 17 matching metadata tables. Report actual imported counts, not the paper headline, until the discrepancy is reconciled. Only actual TSV tables were read.
+
+New melanoma candidate: Zhang, Mallick & Rahnavard, Communications Medicine 2026, https://www.nature.com/articles/s43856-026-01612-8 . Methods state the Jun23 database, but seven downloaded merged-table headers in the public GitHub directory data/Metaphlan4_All_Results explicitly state #mpa_vOct22_CHOCOPhlAnSGB_202212. The eighth Gopalakrishnan table has no native database header. Therefore the deposited profiles are NOT verified as the paper's June 2023 profiles. Repository pinned at 61bd2c75927a77051dd409e284e02b7f50f8286b; files and SHA256 hashes saved in melanoma-sources.json. Do not claim exact compatibility.
+
+FMT-LUMINate and MIMic remain possible future exact-reference candidates, but immediately downloadable complete profiles were not verified. A Mendeley source workbook for the 2026 metabolic paper was identified but could not be downloaded in this session; its contents remain unverified.
+
+Hackathon scope: choose a single audited CRC cohort with controls, show its within-cohort group differences and literature links, keep Sid's longitudinal plots and UF comparison as the core, and add carefully labelled side-by-side mapped taxa only after mapping validation. For example Public_study__FengQ_2015 provides 154 profiles: 61 controls, 47 adenoma, 46 CRC; all 154 matched metadata. This is contextual comparison, not classification of osteosarcoma or cancer status.
+
+Actual archive totals: 3589 profiles across 17 tables. Group totals: {'CRC': 1422, 'Adenoma': 648, 'Control': 1519}

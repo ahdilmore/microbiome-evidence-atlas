@@ -1,0 +1,37 @@
+[
+  {
+    "id": "H37004-stool-001",
+    "date": "2025-10-22",
+    "dateStatus": "reported",
+    "dateNote": "Date agrees between the public summary and lab report.",
+    "alternateDate": null
+  },
+  {
+    "id": "H37004-stool-002",
+    "date": "2025-12-02",
+    "dateStatus": "reported",
+    "dateNote": "Date agrees between the public summary and lab report.",
+    "alternateDate": null
+  },
+  {
+    "id": "H37004-stool-003",
+    "date": "2026-02-13",
+    "dateStatus": "conflicting",
+    "dateNote": "Provisional: relative-day metadata and folder give Feb 13; the lab report and abundance filename give Feb 19.",
+    "alternateDate": "2026-02-19"
+  },
+  {
+    "id": "H37004-stool-004",
+    "date": "2026-03-10",
+    "dateStatus": "received",
+    "dateNote": "Receipt date in the lab report; actual collection date unavailable.",
+    "alternateDate": null
+  },
+  {
+    "id": "H37004-stool-005",
+    "date": "2026-03-27",
+    "dateStatus": "received",
+    "dateNote": "Receipt date in the lab report; actual collection date unavailable.",
+    "alternateDate": null
+  }
+]

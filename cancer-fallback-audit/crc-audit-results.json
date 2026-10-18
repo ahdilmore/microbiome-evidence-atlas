@@ -1,0 +1,289 @@
+{
+  "source": "https://zenodo.org/records/15069069",
+  "database": "MetaPhlAn 4 Jan21; --statq 0.1 (repository documentation)",
+  "sid_database": "mpa_vJun23_CHOCOPhlAnSGB_202307",
+  "exact_match": false,
+  "studies": [
+    {
+      "study": "This_study_cohort2__ONCOBIOME_COLOBIOME",
+      "samples": 203,
+      "features": 2476,
+      "finite_nonnegative": true,
+      "sgb_sum_range": [
+        99.99983999999999,
+        100.00012
+      ],
+      "metadata_rows": 203,
+      "metadata_matches": 203,
+      "groups": {
+        "CRC": 201,
+        "Adenoma": 2
+      }
+    },
+    {
+      "study": "Public_study__YachidaS_2019",
+      "samples": 615,
+      "features": 2334,
+      "finite_nonnegative": true,
+      "sgb_sum_range": [
+        99.99987,
+        100.00011
+      ],
+      "metadata_rows": 615,
+      "metadata_matches": 615,
+      "groups": {
+        "Control": 290,
+        "CRC": 258,
+        "Adenoma": 67
+      }
+    },
+    {
+      "study": "Public_study__VogtmannE_2016",
+      "samples": 110,
+      "features": 2068,
+      "finite_nonnegative": true,
+      "sgb_sum_range": [
+        99.99984,
+        100.00014
+      ],
+      "metadata_rows": 110,
+      "metadata_matches": 110,
+      "groups": {
+        "Control": 58,
+        "CRC": 52
+      }
+    },
+    {
+      "study": "Public_study__FengQ_2015",
+      "samples": 154,
+      "features": 2191,
+      "finite_nonnegative": true,
+      "sgb_sum_range": [
+        99.99986999999999,
+        100.00012
+      ],
+      "metadata_rows": 154,
+      "metadata_matches": 154,
+      "groups": {
+        "Control": 61,
+        "Adenoma": 47,
+        "CRC": 46
+      }
+    },
+    {
+      "study": "Public_study__ThomasAM_2018b",
+      "samples": 60,
+      "features": 1748,
+      "finite_nonnegative": true,
+      "sgb_sum_range": [
+        99.9999,
+        100.00013000000001
+      ],
+      "metadata_rows": 60,
+      "metadata_matches": 60,
+      "groups": {
+        "CRC": 32,
+        "Control": 28
+      }
+    },
+    {
+      "study": "Public_study__GuptaA_2019",
+      "samples": 60,
+      "features": 1121,
+      "finite_nonnegative": true,
+      "sgb_sum_range": [
+        99.99990999999999,
+        100.00008999999999
+      ],
+      "metadata_rows": 60,
+      "metadata_matches": 60,
+      "groups": {
+        "CRC": 30,
+        "Control": 30
+      }
+    },
+    {
+      "study": "Public_study__YuJ_2015",
+      "samples": 128,
+      "features": 1851,
+      "finite_nonnegative": true,
+      "sgb_sum_range": [
+        99.99988,
+        100.00014
+      ],
+      "metadata_rows": 128,
+      "metadata_matches": 128,
+      "groups": {
+        "CRC": 74,
+        "Control": 54
+      }
+    },
+    {
+      "study": "This_study_cohort3__ONCOBIOME_IIGM_CZ",
+      "samples": 124,
+      "features": 1932,
+      "finite_nonnegative": true,
+      "sgb_sum_range": [
+        99.99988,
+        100.00011
+      ],
+      "metadata_rows": 124,
+      "metadata_matches": 124,
+      "groups": {
+        "CRC": 59,
+        "Control": 46,
+        "Adenoma": 19
+      }
+    },
+    {
+      "study": "Public_study__WirbelJ_2018",
+      "samples": 125,
+      "features": 2100,
+      "finite_nonnegative": true,
+      "sgb_sum_range": [
+        99.99988000000002,
+        100.00012000000002
+      ],
+      "metadata_rows": 125,
+      "metadata_matches": 125,
+      "groups": {
+        "Control": 65,
+        "CRC": 60
+      }
+    },
+    {
+      "study": "Public_study__ZellerG_2014",
+      "samples": 156,
+      "features": 2408,
+      "finite_nonnegative": true,
+      "sgb_sum_range": [
+        99.99986,
+        100.00014
+      ],
+      "metadata_rows": 156,
+      "metadata_matches": 156,
+      "groups": {
+        "Control": 61,
+        "CRC": 53,
+        "Adenoma": 42
+      }
+    },
+    {
+      "study": "Public_study__YangY_2021",
+      "samples": 200,
+      "features": 1741,
+      "finite_nonnegative": true,
+      "sgb_sum_range": [
+        99.99988,
+        100.00016000000001
+      ],
+      "metadata_rows": 200,
+      "metadata_matches": 200,
+      "groups": {
+        "Control": 100,
+        "CRC": 100
+      }
+    },
+    {
+      "study": "Public_study__LiuNN_2022",
+      "samples": 163,
+      "features": 1836,
+      "finite_nonnegative": true,
+      "sgb_sum_range": [
+        99.99987999999999,
+        100.00010999999999
+      ],
+      "metadata_rows": 163,
+      "metadata_matches": 163,
+      "groups": {
+        "Control": 85,
+        "CRC": 78
+      }
+    },
+    {
+      "study": "Public_study__YangJ_2020",
+      "samples": 193,
+      "features": 1785,
+      "finite_nonnegative": true,
+      "sgb_sum_range": [
+        99.99987000000002,
+        100.00012
+      ],
+      "metadata_rows": 193,
+      "metadata_matches": 193,
+      "groups": {
+        "CRC": 98,
+        "Control": 95
+      }
+    },
+    {
+      "study": "This_study_cohort5__NSHII",
+      "samples": 897,
+      "features": 2396,
+      "finite_nonnegative": true,
+      "sgb_sum_range": [
+        99.99999999999996,
+        100.00000000000003
+      ],
+      "metadata_rows": 897,
+      "metadata_matches": 897,
+      "groups": {
+        "Control": 448,
+        "Adenoma": 435,
+        "CRC": 14
+      }
+    },
+    {
+      "study": "This_study_cohort1__ONCOBIOME_AtezoTRIBE",
+      "samples": 163,
+      "features": 2083,
+      "finite_nonnegative": true,
+      "sgb_sum_range": [
+        99.99987000000002,
+        100.00011
+      ],
+      "metadata_rows": 163,
+      "metadata_matches": 163,
+      "groups": {
+        "CRC": 163
+      }
+    },
+    {
+      "study": "This_study_cohort6__IIGM_TU",
+      "samples": 57,
+      "features": 1746,
+      "finite_nonnegative": true,
+      "sgb_sum_range": [
+        99.99989,
+        100.00014000000002
+      ],
+      "metadata_rows": 57,
+      "metadata_matches": 57,
+      "groups": {
+        "Control": 39,
+        "CRC": 18
+      }
+    },
+    {
+      "study": "This_study_cohort4__ONCOBIOME_IIGM_IT",
+      "samples": 181,
+      "features": 2081,
+      "finite_nonnegative": true,
+      "sgb_sum_range": [
+        99.99988,
+        100.00012
+      ],
+      "metadata_rows": 181,
+      "metadata_matches": 181,
+      "groups": {
+        "CRC": 86,
+        "Control": 59,
+        "Adenoma": 36
+      }
+    }
+  ],
+  "checksums": {
+    "metadata.tar.gz": "13d70ee2fa4297a6652ef5f7f8c76878",
+    "metaphlan4_profiles.tar.gz": "5f38041c5e5aa776f365881fd606cddb"
+  }
+}

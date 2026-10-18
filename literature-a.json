@@ -1,0 +1,98 @@
+[
+  {
+    "genus": "Akkermansia",
+    "title": "Supplementation with Akkermansia muciniphila in overweight and obese human volunteers: a proof-of-concept exploratory study",
+    "claim": "A small randomized pilot trial reported improved insulin sensitivity with pasteurized A. muciniphila compared with placebo over three months.",
+    "scope": "Species-specific intervention: Akkermansia muciniphila",
+    "studyType": "Randomized, double-blind, placebo-controlled human pilot trial",
+    "population": "Overweight or obese insulin-resistant adults; 40 enrolled and 32 completed",
+    "limitation": "A pilot intervention does not make genus abundance a treatment target or establish a patient's likely response. The preparation tested differs from naturally occurring stool abundance.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31263284/",
+    "doi": "10.1038/s41591-019-0495-2",
+    "year": 2019
+  },
+  {
+    "genus": "Akkermansia",
+    "title": "Akkermansia muciniphila and improved metabolic health during a dietary intervention in obesity: relationship with gut microbiome richness and ecology",
+    "claim": "Higher baseline A. muciniphila abundance was associated with greater improvement in insulin sensitivity markers during calorie restriction.",
+    "scope": "Species-specific association: Akkermansia muciniphila",
+    "studyType": "Human dietary intervention with observational microbial associations",
+    "population": "Overweight and obese adults undergoing calorie restriction followed by weight stabilization",
+    "limitation": "Participants were not randomized to different bacterial abundances. Diet and the wider microbial community may contribute to the association.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26100928/",
+    "doi": "10.1136/gutjnl-2014-308778",
+    "year": 2016
+  },
+  {
+    "genus": "Faecalibacterium",
+    "title": "A metagenome-wide association study of gut microbiota in type 2 diabetes",
+    "claim": "F. prausnitzii and several Faecalibacterium gene clusters were enriched in controls compared with participants with type 2 diabetes.",
+    "scope": "Species and metagenomic gene clusters; not all members of the genus",
+    "studyType": "Human observational metagenome-wide association study",
+    "population": "Chinese participants with and without type 2 diabetes",
+    "limitation": "Case-control association does not establish protection or causation; diabetes and insulin resistance are different outcomes, and medication can confound comparisons.",
+    "url": "https://www.nature.com/articles/nature11450",
+    "doi": "10.1038/nature11450",
+    "year": 2012
+  },
+  {
+    "genus": "Faecalibacterium",
+    "title": "Metabolic modelling of the human gut microbiome in type 2 diabetes patients in response to metformin treatment",
+    "claim": "Two F. prausnitzii metagenomic groups decreased after four months of metformin, illustrating medication-dependent microbial changes.",
+    "scope": "Specific F. prausnitzii metagenomic groups",
+    "studyType": "Secondary analysis of human intervention metagenomes and computational modelling",
+    "population": "Treatment-naive type 2 diabetes participants before and after metformin",
+    "limitation": "Treatment context differs from untreated disease comparisons; these changes cannot be generalized to the whole genus or interpreted as worsening health.",
+    "url": "https://www.nature.com/articles/s41540-022-00261-6",
+    "doi": "10.1038/s41540-022-00261-6",
+    "year": 2023
+  },
+  {
+    "genus": "Roseburia",
+    "title": "A metagenome-wide association study of gut microbiota in type 2 diabetes",
+    "claim": "Metagenomic clusters assigned to R. intestinalis and R. inulinivorans were enriched in controls compared with participants with type 2 diabetes.",
+    "scope": "Species-specific associations: Roseburia intestinalis and Roseburia inulinivorans",
+    "studyType": "Human observational metagenome-wide association study",
+    "population": "Chinese participants with and without type 2 diabetes",
+    "limitation": "These associations do not demonstrate that raising Roseburia improves insulin sensitivity, and a genus-level 16S result cannot identify these species.",
+    "url": "https://www.nature.com/articles/nature11450",
+    "doi": "10.1038/nature11450",
+    "year": 2012
+  },
+  {
+    "genus": "Roseburia",
+    "title": "Metabolic modelling of the human gut microbiome in type 2 diabetes patients in response to metformin treatment",
+    "claim": "Roseburia sp. CAG:100 decreased after four months of metformin in this reanalysis.",
+    "scope": "Specific metagenomic taxon: Roseburia sp. CAG:100",
+    "studyType": "Secondary analysis of human intervention metagenomes and computational modelling",
+    "population": "Treatment-naive type 2 diabetes participants receiving metformin",
+    "limitation": "Medication-associated change is not evidence that lower genus abundance is harmful. Species and treatment context matter.",
+    "url": "https://www.nature.com/articles/s41540-022-00261-6",
+    "doi": "10.1038/s41540-022-00261-6",
+    "year": 2023
+  },
+  {
+    "genus": "Bacteroides",
+    "title": "Human gut microbes impact host serum metabolome and insulin sensitivity",
+    "claim": "B. vulgatus was one of the species driving an association between microbial branched-chain amino-acid biosynthesis and insulin resistance.",
+    "scope": "Species-specific human association: Bacteroides vulgatus (historical name)",
+    "studyType": "Human observational metagenomics and metabolomics study",
+    "population": "Non-diabetic Danish adults",
+    "limitation": "The reported mouse challenge involved P. copri, not B. vulgatus. Neither a genus-wide causal effect nor an individual treatment recommendation follows.",
+    "url": "https://www.nature.com/articles/nature18646",
+    "doi": "10.1038/nature18646",
+    "year": 2016
+  },
+  {
+    "genus": "Bacteroides",
+    "title": "Gut commensal Bacteroides acidifaciens prevents obesity and improves insulin sensitivity in mice",
+    "claim": "B. acidifaciens administration improved insulin sensitivity in mouse experiments, showing that metabolic findings differ across Bacteroides species and settings.",
+    "scope": "Species-specific animal intervention: Bacteroides acidifaciens",
+    "studyType": "Mouse experimental study",
+    "population": "Laboratory mice",
+    "limitation": "Animal evidence does not establish human benefit and cannot be transferred to a genus-level stool measurement. This is context-specific evidence, not a direct contradiction of B. vulgatus findings.",
+    "url": "https://www.nature.com/articles/mi201642",
+    "doi": "10.1038/mi.2016.42",
+    "year": 2017
+  }
+]

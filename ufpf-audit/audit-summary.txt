@@ -1,0 +1,46 @@
+UFPF / SID COMPATIBILITY AUDIT
+Audit date: 2026-10-17
+
+VERDICT
+Suitable candidate for an exploratory, disease-labeled cross-sectional comparison after explicit normalization and metadata handling. Not certified as an identical end-to-end pipeline, and not a longitudinal reference or diagnostic classifier. Include PD, IBD and control samples; keep the collection context visible.
+
+FILES ACTUALLY CHECKED
+Pinned GitHub revision: 1e7f79311c0dc47b13da99061cde41b23e8f7146
+Two complete MetaPhlAn abundance TSVs, metadata CSV, processing commands, resource table, archived Zenodo Source Data workbook, published full-text methods, and Sid's existing provenance/lab report and abundance table. SHA256 hashes are in audit-results.json.
+
+DATABASE AND SOFTWARE
+Both UFPF TSV headers and its processing commands explicitly name mpa_vJun23_CHOCOPhlAnSGB_202307, matching Sid's lab report. Sid reports MetaPhlAn 4.1.1. UFPF documentation says MetaPhlAn4 (README describes 4.0); exact patch version is not established by merged headers/resource table. Do not claim an exact software-version match.
+UFPF documents BBDuk Q25 trimming, minimum 50 bases, adapter/PhiX filtering, GRCh38 human-read removal, low-complexity filtering, and consistent profiling settings across two sequencing batches. The supplied script is documentation, not sample-level execution logs. Sid's full preprocessing/collection protocol is not documented in the supplied report, so equivalence remains unverified.
+UFPF used stool swabs, PowerSoil Pro extraction, Nextera XT libraries and NovaSeq 2x150 sequencing targeting 3 million reads. Post-QC read depth varies widely (139,618 to 10,077,039 across archived metadata); non-detection, richness and low-abundance taxa need special caution. Sid's supplied integer weights must not be treated as equivalent read counts.
+
+SAMPLE RECONCILIATION
+GitHub: 100 profile columns, 96 metadata records, 95 exact ID matches.
+Zenodo: 96 profile columns and 96 matching metadata records.
+All 95 exact common GitHub/Zenodo profiles match numerically with zero difference. The remaining archived sample UF-PF-2020-023-1N exactly matches GitHub's UF-PF-2021-023-1N across all abundance rows; this is a documented alias supported by file values, not a guessed merge. Four additional GitHub profiles lack archived metadata and should be excluded pending clarification.
+Archive Diagnosis2 labels: 54 PD, 26 IBD, 16 Control.
+UF-PF-2022-074-1N is Control in Diagnosis but PD in Diagnosis2 in both sources. Keep this sample as diagnosis-ambiguous for all-profile exploration; exclude it from diagnosis-stratified primary comparisons. This leaves 95 unambiguous labels: 53 PD, 26 IBD, 16 Control.
+Do not interpret shared sample-ID prefixes as repeated measurements. The paper explicitly describes a cross-sectional study, controls include spouses, and no collection-time trajectory is supplied for these participants.
+34 probiotic values are missing in GitHub but coded N in the archive. Preserve these as unknown for primary metadata analyses. Age and sex are complete; BMI and collection dates are absent from the supplied UFPF metadata. Control ages are 40-79 (median 64); PD ages 47-79 (median 67); IBD ages 40-80 (median 57.5).
+
+ABUNDANCE AND TAXONOMY
+No duplicate taxon rows/sample columns, negative abundances, or nonfinite values were found in the GitHub tables. Leaf-level totals are 99.99995-100.00006%, consistent with rounding.
+The table contains all taxonomic ranks: never sum parents and children together.
+Two available versions differ by whether estimated unclassified organisms are included. UNCLASSIFIED spans 0-40.62946%. Renormalizing the classified rows of that version recovers the other table to within 0.000009 percentage points.
+Three eukaryotic leaf taxa are present. SGB-only sums can be as low as 98.61391%; Sid's app normalizes within supplied SGB weights. Any comparison must explicitly use the same scope/denominator and retain excluded-mass information.
+There are 23 UFPF '_group' SGB rows. Do not strip that suffix and assume equivalence to a numeric Sid ID. Three numeric Sid IDs have such potentially ambiguous counterparts (1990, 4425, 16971).
+Among taxa actually detected in the 96 archived samples, 176 strictly matching ungrouped SGB IDs overlap Sid's 236. They account for 95.97%, 88.41%, 93.04%, 92.28%, and 93.93% of Sid's reported abundance, in chronological order. This measures observed overlap, not database coverage or assay sensitivity. Missing taxa are not proven absent. Use a union of supported identifiers for a future community comparison, with uncertainty flags; do not silently drop all non-overlapping taxa and renormalize the intersection.
+
+COLLECTION CONTEXT
+The UFPF IBD participants were in remission. They collected the first bowel movement after starting polyethylene-glycol colonoscopy preparation. Differences may reflect bowel prep as well as disease/medication. Retain this group with an explicit bowel-prep label and show analyses with and without it.
+Controls were spouses (mostly of PD participants), not a random population sample. Shared households and age distributions matter. Similar processing alone does not establish an unbiased health reference.
+
+RECOMMENDED NEXT IMPLEMENTATION
+Use the 96-sample archive as the reference source; preserve one diagnosis-ambiguous record. Offer all samples, PD, IBD-with-bowel-prep, and control groups separately. Start with abundant taxa/SGBs and relative composition, with explicit denominator and grouped-SGB handling. Show Sid's five observations against distributions, without disease predictions, p-values treating his visits as independent people, or a normal-trajectory score. Confirm Sid preprocessing and abundance-output semantics before stronger claims. Do not pool the separate Wallen/HMP2 tables in this workbook automatically: they are not demonstrated here to share the UFPF pipeline.
+
+No website changes, read reprocessing, or clinical classification were performed.
+
+SOURCES
+https://github.com/maevekrueger/UFPF_metagenomics
+https://zenodo.org/records/10912505
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11923181/
+https://osteosarc.com/microbiome/

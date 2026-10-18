@@ -1,0 +1,794 @@
+{
+  "export_date": "2026-10-17",
+  "live_site_version": 12,
+  "site_source_commit": "602ebe9a80996d7303e2016a422f708c74d37186",
+  "files": [
+    {
+      "path": "IMPLEMENTATION.md",
+      "bytes": 4229,
+      "sha256": "9879af60ba101aba7c183b8062df89e65b263bdcea60fd908026e3bd5ba8d363"
+    },
+    {
+      "path": "literature-a.json",
+      "bytes": 6675,
+      "sha256": "1c008b84dfab83e4c2062c8cea3bb1a56f8ac933d366759aedd1e47164a266f2"
+    },
+    {
+      "path": "literature-b.json",
+      "bytes": 6304,
+      "sha256": "3605f6ebda94bc0e434e11a16791226150ef3a10135b3263310d16f0c9bd2258"
+    },
+    {
+      "path": "literature-c.json",
+      "bytes": 3388,
+      "sha256": "b85836c6bec7bccafb4f93a2f1a07abddd7cb0756cee4fd9efe69da57f905588"
+    },
+    {
+      "path": "functional-profiling/run.py",
+      "bytes": 6251,
+      "sha256": "1524dff7197899706a09195ab6c6dbe83ce5d2f2b6b282e373e79895d081a109"
+    },
+    {
+      "path": "functional-profiling/environment.yml",
+      "bytes": 185,
+      "sha256": "858669ea24692a524226ff81683736a6c71551bc3da046ebf581fe3b8985fa38"
+    },
+    {
+      "path": "functional-profiling/samples.json",
+      "bytes": 1070,
+      "sha256": "c20280b8da938b3d91727d1b47f2923fea897dfc9311426c5a96be84e5598107"
+    },
+    {
+      "path": "functional-profiling/archive-inventory.xml",
+      "bytes": 52981,
+      "sha256": "da924d42d5e44d95f853a3cae5a7a2322cb4580a4bba434ace94a80a42862bee"
+    },
+    {
+      "path": "functional-profiling/summarize.py",
+      "bytes": 3376,
+      "sha256": "b900c0b74d3448f3b49852cd6e0bba99b6687062c4e86e15cc774ca4b11ea88d"
+    },
+    {
+      "path": "functional-profiling/README.md",
+      "bytes": 8002,
+      "sha256": "cdf2441eae250596053422cf81c701a39c337cdd275071a724e7d3c5f55c37f7"
+    },
+    {
+      "path": "functional-profiling/test_workflow.py",
+      "bytes": 1761,
+      "sha256": "52c5fa30dde7b176ba980bd3e0713d5ba770ffe8062b995eebb3742dbbe9fa50"
+    },
+    {
+      "path": "functional-profiling/.gitignore",
+      "bytes": 36,
+      "sha256": "4d20a60cba2048bb93b5174b59613c24ce1963e7e50bbe461d5667cbb51bdd90"
+    },
+    {
+      "path": "functional-profiling/slurm.sh",
+      "bytes": 1281,
+      "sha256": "54469c86a8310733a256010979118443756274d0a0f6e65d01a67201d26f6e0a"
+    },
+    {
+      "path": "functional-profiling/reads.tsv",
+      "bytes": 8079,
+      "sha256": "66c11b593d8ec1b55361f46b4499129607b2cb50d4eea90b7a483c8b21ab8c2e"
+    },
+    {
+      "path": "osteosarc-audit/microbiome_sgbs.tsv",
+      "bytes": 58265,
+      "sha256": "d01977edb803d1bbb75cb17abf8c45d84a7acf66e421b622195eaa6323b56ecf"
+    },
+    {
+      "path": "osteosarc-audit/microbiome_long.tsv",
+      "bytes": 220300,
+      "sha256": "6cd7c66d13083d535f0e39d54df25b65a5831df71b8fcaa8002170df1e48b1d2"
+    },
+    {
+      "path": "osteosarc-audit/original-stool-001.csv",
+      "bytes": 12558,
+      "sha256": "7baf4140f08e3a81bb5fe8c59e8bdfcd1749d31dee2dafdaf347ddbac19a2d0f"
+    },
+    {
+      "path": "osteosarc-audit/metabolomics_matrix.tsv",
+      "bytes": 17815,
+      "sha256": "fd144d01763851d4c562f0facf5b225bcf2eb306729850a813f382fdfbb0d2c1"
+    },
+    {
+      "path": "osteosarc-audit/microbiome_matrix.tsv",
+      "bytes": 13621,
+      "sha256": "335e563fe44cfa477a2fe7fb7cf26683207de69484e8e7d926753b3c1eaa94b1"
+    },
+    {
+      "path": "osteosarc-audit/samples.tsv",
+      "bytes": 5569,
+      "sha256": "ea4d7406fbb096e1874ad01b4e17e1d5674e5e1f06b771532c0280c2bb8b327a"
+    },
+    {
+      "path": "osteosarc-audit/metabolomics_features.tsv",
+      "bytes": 26597,
+      "sha256": "ce3902798c0cbc2353a4dc5b9dcc6df56047d7d99a0cb506794ebc1bdca481a6"
+    },
+    {
+      "path": "osteosarc-audit/april-report.pdf",
+      "bytes": 164557,
+      "sha256": "4226264df1eb0840c7f6f5fd1b006b0e02f2f882ffdcbe01485ba105393a4dc9"
+    },
+    {
+      "path": "count-audit/audit.py",
+      "bytes": 7927,
+      "sha256": "64767d1155052125424e7b2cf98cd03246131d8ffdadeff59b1266e5962a5ed1"
+    },
+    {
+      "path": "count-audit/requirements.txt",
+      "bytes": 57,
+      "sha256": "59c8e9f8a1512077ebe6f4cb0333bfbd0c61775b80efcfd84ca0684a6e46ded6"
+    },
+    {
+      "path": "count-audit/audit-log.json",
+      "bytes": 3692,
+      "sha256": "742c405e69fea5b8a4a0baa9cbd387649378badc3b3d646115da818bebd07c2a"
+    },
+    {
+      "path": "ufpf-audit/sources.json",
+      "bytes": 1878,
+      "sha256": "79859b9d925473016fee7920721811399eee691199815747be413b11ace5d7c3"
+    },
+    {
+      "path": "ufpf-audit/audit-summary.txt",
+      "bytes": 6161,
+      "sha256": "60d53b57b7783bf1c739621f48b7e2546ad8ac5d301cbb8c37612091a76be934"
+    },
+    {
+      "path": "ufpf-audit/audit.py",
+      "bytes": 7315,
+      "sha256": "6f1ab96ffb959314dce0b9654e481ee8787e8957cdb2a74b2f3d37eb6a6ca3f3"
+    },
+    {
+      "path": "ufpf-audit/Metadata All Samples.csv",
+      "bytes": 35384,
+      "sha256": "9359c5fa12b1f1a1e435be53a7f1cd924eca525c5a28211538bb3de56ee2ec20"
+    },
+    {
+      "path": "ufpf-audit/repository-tree.json",
+      "bytes": 76037,
+      "sha256": "733e25c56de86e4635425eee056822702fe76e026fb4603e014f24e10bd57604"
+    },
+    {
+      "path": "ufpf-audit/audit-results.json",
+      "bytes": 17743,
+      "sha256": "54d0f7a5d08ef2f20c2ec56b03ba18992b5548eaf5eb0b27be539379720d6dbf"
+    },
+    {
+      "path": "ufpf-audit/sample-issues.csv",
+      "bytes": 713,
+      "sha256": "6d10b0054fec13208d7a415097dda116a898a0e3827c2741e255042674a7eea6"
+    },
+    {
+      "path": "ufpf-audit/Key Resource Table.xlsx",
+      "bytes": 17388,
+      "sha256": "5dbdd0c21699dcabd60efaf01fec266bdd64456c1764dce15bd8cbc01a70433d"
+    },
+    {
+      "path": "ufpf-audit/metaphlan_all_combined.tsv",
+      "bytes": 1982011,
+      "sha256": "27fefe7c65826916cdfa3b13aa3b46e0a9c1493c80e3f81cb9f024af7763d1a9"
+    },
+    {
+      "path": "ufpf-audit/README.md",
+      "bytes": 14077,
+      "sha256": "086722b8fd7483c24139227ebbe78fdafb8f97ec3adef3b0573e9de69ee54bc7"
+    },
+    {
+      "path": "ufpf-audit/metaphlan_unknown_all_combined.tsv",
+      "bytes": 2173575,
+      "sha256": "0b312eb013ec0084b5bf753d2f51b287c9735752e7a8f0dd74177934115d826b"
+    },
+    {
+      "path": "ufpf-audit/Bioinformatic Processing of Sequences",
+      "bytes": 5783,
+      "sha256": "d3baea97e454d277cc59eabe22ac56db9aa5d1773d3f48740d0324a4a271421d"
+    },
+    {
+      "path": "ufpf-audit/Source Data.xlsx",
+      "bytes": 18225795,
+      "sha256": "845f09dba4426db40d0fa8cb4cb36a611a97cc70d0fe6329cbea7f4b278d18c8"
+    },
+    {
+      "path": "cancer-fallback-audit/melanoma-sources.json",
+      "bytes": 4585,
+      "sha256": "9bd770b8f5bacd8c7650b7a3dd7ca259b113ce04fadb979a77bd8427cca0ab97"
+    },
+    {
+      "path": "cancer-fallback-audit/metadata.tar.gz",
+      "bytes": 49593,
+      "sha256": "c86d2a38e4c73ded2800872d431bf99fc6b9a7ed9aa235c99c7e27728a1615ad"
+    },
+    {
+      "path": "cancer-fallback-audit/metaphlan4_profiles.tar.gz",
+      "bytes": 13117000,
+      "sha256": "cf439ff8b9f4cb8f239cb8215aae879615fe76b41c3d7147fb60014847f58b35"
+    },
+    {
+      "path": "cancer-fallback-audit/fallback-audit.txt",
+      "bytes": 3115,
+      "sha256": "13db092d53bfa525beea6b0247b9ea7f144461b02551ad2d2342ed9fc18e43d9"
+    },
+    {
+      "path": "cancer-fallback-audit/crc-audit-results.json",
+      "bytes": 6340,
+      "sha256": "e1703c7c2ecc4e30739e5d44c2e20572f13aca6a2fbbd5e32e695053b177daf9"
+    },
+    {
+      "path": "cancer-fallback-audit/melanoma-repository-tree.json",
+      "bytes": 22130,
+      "sha256": "12a20f54ac982a1b0de93c92571200294256ee4d71bd2ceccd039f570859730a"
+    },
+    {
+      "path": "oncobiotics-audit/sources.json",
+      "bytes": 2580,
+      "sha256": "4cc59e0178d189988b2b03eeabf977e3dbf5d6aec69674aa254e8c7d229757e7"
+    },
+    {
+      "path": "oncobiotics-audit/audit-report.txt",
+      "bytes": 7354,
+      "sha256": "eec70428289323bd143617bb7aec789cecd941b6f60ee338cfda050468ba0cec"
+    },
+    {
+      "path": "oncobiotics-audit/mpa_vOct22_CHOCOPhlAnSGB_202212_species.txt.bz2",
+      "bytes": 514256,
+      "sha256": "a9b57de2121627201c146a0177e31d0d8ac2a60ba4accc589849101a2cd0b309"
+    },
+    {
+      "path": "oncobiotics-audit/duplicate-base-labels.tsv",
+      "bytes": 18838,
+      "sha256": "63c6ae146954e6c72b663c56b63a501908934a84baa90c5fee8177af9c9728ec"
+    },
+    {
+      "path": "oncobiotics-audit/audit.py",
+      "bytes": 9341,
+      "sha256": "133d5683d6bb7ab59927135d53b9ba1146ab1120472759321f5cca27230c582e"
+    },
+    {
+      "path": "oncobiotics-audit/figure5.csv",
+      "bytes": 3792748,
+      "sha256": "6e5b94c48a066a7e6ce3ed4f1d168299cfc38beaa9b9a202d9e2cfe94106453f"
+    },
+    {
+      "path": "oncobiotics-audit/merged_table.tsv",
+      "bytes": 3792748,
+      "sha256": "6e5b94c48a066a7e6ce3ed4f1d168299cfc38beaa9b9a202d9e2cfe94106453f"
+    },
+    {
+      "path": "oncobiotics-audit/sample-audit.tsv",
+      "bytes": 27085,
+      "sha256": "5a3694066d6f1905a05547e386a10f7bfca8eb3a38aba03be6bc4ceec2bf9282"
+    },
+    {
+      "path": "oncobiotics-audit/audit-results.json",
+      "bytes": 97088,
+      "sha256": "9a30b19a9de013eac6f021777563c77ed88a3349f74c15e6a68f364b3d0789f9"
+    },
+    {
+      "path": "oncobiotics-audit/mpa_vJan21_CHOCOPhlAnSGB_202103_species.txt.bz2",
+      "bytes": 388780,
+      "sha256": "2099b4bfc55e152528a66005caf45199df6ad66206e869a0193f119f7661fc41"
+    },
+    {
+      "path": "oncobiotics-audit/reporting-summary.txt",
+      "bytes": 30,
+      "sha256": "895d3a19b0f7171cbed23df337dd8a882d3ba6eb842c0b1d0945c012e6029cd9"
+    },
+    {
+      "path": "oncobiotics-audit/figure5.xlsx",
+      "bytes": 528784,
+      "sha256": "eedc62b04dc13377fa673f31fc6c2fc42be6341bd66b5de05bcef5eddaae3e79"
+    },
+    {
+      "path": "oncobiotics-audit/reporting-summary.pdf",
+      "bytes": 7082129,
+      "sha256": "eb73fdfedb5b1b6f2cc21672dc460414d192f90bcf07299bcf53d713c6bb53eb"
+    },
+    {
+      "path": "oncobiotics-audit/extended5.csv",
+      "bytes": 6061,
+      "sha256": "f4308494cb3f8249d6c3699c7c99b4efa567cf6ef20c0d4286e20b863fc8f62a"
+    },
+    {
+      "path": "oncobiotics-audit/figshare-metadata.json",
+      "bytes": 7746,
+      "sha256": "cfa2953984d4cb67fd22a3bf614e1880e5035f03684fb3620f9f70248447f00c"
+    },
+    {
+      "path": "oncobiotics-audit/mpa_vJun23_CHOCOPhlAnSGB_202307_species.txt.bz2",
+      "bytes": 642655,
+      "sha256": "80be5afe3aa08ed4ba6b524d6b5639bbe89d9674b3dd4168698563c902c9856e"
+    },
+    {
+      "path": "oncobiotics-audit/feature-audit.tsv",
+      "bytes": 213122,
+      "sha256": "15dad5941e6efb3bba025b54b33729d6a98ca5dd7d337e621fd72fc88da1ebd3"
+    },
+    {
+      "path": "site/prepare_phylogeny.py",
+      "bytes": 3735,
+      "sha256": "189d53d33ab86b89b9f02080839a6bb994272e6aeb338a7470e1a72aed3cffaa"
+    },
+    {
+      "path": "site/test-sid-scale.mjs",
+      "bytes": 1746,
+      "sha256": "d6398c0878dfc65936c0ff791a86ccda7a4a62ac14f73407779206dee516ba71"
+    },
+    {
+      "path": "site/prepare_greengenes.py",
+      "bytes": 4474,
+      "sha256": "0b63a757585cf7b440aaf73f3add04e2e7e784494730ee57881db0cdf162e372"
+    },
+    {
+      "path": "site/test-sid-longitudinal.mjs",
+      "bytes": 1896,
+      "sha256": "4cdc101dc09bf4b3f98d9222425a5b9ab9078f1c51c99a51aded7d2045fc26ef"
+    },
+    {
+      "path": "site/prepare_ufpf.py",
+      "bytes": 11306,
+      "sha256": "2286c4e7abda4fb78c8ac48d20097ec9d65b2e92c5b336b34bcee3157197bcdb"
+    },
+    {
+      "path": "site/test-sid-filters.mjs",
+      "bytes": 1617,
+      "sha256": "fd9a15f0100d91153dd5cb33b9fc58936a68999029fe39e7110ceef7c2e8467c"
+    },
+    {
+      "path": "site/test-sid.mjs",
+      "bytes": 2182,
+      "sha256": "a460bcdb4c0535970a0b54410836d13ab5c2c069a10439feb47a1da5b26eae95"
+    },
+    {
+      "path": "site/prepare_sid.py",
+      "bytes": 3996,
+      "sha256": "93835ef79a1f337182fd714de737da265c09914f7a137269006b90e6a024783e"
+    },
+    {
+      "path": "site/.gitignore",
+      "bytes": 19,
+      "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793"
+    },
+    {
+      "path": "site/test-stats.mjs",
+      "bytes": 2246,
+      "sha256": "9fa392cbab0e43d07f2e85aec179462493314e42861b5b642d475368993934c2"
+    },
+    {
+      "path": "site/test-ufpf-drivers.py",
+      "bytes": 3048,
+      "sha256": "6536f3ceef0c431cdfec72f72753cccd2a1971892217c8c3c1adaae44e3ab01c"
+    },
+    {
+      "path": "site/test-phylogeny.py",
+      "bytes": 650,
+      "sha256": "52892a2e4f916bae1145a0dab7bd1f9caa65db9eca8ef8e6fdadb001675327f7"
+    },
+    {
+      "path": "site/test-ufpf.py",
+      "bytes": 4001,
+      "sha256": "66be17f74d8db1aec026f723ad7485c5fe4e8eaa8281375016e21ffd4bb6228b"
+    },
+    {
+      "path": "site/prepare_ufpf_drivers.py",
+      "bytes": 8213,
+      "sha256": "3194d78378b0a3d68faa45ed6c873b31dd3861b120b89888ab15d6cc6c0685ac"
+    },
+    {
+      "path": "site/requirements-phylogeny.txt",
+      "bytes": 31,
+      "sha256": "3c1413a9957f02e586e57d610677ca2595173baa01f61b329748d3b336eaf209"
+    },
+    {
+      "path": "site/prepare_events.py",
+      "bytes": 644,
+      "sha256": "373422cb544c42ae0aa626fa7967713a237f12b2a965ab1e69db952c6b9eefd1"
+    },
+    {
+      "path": "data/metadata_provenance.json",
+      "bytes": 2013,
+      "sha256": "a866b97528b52d08fff4ce515bb2129014fc2b9844aeec4295bd4586b1756d83"
+    },
+    {
+      "path": "data/sample_metadata.csv",
+      "bytes": 98254,
+      "sha256": "4960f5244589c76c5d37c242cee2f2aeaa1858459d8be8c5a0673b8bd44881ed"
+    },
+    {
+      "path": "data/visit_metadata.csv",
+      "bytes": 68690,
+      "sha256": "009e9b0827957e54659cefa6931c9063992746b152649ae049fc329a0554b0e0"
+    },
+    {
+      "path": "data/subject_metadata.csv",
+      "bytes": 4488,
+      "sha256": "5c3829ebc45ac42fde5d9c330184cabc7b4c16515d91a399e0051133c4dac444"
+    },
+    {
+      "path": "data/unmatched_visit_samples.csv",
+      "bytes": 7770,
+      "sha256": "c974217297aa0d4adeca8a3b8e4970139debd2f2dd7e25b03b0a709a17874d3a"
+    },
+    {
+      "path": "data/gut_16s_abundance.tsv",
+      "bytes": 860757,
+      "sha256": "6f3b9928cdc7a9943bdd62c235d39fa0d2f4fba576fd79c33c225baee5bf743a"
+    },
+    {
+      "path": "count-audit/source/T2D16S_samp.rda",
+      "bytes": 76716,
+      "sha256": "7427a776be4e5cd75197d8a7f12982dce0e04239f70e0e13bc5422b504c95565"
+    },
+    {
+      "path": "count-audit/source/T2D16S_mtx.rda",
+      "bytes": 1681844,
+      "sha256": "d97ba53ec3cd2be469df29c6bc372f9dd6cd2471484a4618fbd14e1d50705022"
+    },
+    {
+      "path": "count-audit/source/T2D16S_tax.rda",
+      "bytes": 105000,
+      "sha256": "334da5eb72fe9799b27de0d28023d380084361814cef8cc71fca7eb5f961461b"
+    },
+    {
+      "path": "count-audit/source/preprocess_T2D_16S.Rmd",
+      "bytes": 11960,
+      "sha256": "69776b766d3a98fb0b83807fadfec694d7fe033a525f0c664a5b086d16c57530"
+    },
+    {
+      "path": "count-audit/output/otu_taxonomy.csv",
+      "bytes": 956944,
+      "sha256": "2ae89ff78509383784ee0fc903f1e365ea8e8b078dd383adedffb42a483d6079"
+    },
+    {
+      "path": "count-audit/output/matched_library_sizes.csv",
+      "bytes": 45541,
+      "sha256": "aa4143709400af74925fe9686e029c47c9cd2c1fbc6e8a4028c9461b7f1ce2e7"
+    },
+    {
+      "path": "count-audit/output/matched_classified_genus_counts.csv.gz",
+      "bytes": 57412,
+      "sha256": "8eb691378428e4f886848fa50f68d19fdd6cf67a567be08268a357df8863f94e"
+    },
+    {
+      "path": "count-audit/output/genus_comparison.csv",
+      "bytes": 2490,
+      "sha256": "427674e957c9932a5c881120cefb6b9968b9764b271fef2bdc42af6089b8b246"
+    },
+    {
+      "path": "count-audit/output/matched_count_derived_relative_abundance.csv",
+      "bytes": 237328,
+      "sha256": "c105e3886a94228974ef52c9305df7f69c2dd347d0e9510b894b8f09cb57306f"
+    },
+    {
+      "path": "count-audit/output/genus_mapping_audit.csv",
+      "bytes": 1544,
+      "sha256": "6b97a13b2bedd8bc873d0183b9bde89da65fc75b7ea16c883f2724a036d9074c"
+    },
+    {
+      "path": "count-audit/output/fecal_otu_counts.csv.gz",
+      "bytes": 864426,
+      "sha256": "1c31c57ef885fb74623f3be864f0a4200404ba0cba74bf4dac1291195345dff3"
+    },
+    {
+      "path": "count-audit/output/audit_summary.json",
+      "bytes": 3692,
+      "sha256": "742c405e69fea5b8a4a0baa9cbd387649378badc3b3d646115da818bebd07c2a"
+    },
+    {
+      "path": "count-audit/output/sample_match_audit.csv",
+      "bytes": 62441,
+      "sha256": "f3a2fc6dedb178146cbf99349d59cc652ddd6813865dc63c424be3eec1e06fcf"
+    },
+    {
+      "path": "count-audit/output/fecal_sample_metadata.csv",
+      "bytes": 461486,
+      "sha256": "d0969a793793dc2720f1905c5a947a3ba3a77e57f727affc1af3d92028504054"
+    },
+    {
+      "path": "cancer-fallback-audit/melanoma/scripts/dataprocessing.R",
+      "bytes": 1080,
+      "sha256": "89e0c0078c2f2fb1854b3cfab1a869670575062b28d47e12b0bd30c9ffeb4658"
+    },
+    {
+      "path": "cancer-fallback-audit/melanoma/scripts/bray_curtis.R",
+      "bytes": 15599,
+      "sha256": "311fb40bbe35e06dd672d74566e6301e1d411adf42cb24b37801bfa1878479d3"
+    },
+    {
+      "path": "cancer-fallback-audit/melanoma/scripts/MMUPHin.R",
+      "bytes": 8325,
+      "sha256": "f3758557765da118298373318a7fa970aa876139e45e0ce20baf55eafaff32ec"
+    },
+    {
+      "path": "cancer-fallback-audit/melanoma/data/CMD/GopalakrishnanV_2018_metadata.tsv",
+      "bytes": 4667,
+      "sha256": "a36b143716ce56aebbf2da485b57b0c9e633361790a7f879a77cd298c585d939"
+    },
+    {
+      "path": "cancer-fallback-audit/melanoma/data/CMD/LeeKA_2022_metadata.tsv",
+      "bytes": 41540,
+      "sha256": "7c66856c8f9490dc9c8f221ea4665d5f6cec7320b324e1242af18259507be223"
+    },
+    {
+      "path": "cancer-fallback-audit/melanoma/data/CMD/FrankelAE_2017_metadata.tsv",
+      "bytes": 9753,
+      "sha256": "624c004ca07e0a9ea19607e04a4dde4a91b8247127d25f77fc05cd454c1d94df"
+    },
+    {
+      "path": "cancer-fallback-audit/melanoma/data/CMD/MatsonV_2018_metadata.tsv",
+      "bytes": 7157,
+      "sha256": "38a0bc2a770edb17cdd98ae83da68d6a389e5528fca42a00c4ae862d1f2ef87a"
+    },
+    {
+      "path": "cancer-fallback-audit/melanoma/data/Metaphlan4_All_Results/Frankel_merged_table.txt",
+      "bytes": 1284550,
+      "sha256": "79de4f9a90e1c49b7ced415a89aab93bbee42c274356b276204787a2b332e87d"
+    },
+    {
+      "path": "cancer-fallback-audit/melanoma/data/Metaphlan4_All_Results/Mat_merged_table.txt",
+      "bytes": 1019333,
+      "sha256": "00063a622680f5aaf119884c6e91e1df64656bf87b75937f9af709afe39210c8"
+    },
+    {
+      "path": "cancer-fallback-audit/melanoma/data/Metaphlan4_All_Results/Gop_merged_abundance_table_species.txt",
+      "bytes": 90964,
+      "sha256": "b9b974e0c178dd160139b7a8d83e3b6efc04be5954e746526edc6e55fa2ba367"
+    },
+    {
+      "path": "cancer-fallback-audit/melanoma/data/Metaphlan4_All_Results/Peter_merged_table.txt",
+      "bytes": 1274032,
+      "sha256": "bbcb491fc69d8584b3e871171413838f78ae3bf78de6957bd0f766252156fa92"
+    },
+    {
+      "path": "cancer-fallback-audit/melanoma/data/Metaphlan4_All_Results/Davar_merged_table.txt",
+      "bytes": 3721058,
+      "sha256": "7d3351c5aa9c7deca21b400e3156fb08795470de963aa1d7163badfca7f45d50"
+    },
+    {
+      "path": "cancer-fallback-audit/melanoma/data/Metaphlan4_All_Results/Lee_merged_table.txt",
+      "bytes": 5272741,
+      "sha256": "0c36d1712453ddcb2d806071d233a2acf8e0755b3d21daca0147265055d7be57"
+    },
+    {
+      "path": "cancer-fallback-audit/melanoma/data/Metaphlan4_All_Results/Sep_merged_table.txt",
+      "bytes": 4073623,
+      "sha256": "cf46bc7b0c73bd93d28d22b8c8ee39059172aa1a508d874ce8563247f902ea03"
+    },
+    {
+      "path": "cancer-fallback-audit/melanoma/data/Metaphlan4_All_Results/Baruch_merged_table.txt",
+      "bytes": 1006940,
+      "sha256": "96e1311eaba2d8ec1ed5f1942f5ef014a32ae37f13c4168b77115b298fe87fd6"
+    },
+    {
+      "path": "site/dist/literature.json",
+      "bytes": 16363,
+      "sha256": "5d61cb3549c527e7cf3da891c9420d66e2fa916ae6ba4557789cfb599c995bcd"
+    },
+    {
+      "path": "site/dist/fecal-otu-counts.csv.gz",
+      "bytes": 864426,
+      "sha256": "1c31c57ef885fb74623f3be864f0a4200404ba0cba74bf4dac1291195345dff3"
+    },
+    {
+      "path": "site/dist/stats.mjs",
+      "bytes": 3810,
+      "sha256": "6b471c068f8621d05b39e2285203cb9b30bdd8ba5d7eff8da810fe5db04e8e3f"
+    },
+    {
+      "path": "site/dist/index.html",
+      "bytes": 34479,
+      "sha256": "be69dadd0d1031094eaba1d90346d71b3e35696b23b0488e1cac52ae0d835b17"
+    },
+    {
+      "path": "site/dist/sid.mjs",
+      "bytes": 13128,
+      "sha256": "fcbc56501bc6e3bfff290d3fb2fe32c1920364df57c6f57219984203b95f26c6"
+    },
+    {
+      "path": "site/dist/data-provenance.json",
+      "bytes": 1502,
+      "sha256": "9045a21084b379b1e55467fdbb6dc6cdfd15f6673dfcda714009a344d03277dd"
+    },
+    {
+      "path": "site/dist/sid-ufpf-profiles.tsv",
+      "bytes": 684679,
+      "sha256": "a4f392ba81caa8ac57d5156e9a25f7e47c85adff0733c3b827007d85c2ca7caf"
+    },
+    {
+      "path": "site/dist/sid-overview.mjs",
+      "bytes": 3863,
+      "sha256": "d607b2e468b606f0730c5d5094dc5565e97310031bc35f115f39557740199a3d"
+    },
+    {
+      "path": "site/dist/prepare_ufpf.py",
+      "bytes": 11306,
+      "sha256": "2286c4e7abda4fb78c8ac48d20097ec9d65b2e92c5b336b34bcee3157197bcdb"
+    },
+    {
+      "path": "site/dist/sid-ufpf-drivers.json",
+      "bytes": 4580104,
+      "sha256": "073e092242fdedd0e6808f474a4ad4160ec59af51549e73f7e8b48d3402af8eb"
+    },
+    {
+      "path": "site/dist/sid-phylogeny.json",
+      "bytes": 1686,
+      "sha256": "ef2d7935d4f6ea888b95aefcb0bc9a91abdb0b0b7b13c6c5d2c76ff002b7b279"
+    },
+    {
+      "path": "site/dist/sid-reference.mjs",
+      "bytes": 12313,
+      "sha256": "ac5b9671e7de9e2d737daf88254bfade632296ba82ba5ad0ed30c91f12bd0910"
+    },
+    {
+      "path": "site/dist/sid-provenance.json",
+      "bytes": 1675,
+      "sha256": "4266f60dcfb5cba6cda9ba6a177b48de2fdb36f46d70b1ada30be5fcb08ec7f4"
+    },
+    {
+      "path": "site/dist/data.json",
+      "bytes": 1350232,
+      "sha256": "d5dc4a2485897a251c9850bfc7aaeed107bb7a195bfc2d9cf008bb88af977fed"
+    },
+    {
+      "path": "site/dist/sid-ufpf.json",
+      "bytes": 543716,
+      "sha256": "6accc8eb13eba264bb7ae64ec04fd34aed2d7fe8b3d631a3c7ccf125455df3de"
+    },
+    {
+      "path": "site/dist/sid-evidence.json",
+      "bytes": 5041,
+      "sha256": "9e87c3fc4b13b021db36e12e829ad50a43577189647148911ce80112d64d36e9"
+    },
+    {
+      "path": "site/dist/sid-longitudinal-model.mjs",
+      "bytes": 1296,
+      "sha256": "0798262cf75e48d78770c9a3524295b0d49524216322a71f3ec49fd91865371e"
+    },
+    {
+      "path": "site/dist/sid-stool-profiles.tsv",
+      "bytes": 147105,
+      "sha256": "fa98000611f0eb7eea339a35022436174dfb53001d9152115ad1097ae56e5941"
+    },
+    {
+      "path": "site/dist/sid-drivers.mjs",
+      "bytes": 11202,
+      "sha256": "c6ab4b10dae1f7d39a37c1eca54f6f08e601f2d401333ca59f70f5d253e47768"
+    },
+    {
+      "path": "site/dist/style.css",
+      "bytes": 10584,
+      "sha256": "996637da68d716fbffa32464c19a7e3dba83b50d8309b14b5606858d0de93a1b"
+    },
+    {
+      "path": "site/dist/sid-model.mjs",
+      "bytes": 2931,
+      "sha256": "7d637b94e4de80f248c64f8299ff7d0ccbeae8205b7206b9c7cce244a7743067"
+    },
+    {
+      "path": "site/dist/sid.html",
+      "bytes": 34479,
+      "sha256": "be69dadd0d1031094eaba1d90346d71b3e35696b23b0488e1cac52ae0d835b17"
+    },
+    {
+      "path": "site/dist/sid-events.json",
+      "bytes": 85291,
+      "sha256": "1dd336997364d48eeca6483b80650918e96c37ed2b9c1330e212ba9d916190bc"
+    },
+    {
+      "path": "site/dist/app.mjs",
+      "bytes": 16592,
+      "sha256": "2a602b9b088314e1176d5a16bef84ab5cba73bfb7e4c015d8ca1122c73060900"
+    },
+    {
+      "path": "site/dist/sample-qc.csv",
+      "bytes": 83249,
+      "sha256": "b6ce4a71cacd4e60d5a68bc11d286b8283eda5ccf8a379434b96962cb78d74df"
+    },
+    {
+      "path": "site/dist/sid-scale.mjs",
+      "bytes": 5002,
+      "sha256": "e73cb9c08fe1ee7057c7a79b2007ee24c1d2980bea08b318d5aea571542d66b7"
+    },
+    {
+      "path": "site/dist/otu-taxonomy.csv",
+      "bytes": 956944,
+      "sha256": "2ae89ff78509383784ee0fc903f1e365ea8e8b078dd383adedffb42a483d6079"
+    },
+    {
+      "path": "site/dist/sid-longitudinal.mjs",
+      "bytes": 10167,
+      "sha256": "eb8abbe20affee0318707dcab10990f220821b5a54090aef7634988116e7d7d4"
+    },
+    {
+      "path": "site/dist/ihmp.html",
+      "bytes": 9159,
+      "sha256": "ad3b1a708dfe0b8c65877c6412bf0f9d8ff1494195402083794ff9c05dc58b02"
+    },
+    {
+      "path": "site/dist/prepare_ufpf_drivers.py",
+      "bytes": 8213,
+      "sha256": "3194d78378b0a3d68faa45ed6c873b31dd3861b120b89888ab15d6cc6c0685ac"
+    },
+    {
+      "path": "site/dist/sid-data.json",
+      "bytes": 63520,
+      "sha256": "1f27c26b7d26a3ca7f4693bb6f9131c068c806d314b72cc9d4cf1d36ef58b5eb"
+    },
+    {
+      "path": "site/dist/sid.css",
+      "bytes": 11856,
+      "sha256": "5c2016a73337e94d168ac4708bc84fc2836aea65cd6031e77528b5b73fda3753"
+    },
+    {
+      "path": "site/source-data/sid/microbiome_long.tsv",
+      "bytes": 220300,
+      "sha256": "6cd7c66d13083d535f0e39d54df25b65a5831df71b8fcaa8002170df1e48b1d2"
+    },
+    {
+      "path": "site/source-data/sid/original-stool-001.csv",
+      "bytes": 12558,
+      "sha256": "7baf4140f08e3a81bb5fe8c59e8bdfcd1749d31dee2dafdaf347ddbac19a2d0f"
+    },
+    {
+      "path": "site/source-data/sid/events.tsv",
+      "bytes": 25971,
+      "sha256": "1b7e9a3a849d7048a29f7bcfe242e42df9edcbbf0e5194448d6a5671ab71315a"
+    },
+    {
+      "path": "site/source-data/sid/samples.tsv",
+      "bytes": 5569,
+      "sha256": "ea4d7406fbb096e1874ad01b4e17e1d5674e5e1f06b771532c0280c2bb8b327a"
+    },
+    {
+      "path": "site/source-data/sid/mpa_vJun23_CHOCOPhlAnSGB_202307.nwk",
+      "bytes": 1227124,
+      "sha256": "680fcce8cb4584c99aff0612144913c8496f9d59571b6c4ed2ae491045a3995e"
+    },
+    {
+      "path": "site/source-data/sid/april-report.pdf",
+      "bytes": 164557,
+      "sha256": "4226264df1eb0840c7f6f5fd1b006b0e02f2f882ffdcbe01485ba105393a4dc9"
+    }
+  ],
+  "excluded_files": [
+    "greengenes-preview.png",
+    "preview.png",
+    "sid-timeline-deploy.tar.gz",
+    "sid-overlay-preview.png",
+    "sid-phylogeny-deploy.tar.gz",
+    "sid-summary-preview.png",
+    "sid-functional-hpc.zip",
+    "sid-overlays-deploy.tar.gz",
+    "site-deploy-v2.tar.gz",
+    "sid-timeline-preview.png",
+    "site-deploy.tar.gz",
+    "greengenes-deploy.tar.gz",
+    "sid-home-preview.png",
+    "metadata-preview.png",
+    "sid-uf-drivers-preview.png",
+    "sid-filters-preview.png",
+    "metadata-deploy.tar.gz",
+    "sid-filters-deploy.tar.gz",
+    "sid-phylogeny-preview.png",
+    "count-audit/count-audit-bundle.zip",
+    "ufpf-audit/paper.xml",
+    "oncobiotics-audit/article.html",
+    "data/source/subject.html",
+    "data/source/visit.html"
+  ],
+  "excluded_directories": [
+    ".env",
+    ".git",
+    ".openai",
+    ".venv",
+    "__pycache__",
+    "databases",
+    "node_modules",
+    "work"
+  ],
+  "note": "Hashes describe files at export, before repository documentation updates. No existing Git history or credentials copied."
+}

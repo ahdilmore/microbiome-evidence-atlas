@@ -1,0 +1,8 @@
+sample,issue,action
+UF-PF-2020-027-1N,profile_without_exact_metadata,Exclude pending verified ID resolution
+UF-PF-2021-023-1N,profile_without_exact_metadata,Exclude pending verified ID resolution
+UF-PF-2022-084-1N2,profile_without_exact_metadata,Exclude pending verified ID resolution
+UF-PF-2022-085-3N2,profile_without_exact_metadata,Exclude pending verified ID resolution
+UF-PF-2022-105-1N,profile_without_exact_metadata,Exclude pending verified ID resolution
+UF-PF-2020-023-1N,metadata_without_exact_profile,Do not infer or silently repair ID
+UF-PF-2022-074-1N,diagnosis_conflict:Control vs PD,Exclude from diagnosis-stratified primary comparisons; include only as ambiguous in all-profile exploration

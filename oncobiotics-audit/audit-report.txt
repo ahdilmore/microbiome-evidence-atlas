@@ -1,0 +1,119 @@
+ONCOBIOTICS / ONCOBIOME comparison with Sid: compatibility audit
+Audited 2026-10-17
+
+VERDICT
+The public table is a useful research resource, but it is not yet a verified
+matched-pipeline reference for Sid. Hold combined weighted UniFrac/PCoA and
+rankings of Sid against cancer groups until database provenance and feature
+identity are resolved. This is a scientific recommendation, not an access or
+permission restriction. No website changes or new cancer comparisons were made.
+
+DATA ACTUALLY CHECKED
+The Figshare merged_table.tsv is byte-identical to the paper's Figure 5 CSV.
+SHA256: 6e5b94c48a066a7e6ce3ed4f1d168299cfc38beaa9b9a202d9e2cfe94106453f
+457 distinct sample IDs; 3,371 microbial columns. Groups: NSCLC 176, CRC 144,
+bladder cancer 61, RCC 48, hematologic CAR-T 28. These are profile counts, not
+independently verified participant counts. This multi-cancer deposit should not
+be conflated with the paper's much larger blood-biomarker clinical-trial cohorts.
+
+All abundances are finite and nonnegative. Every row sums to approximately 100
+(99.99986 to 100.00015), consistent with percentage compositions. There are no
+all-zero microbial columns or exactly duplicate abundance profiles. These
+checks do not prove that profiles are unfiltered or identify their original
+abundance denominator.
+
+DATABASE / FEATURE IDENTITY
+Sid's existing provenance records MetaPhlAn 4.1.1 and
+mpa_vJun23_CHOCOPhlAnSGB_202307. The cancer paper states MetaPhlAn 4, but the
+merged table lacks original version, database, and command-line headers.
+No generating database can be established just from the paper's MetaPhlAn name.
+
+Direct checks against official Jan21/202103, Oct22/202212, and Jun23/202307
+species catalogs found:
+* 463 columns have suffixes such as t__SGB1836...772.
+* Removing these suffixes produces 2,914 base labels and 457 base-label
+  collisions. No duplicate-base pair is simultaneously nonzero in a sample.
+  This is consistent with a merge/name-repair artifact, not proof that pooling
+  them is biologically correct. Source columns have been preserved unchanged.
+* 54 base labels absent as individual entries in Jun23 instead match its
+  '_group' entries. The deposit has no explicit '_group' column suffixes.
+  Therefore bare numeric labels cannot all be presumed to represent single
+  tree tips. For example, t__SGB4425 matches SGB4425_group in the catalog.
+* Even after hypothetical suffix repair and recognition of group labels,
+  160 distinct deposited IDs do not occur in the Jun23 catalog. The combined
+  labels can all be accounted for across the three historical catalogs when
+  group suffixes are allowed, but no single tested catalog covers them all.
+* All bladder and CRC profiles have nonzero IDs compatible with Jan21's
+  catalog after this hypothetical label normalization. CAR-T profiles do not;
+  all fit Oct22's catalog. This is evidence that cross-release naming or
+  processing needs investigation, NOT proof of the generating release for
+  any individual sample. Marker equivalence remains unknown.
+
+MAPPING SENSITIVITY (DIAGNOSTICS, NOT VALIDATED COMPARISONS)
+If suffixes are removed and numeric IDs are treated as exact tips in Sid's
+Jun23 tree, retained abundance is median 99.63%, range 89.61-100%; 9/457
+reference profiles fall below 95%. This optimistic calculation does not
+resolve stripped group identities.
+
+If labels that could denote grouped bins across the three tested catalogs are
+also excluded conservatively, reference retention drops to median 77.70%,
+range 9.54-99.27%; 447/457 profiles fall below 95%. Sid's five profiles retain
+84.18%, 91.72%, 72.18%, 78.32%, and 96.62%, respectively. This deliberately
+conservative cross-release screen is not a final harmonization policy: it
+shows how consequential unresolved bin definitions can be. High simple-ID
+overlap alone does not establish compatibility.
+
+PROCESSING
+The cancer methods report IHMS collection/storage and DNA extraction, Ion
+Proton sequencing at MetaGenoPolis, AlienTrimmer 0.4.0, quality threshold 20,
+minimum length 45 bp, and human/contaminant filtering (GRCh38-p13; 95% identity).
+MetaPhlAn patch version, database index, and profiling command are not supplied
+in the main methods or the reporting summary's software/data-analysis section
+(visually checked on pages 1-3). Storage descriptions also differ: the main
+article describes 0-4 C before transport, while the reporting summary describes
+-20 C and dry-ice transport. This cannot be resolved from these sources alone.
+Sid's full read preprocessing is not documented in the
+materials previously imported. His supplied values are integer abundance
+weights normalized per sample, not verified native MetaPhlAn percentages or
+raw read counts. Normalization reproduces his lab diversity summaries, but
+does not by itself establish the same measurement definition as this table.
+
+METADATA
+Only sampleID, cohortID, and sMAdCAM are supplied alongside abundances.
+No explicit patient linkage, visit, treatment, antibiotics, age, sex, depth,
+batch, or response fields are included in this table. These may exist elsewhere
+or with the investigators; absence here does not imply they were not collected.
+Do not infer these fields from sample-name fragments.
+Figure 5 XLSX includes aggregate taxon comparisons (TKI and ICB groups), not
+a sample-level longitudinal profile/metadata crosswalk. The figure supplements
+do not establish a complete longitudinal comparison dataset for all 457 rows.
+There are no healthy-control profiles in this deposited table.
+
+NEXT STEPS TO MAKE A COMPARISON DEFENSIBLE
+1. Obtain original per-sample MetaPhlAn profile headers and commands, with
+   exact software and database index for each source cohort/batch. Confirm
+   whether profiles were reprocessed together or translated between releases.
+2. Obtain a documented column crosswalk explaining ...number suffixes and
+   whether '_group' labels were stripped, plus grouped-bin membership.
+3. Obtain a sample-to-participant/visit crosswalk and treatment, antibiotics,
+   sequencing/QC and demographic fields. Confirm Sid's weight definition.
+4. If processing matches: harmonize verified feature definitions, report
+   retained abundance, stratify by source cohort, and perform sensitivity
+   checks. If it does not: prefer uniform re-profiling of reads where available.
+   Shared names or restriction to shared observed taxa do not fix marker bias.
+5. A genus-level exploratory view may be possible after taxonomy/column
+   resolution, but it will still carry laboratory, treatment and cohort effects.
+   Cancer-type similarity must not be interpreted as cancer status or response.
+
+SOURCES AND REPRODUCTION
+Dataset: https://doi.org/10.6084/m9.figshare.30336373
+Paper: https://www.nature.com/articles/s41591-025-04067-x
+Official catalogs: https://cmprod1.cibio.unitn.it/biobakery4/metaphlan_databases/
+Sid source: https://osteosarc.com/microbiome/
+Exact downloaded URLs and hashes: sources.json
+Reporting summary: reporting-summary.pdf (image-based; text extraction is
+incomplete, so the relevant software and data sections were inspected visually).
+Numerical results and mapping assumptions: audit-results.json
+Per-feature and per-sample checks: feature-audit.tsv, sample-audit.tsv
+Duplicate-base diagnostic: duplicate-base-labels.tsv
+Reproduce numerical audit: python audit.py (requires numpy and pandas).

@@ -1,0 +1,64 @@
+{
+  "metric": "normalized weighted UniFrac",
+  "database": "mpa_vJun23_CHOCOPhlAnSGB_202307",
+  "treeSource": "https://cmprod1.cibio.unitn.it/biobakery4/metaphlan_databases/mpa_vJun23_CHOCOPhlAnSGB_202307.nwk",
+  "retrieved": "2026-10-17",
+  "treeSha256": "680fcce8cb4584c99aff0612144913c8496f9d59571b6c4ed2ae491045a3995e",
+  "dataSha256": "1f27c26b7d26a3ca7f4693bb6f9131c068c806d314b72cc9d4cf1d36ef58b5eb",
+  "referenceTips": 36273,
+  "mappedFeatures": 236,
+  "totalFeatures": 236,
+  "mappedAbundanceFraction": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "sampleIds": [
+    "H37004-stool-001",
+    "H37004-stool-002",
+    "H37004-stool-003",
+    "H37004-stool-004",
+    "H37004-stool-005"
+  ],
+  "matrix": [
+    [
+      0.0,
+      0.40114331113277857,
+      0.24836305576844636,
+      0.27691957419120344,
+      0.47139544908746794
+    ],
+    [
+      0.40114331113277857,
+      0.0,
+      0.22429099724475318,
+      0.22380713525044726,
+      0.3195451297975471
+    ],
+    [
+      0.24836305576844636,
+      0.22429099724475318,
+      0.0,
+      0.08137889542339985,
+      0.37224109459562954
+    ],
+    [
+      0.27691957419120344,
+      0.22380713525044726,
+      0.08137889542339985,
+      0.0,
+      0.3650472831469395
+    ],
+    [
+      0.47139544908746794,
+      0.3195451297975471,
+      0.37224109459562954,
+      0.3650472831469395,
+      0.0
+    ]
+  ],
+  "method": "sum(branch length \u00d7 absolute difference in descendant shares) / sum(branch length \u00d7 sum of descendant shares). Reference root retained; root stem excluded. All supplied SGB shares included.",
+  "validation": "Biopython 1.85 parser; branch-sum and independent leaf-path calculations agree to 1e-12."
+}

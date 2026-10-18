@@ -1,0 +1,77 @@
+[
+  {
+    "path": "data/CMD/FrankelAE_2017_metadata.tsv",
+    "url": "https://raw.githubusercontent.com/omicsEye/Cancer-Microbiome/61bd2c75927a77051dd409e284e02b7f50f8286b/data/CMD/FrankelAE_2017_metadata.tsv",
+    "sha256": "624c004ca07e0a9ea19607e04a4dde4a91b8247127d25f77fc05cd454c1d94df"
+  },
+  {
+    "path": "data/CMD/GopalakrishnanV_2018_metadata.tsv",
+    "url": "https://raw.githubusercontent.com/omicsEye/Cancer-Microbiome/61bd2c75927a77051dd409e284e02b7f50f8286b/data/CMD/GopalakrishnanV_2018_metadata.tsv",
+    "sha256": "a36b143716ce56aebbf2da485b57b0c9e633361790a7f879a77cd298c585d939"
+  },
+  {
+    "path": "data/CMD/LeeKA_2022_metadata.tsv",
+    "url": "https://raw.githubusercontent.com/omicsEye/Cancer-Microbiome/61bd2c75927a77051dd409e284e02b7f50f8286b/data/CMD/LeeKA_2022_metadata.tsv",
+    "sha256": "7c66856c8f9490dc9c8f221ea4665d5f6cec7320b324e1242af18259507be223"
+  },
+  {
+    "path": "data/CMD/MatsonV_2018_metadata.tsv",
+    "url": "https://raw.githubusercontent.com/omicsEye/Cancer-Microbiome/61bd2c75927a77051dd409e284e02b7f50f8286b/data/CMD/MatsonV_2018_metadata.tsv",
+    "sha256": "38a0bc2a770edb17cdd98ae83da68d6a389e5528fca42a00c4ae862d1f2ef87a"
+  },
+  {
+    "path": "data/Metaphlan4_All_Results/Baruch_merged_table.txt",
+    "url": "https://raw.githubusercontent.com/omicsEye/Cancer-Microbiome/61bd2c75927a77051dd409e284e02b7f50f8286b/data/Metaphlan4_All_Results/Baruch_merged_table.txt",
+    "sha256": "96e1311eaba2d8ec1ed5f1942f5ef014a32ae37f13c4168b77115b298fe87fd6"
+  },
+  {
+    "path": "data/Metaphlan4_All_Results/Davar_merged_table.txt",
+    "url": "https://raw.githubusercontent.com/omicsEye/Cancer-Microbiome/61bd2c75927a77051dd409e284e02b7f50f8286b/data/Metaphlan4_All_Results/Davar_merged_table.txt",
+    "sha256": "7d3351c5aa9c7deca21b400e3156fb08795470de963aa1d7163badfca7f45d50"
+  },
+  {
+    "path": "data/Metaphlan4_All_Results/Frankel_merged_table.txt",
+    "url": "https://raw.githubusercontent.com/omicsEye/Cancer-Microbiome/61bd2c75927a77051dd409e284e02b7f50f8286b/data/Metaphlan4_All_Results/Frankel_merged_table.txt",
+    "sha256": "79de4f9a90e1c49b7ced415a89aab93bbee42c274356b276204787a2b332e87d"
+  },
+  {
+    "path": "data/Metaphlan4_All_Results/Gop_merged_abundance_table_species.txt",
+    "url": "https://raw.githubusercontent.com/omicsEye/Cancer-Microbiome/61bd2c75927a77051dd409e284e02b7f50f8286b/data/Metaphlan4_All_Results/Gop_merged_abundance_table_species.txt",
+    "sha256": "b9b974e0c178dd160139b7a8d83e3b6efc04be5954e746526edc6e55fa2ba367"
+  },
+  {
+    "path": "data/Metaphlan4_All_Results/Lee_merged_table.txt",
+    "url": "https://raw.githubusercontent.com/omicsEye/Cancer-Microbiome/61bd2c75927a77051dd409e284e02b7f50f8286b/data/Metaphlan4_All_Results/Lee_merged_table.txt",
+    "sha256": "0c36d1712453ddcb2d806071d233a2acf8e0755b3d21daca0147265055d7be57"
+  },
+  {
+    "path": "data/Metaphlan4_All_Results/Mat_merged_table.txt",
+    "url": "https://raw.githubusercontent.com/omicsEye/Cancer-Microbiome/61bd2c75927a77051dd409e284e02b7f50f8286b/data/Metaphlan4_All_Results/Mat_merged_table.txt",
+    "sha256": "00063a622680f5aaf119884c6e91e1df64656bf87b75937f9af709afe39210c8"
+  },
+  {
+    "path": "data/Metaphlan4_All_Results/Peter_merged_table.txt",
+    "url": "https://raw.githubusercontent.com/omicsEye/Cancer-Microbiome/61bd2c75927a77051dd409e284e02b7f50f8286b/data/Metaphlan4_All_Results/Peter_merged_table.txt",
+    "sha256": "bbcb491fc69d8584b3e871171413838f78ae3bf78de6957bd0f766252156fa92"
+  },
+  {
+    "path": "data/Metaphlan4_All_Results/Sep_merged_table.txt",
+    "url": "https://raw.githubusercontent.com/omicsEye/Cancer-Microbiome/61bd2c75927a77051dd409e284e02b7f50f8286b/data/Metaphlan4_All_Results/Sep_merged_table.txt",
+    "sha256": "cf46bc7b0c73bd93d28d22b8c8ee39059172aa1a508d874ce8563247f902ea03"
+  },
+  {
+    "path": "scripts/MMUPHin.R",
+    "url": "https://raw.githubusercontent.com/omicsEye/Cancer-Microbiome/61bd2c75927a77051dd409e284e02b7f50f8286b/scripts/MMUPHin.R",
+    "sha256": "f3758557765da118298373318a7fa970aa876139e45e0ce20baf55eafaff32ec"
+  },
+  {
+    "path": "scripts/bray_curtis.R",
+    "url": "https://raw.githubusercontent.com/omicsEye/Cancer-Microbiome/61bd2c75927a77051dd409e284e02b7f50f8286b/scripts/bray_curtis.R",
+    "sha256": "311fb40bbe35e06dd672d74566e6301e1d411adf42cb24b37801bfa1878479d3"
+  },
+  {
+    "path": "scripts/dataprocessing.R",
+    "url": "https://raw.githubusercontent.com/omicsEye/Cancer-Microbiome/61bd2c75927a77051dd409e284e02b7f50f8286b/scripts/dataprocessing.R",
+    "sha256": "89e0c0078c2f2fb1854b3cfab1a869670575062b28d47e12b0bd30c9ffeb4658"
+  }
+]

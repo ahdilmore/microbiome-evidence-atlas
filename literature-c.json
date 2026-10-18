@@ -1,0 +1,50 @@
+[
+  {
+    "genus": "Flavonifractor",
+    "title": "Butyrate-Producing Bacteria and Insulin Homeostasis: The Microbiome and Insulin Longitudinal Evaluation Study (MILES)",
+    "claim": "Higher Flavonifractor abundance was associated with lower insulin sensitivity and greater prevalence of dysglycemia.",
+    "scope": "Genus-level human association",
+    "studyType": "Human observational baseline analysis",
+    "population": "African American and non-Hispanic White adults in MILES",
+    "limitation": "Associations were adjusted for age, sex, BMI and race, but not multiple testing. This does not establish causation or individual clinical risk.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9630078/",
+    "doi": "10.2337/db22-0168",
+    "year": 2022
+  },
+  {
+    "genus": "Odoribacter",
+    "title": "Taxonomic and Functional Fecal Microbiota Signatures Associated With Insulin Resistance in Non-Diabetic Subjects With Overweight/Obesity Within the Frame of the PREDIMED-Plus Study",
+    "claim": "Odoribacter abundance was negatively associated with HOMA-IR, a marker of insulin resistance, in this baseline analysis.",
+    "scope": "Genus-level human association",
+    "studyType": "Human observational cross-sectional analysis",
+    "population": "Non-diabetic adults aged 55–75 with overweight or obesity and metabolic syndrome in PREDIMED-Plus",
+    "limitation": "An association in this selected population does not establish that increasing Odoribacter improves insulin sensitivity or that it applies to all populations.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35574036/",
+    "doi": "10.3389/fendo.2022.804455",
+    "year": 2022
+  },
+  {
+    "genus": "Oscillibacter",
+    "title": "Gut microbiome and metabolome profiling in Framingham heart study reveals cholesterol-metabolizing bacteria",
+    "claim": "Oscillibacter species were associated with lower stool and plasma cholesterol, and cultured human gut isolates metabolized cholesterol in laboratory experiments.",
+    "scope": "Multiple Oscillibacter species; lipid metabolism rather than direct insulin-resistance evidence",
+    "studyType": "Human observational multi-omics study plus in vitro isolate experiments",
+    "population": "Framingham Heart Study participants and cultured human gut isolates",
+    "limitation": "Cholesterol metabolism does not establish an effect on insulin resistance. Human associations and laboratory activity do not demonstrate treatment benefit.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38569543/",
+    "doi": "10.1016/j.cell.2024.03.014",
+    "year": 2024
+  },
+  {
+    "genus": "Pseudoflavonifractor",
+    "title": "Butyrate-Producing Bacteria and Insulin Homeostasis: The Microbiome and Insulin Longitudinal Evaluation Study (MILES)",
+    "claim": "Pseudoflavonifractor was not significantly associated with insulin sensitivity or dysglycemia in the reported genus-level analyses.",
+    "scope": "Genus-level null finding",
+    "studyType": "Human observational baseline analysis",
+    "population": "African American and non-Hispanic White adults in MILES",
+    "limitation": "A null result does not prove no biological effect. It provides useful context if this dataset shows an association; neither finding alone establishes causation.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9630078/",
+    "doi": "10.2337/db22-0168",
+    "year": 2022
+  }
+]
