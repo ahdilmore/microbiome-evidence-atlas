@@ -1,0 +1,6 @@
+# Analysis and existing test suite. No Python packages are needed to serve the site.
+numpy>=1.26,<3
+pandas>=2.2,<4
+openpyxl>=3.1,<4
+biopython==1.85
+# Optional R-data import dependencies are listed in count-audit/requirements.txt.

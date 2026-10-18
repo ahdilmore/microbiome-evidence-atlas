@@ -1,0 +1,259 @@
+---
+title: "T2D data processing"
+author: "Mikhail Dozmorov"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    toc: no
+  html_document:
+    theme: cerulean
+    toc: yes
+---
+
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
+# Set up the environment
+library(knitr)
+opts_chunk$set(cache.path='cache/', fig.path='img/', cache=F, tidy=T, fig.keep='high', echo=F, dpi=100, warnings=F, message=F, comment=NA, warning=F, results='as.is', fig.width = 10, fig.height = 6) #out.width=700, 
+library(pander)
+panderOptions('table.split.table', Inf)
+set.seed(1)
+library(dplyr)
+options(stringsAsFactors = FALSE)
+```
+
+```{r libraries}
+library(phyloseq)
+library(biomformat)
+library(dplyr)
+library(readr)
+library(magrittr)
+source("https://raw.githubusercontent.com/mdozmorov/MDmisc/master/R/venn.R")
+load(file = "data/gg_13_5_taxonomy.rda") # mtx_tax_table for Greengenes, scripts/greengenes.R
+```
+
+```{r settings}
+# Data folder
+# dataDir <- "/Users/mdozmorov/Documents/Data/GitHub/HMP2/"
+dataDir <- "D:/HMP2/"
+# Use phyloseq or low-level reading of BIOM files
+phyloseq_import_biom <- FALSE # If FALSE, `read_biom` will be used
+# File names
+fileNameIn1  <- "data.T2D/hmp_cart_9df8de87d3.tsv"          # Manifest
+fileNameIn2  <- "data.T2D/hmp_cart_metadata_44df19f9ef.tsv" # Metadata
+fileNameOut1 <- "data.T2D/files_16S_unreadable.txt"         # Unreadable 16S files
+# Files for matching filenames
+fileNameOut2 <- "data.T2D/files_16S_actual_only.txt"        # Downloaded, but no annotations
+fileNameOut3 <- "data.T2D/files_16S_listed_only.txt"        # Annotated, but not downloaded
+fileNameOut4 <- "data.T2D/files_16S_actual_and_listed.txt"  # Downloaded AND Annotated
+# Files for saving the results
+fileNameOut5 <- "data.T2D/T2D16S_mtx.rda"  # BIOM data
+fileNameOut6 <- "data.T2D/T2D16S_samp.rda" # Annotation data
+fileNameOut7 <- "data.T2D/T2D16S_tax.rda"  # Taxonomy data
+```
+
+```{r}
+mtx1 <- read_tsv(fileNameIn1) # Manifest
+mtx1 %<>% arrange(sample_id)  # Sort by sample_id
+mtx2 <- read_tsv(fileNameIn2) # Metadata
+mtx2 %<>% arrange(sample_id)  # Sort by sample_id
+all.equal(mtx1$sample_id, mtx2$sample_id) # Should be TRUE
+
+# Add file names
+mtx1 %<>% mutate(file_name = sapply(mtx1$urls, function(x) strsplit(x, split = ",", fixed = TRUE)[[1]][1] %>% basename) %>% unname)
+mtx1 <- left_join(mtx1, mtx2, by = "sample_id") # Join by sample_id
+mtx1 <- mtx1[!duplicated(mtx1), ]                  # Remove duplicates
+
+# Remove files that all have generic `otu_table.biom` name
+# They are downloaded in the same folder and impossible to distinguish
+indistinguishable_sample_id <- mtx1$sample_id[mtx1$file_name == "otu_table.biom"]
+mtx1 <- mtx1[!(mtx1$file_name == "otu_table.biom"), ]
+```
+
+```{r}
+# All downloaded files
+files <- list.files(file.path(dataDir, "t2d"), pattern = "biom", full.names = TRUE)
+# Set progress bar
+pb <- txtProgressBar(min = 1, max = length(files), style = 3)
+
+# Overlap between Downloaded (Actual) and Annotated (Listed) files
+mtx_venn <- Venn2(files %>% basename, mtx1$file_name, c("Actual", "Listed"))
+# Save the lists
+writeLines(mtx_venn$id[mtx_venn$Actual == 1 & mtx_venn$Listed == 0 ], fileNameOut2) # Downloaded, but no annotations
+writeLines(mtx_venn$id[mtx_venn$Actual == 0 & mtx_venn$Listed == 1 ], fileNameOut3) # Annotated, but not downloaded
+writeLines(mtx_venn$id[mtx_venn$Actual == 1 & mtx_venn$Listed == 1 ], fileNameOut4) # Downloaded AND Annotated
+
+# Match the order
+mtx1 <- mtx1[match(basename(files), mtx1$file_name), ]
+all.equal(basename(files), mtx1$file_name)
+```
+
+```{r eval = FALSE}
+# Manually subset files and annotation for faster processing
+files <- files[1:30]
+mtx1  <- mtx1[1:30, ]
+```
+
+```{r}
+my_import_biom <- function(file, phyloseq_import_biom = TRUE) {
+  if (phyloseq_import_biom) { # phyloseq way
+    mtx_biom <- import_biom(file) %>% otu_table() %>% as.data.frame() 
+    mtx_biom <- data.frame(ID = rownames(mtx_biom), mtx_biom)
+  } else { # bioformat way
+    mtx_biom <- read_biom(file)
+    mtx_biom_data <- biom_data(mtx_biom, parallel = TRUE) # Extract data one time 
+    mtx_biom <- data.frame(ID = names(mtx_biom_data), mtx_biom_data)
+  }
+  return(mtx_biom)
+}
+```
+
+```{r}
+# Check if biom files in the specified folder can be read
+unreadable_files <- list()
+# Collect a list of unreadable files
+for(i in 1:length(files)) {
+  setTxtProgressBar(pb, i)
+  res <- try(mtx_biom <- my_import_biom(files[i], phyloseq_import_biom), TRUE)
+  if(isTRUE(class(res)=="try-error")) { 
+    unreadable_files <- c(unreadable_files, basename(files[i])) 
+  } else { next }
+}
+unreadable_files <- unlist(unreadable_files)
+
+# Remove unreadable files from the lists
+if(length(unreadable_files) > 0) {
+  files <- files[ !(basename(files) %in% unreadable_files) ]
+  mtx1  <- mtx1[  !(mtx1$file_name %in% unreadable_files), ]
+  writeLines(unreadable_files, fileNameOut1) # Save the list of unreadable files
+}
+```
+
+```{r}
+# Read in all BIOM files
+mtx_list <- list()
+for(i in 1:length(files)) {
+  setTxtProgressBar(pb, i)
+  mtx_biom <- my_import_biom(files[[i]], phyloseq_import_biom)
+  colnames(mtx_biom) <- c("ID", paste0('s', i))
+  mtx_list <- c(mtx_list, list(mtx_biom))
+}
+# Combine all elements in a list into a data frame, merging by both IDs. Time consuming, over 5 hours
+mtx_biom <- mtx_list %>% purrr::reduce(full_join, by = c("ID"))
+mtx_biom[1:5, 1:5]
+
+mtx_biom_rownames <- mtx_biom$ID  # Save ID column for rownames
+mtx_biom <- mtx_biom[, -1]        # Remove ID column
+mtx_biom[is.na(mtx_biom)] <- 0    # Replace NAs with zeros
+mtx_biom <- as.matrix(mtx_biom)   # Convert to matrix
+rownames(mtx_biom) <- mtx_biom_rownames  # Add rownames
+colnames(mtx_biom) <- files %>% basename # Add colnames  
+all.equal(colnames(mtx_biom), mtx1$file_name)
+```
+
+
+```{r}
+# Check overlap between Greengenes IDs and BIOM IDs
+# mtx_venn <- Venn2(rownames(mtx_tax_table), rownames(mtx_biom), c("Greengenes", "biom"))
+setdiff(rownames(mtx_biom), rownames(mtx_tax_table)) # Should be 0
+# Subset and match the taxonomy table to the BIOM table
+mtx_tax_table <- mtx_tax_table[ rownames(mtx_tax_table) %in% rownames(mtx_biom), ]
+mtx_tax_table <- mtx_tax_table[ match(rownames(mtx_biom), rownames(mtx_tax_table)), ]
+all.equal(rownames(mtx_biom), rownames(mtx_tax_table))
+```
+
+
+```{r}
+# Rename matrices for the package
+T2D16S_mtx  <- mtx_biom
+T2D16S_samp <- mtx1
+T2D16S_tax  <- mtx_tax_table
+# Make them compatible with the current objects in the R package
+colnames(T2D16S_mtx) <- sub(pattern = ".biom", replacement = "", x = colnames(T2D16S_mtx)) # Clean up sample names
+T2D16S_samp <- as.data.frame(T2D16S_samp)
+T2D16S_samp$file_name  <- sub(pattern = ".biom", replacement = "", x = T2D16S_samp$file_name) # Clean up sample names
+all.equal(colnames(T2D16S_mtx), T2D16S_samp$file_name)
+rownames(T2D16S_samp) <- colnames(T2D16S_mtx)
+# Save them
+save(T2D16S_mtx,  file = fileNameOut5) # BIOM data
+save(T2D16S_samp, file = fileNameOut6) # Annotation data
+save(T2D16S_tax,  file = fileNameOut7) # Taxonomy data
+```
+
+Data dimensions, current
+
+```{r echo=TRUE}
+# Check dimensions
+dim(T2D16S_mtx)
+dim(T2D16S_samp)
+dim(T2D16S_tax)
+T2D16S_mtx[1:5, 1:5]
+class(T2D16S_mtx)
+T2D16S_samp[1:5, 1:5]
+class(T2D16S_samp)
+T2D16S_tax[1:5, 1:5]
+class(T2D16S_tax)
+```
+
+Data dimensions for the first version of the package
+
+```
+> # Check dimensions
+> dim(T2D16S_mtx)
+[1] 10815  1319
+> dim(T2D16S_samp)
+[1] 1319   10
+> dim(T2D16S_tax)
+[1] 10815     7
+> T2D16S_mtx[1:5, 1:5]
+        HMP2_J05408_1_NS_T0_B0_0122_ZMGT937-1014_AAH7B.biom HMP2_J05409_1_ST_T0_B0_0122_ZMBH10Z-04_AAH7B.biom
+4121939                                                   3                                                 0
+386088                                                   13                                                 0
+893992                                                   21                                                 0
+364736                                                    4                                                43
+1064036                                                 884                                                 0
+        HMP2_J05410_1_ST_T0_B0_0120_ZLZQMEV-01_AA31J.biom HMP2_J05412_1_NS_T0_B0_0122_ZLZQMEV-1012_AAH7B.biom
+4121939                                                 0                                                   0
+386088                                                  0                                                  37
+893992                                                  0                                                  24
+364736                                                 92                                                   1
+1064036                                                 0                                                1294
+        HMP2_J05413_1_NS_T0_B0_0122_ZLZQMEV-1013_AAH7B.biom
+4121939                                                   0
+386088                                                   23
+893992                                                   25
+364736                                                    0
+1064036                                                1057
+> class(T2D16S_mtx)
+[1] "matrix"
+> T2D16S_samp[1:5, 1:5]
+                                                                             file_id                        sample_id
+HMP2_J05408_1_NS_T0_B0_0122_ZMGT937-1014_AAH7B.biom 76612bd9a41885add4f6b0b76819a034 c22b9238b5b9beec7a9a1fc7c32dd02c
+HMP2_J05409_1_ST_T0_B0_0122_ZMBH10Z-04_AAH7B.biom   76612bd9a41885add4f6b0b76817deb5 c22b9238b5b9beec7a9a1fc7c32d0107
+HMP2_J05410_1_ST_T0_B0_0120_ZLZQMEV-01_AA31J.biom   76612bd9a41885add4f6b0b76817047f c22b9238b5b9beec7a9a1fc7c32c2048
+HMP2_J05412_1_NS_T0_B0_0122_ZLZQMEV-1012_AAH7B.biom 76612bd9a41885add4f6b0b76818f987 c22b9238b5b9beec7a9a1fc7c32c620a
+HMP2_J05413_1_NS_T0_B0_0122_ZLZQMEV-1013_AAH7B.biom 76612bd9a41885add4f6b0b768188fca c22b9238b5b9beec7a9a1fc7c32c6a50
+                                                                                              file_name                       subject_id
+HMP2_J05408_1_NS_T0_B0_0122_ZMGT937-1014_AAH7B.biom HMP2_J05408_1_NS_T0_B0_0122_ZMGT937-1014_AAH7B.biom 88af6472fb03642dd5eaf8cddc33ec10
+HMP2_J05409_1_ST_T0_B0_0122_ZMBH10Z-04_AAH7B.biom     HMP2_J05409_1_ST_T0_B0_0122_ZMBH10Z-04_AAH7B.biom 88af6472fb03642dd5eaf8cddc33f0b4
+HMP2_J05410_1_ST_T0_B0_0120_ZLZQMEV-01_AA31J.biom     HMP2_J05410_1_ST_T0_B0_0120_ZLZQMEV-01_AA31J.biom 88af6472fb03642dd5eaf8cddc3410c8
+HMP2_J05412_1_NS_T0_B0_0122_ZLZQMEV-1012_AAH7B.biom HMP2_J05412_1_NS_T0_B0_0122_ZLZQMEV-1012_AAH7B.biom 88af6472fb03642dd5eaf8cddc3410c8
+HMP2_J05413_1_NS_T0_B0_0122_ZLZQMEV-1013_AAH7B.biom HMP2_J05413_1_NS_T0_B0_0122_ZLZQMEV-1013_AAH7B.biom 88af6472fb03642dd5eaf8cddc3410c8
+                                                    sample_body_site
+HMP2_J05408_1_NS_T0_B0_0122_ZMGT937-1014_AAH7B.biom     nasal cavity
+HMP2_J05409_1_ST_T0_B0_0122_ZMBH10Z-04_AAH7B.biom              feces
+HMP2_J05410_1_ST_T0_B0_0120_ZLZQMEV-01_AA31J.biom       nasal cavity
+HMP2_J05412_1_NS_T0_B0_0122_ZLZQMEV-1012_AAH7B.biom     nasal cavity
+HMP2_J05413_1_NS_T0_B0_0122_ZLZQMEV-1013_AAH7B.biom     nasal cavity
+> class(T2D16S_samp)
+[1] "data.frame"
+> T2D16S_tax[1:5, 1:5]
+        Kingdom    Phylum           Class            Order             Family                
+4121939 "Bacteria" "Actinobacteria" "Actinobacteria" "Actinomycetales" "Propionibacteriaceae"
+386088  "Bacteria" "Actinobacteria" "Actinobacteria" "Actinomycetales" "Propionibacteriaceae"
+893992  "Bacteria" "Actinobacteria" "Actinobacteria" "Actinomycetales" "Propionibacteriaceae"
+364736  "Bacteria" "Firmicutes"     "Clostridia"     "Clostridiales"   NA                    
+1064036 "Bacteria" "Firmicutes"     "Clostridia"     "Clostridiales"   "[Tissierellaceae]"   
+> class(T2D16S_tax)
+[1] "matrix"
+```
+

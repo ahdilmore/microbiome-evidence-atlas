@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {stability,adjacentChanges,treatmentEvents} from './dist/sid-longitudinal-model.mjs';
+import {featuresAtLevel} from './dist/sid-model.mjs';
+const feature=(name,values)=>({id:name,name,values,resolved:true});
+const stable=feature('constant',[.01,.01,.01,.01,.01]),returner=feature('returned',[.01,.10,.01,.01,.01]),absent=feature('absent',[0,0,0,0,0]);
+assert.deepEqual(stability([stable,returner,absent],0).map(f=>f.name),['constant','returned']);
+assert.equal(stability([stable])[0].relativeRange,0);assert.ok(stability([returner])[0].relativeRange>800);
+assert.equal(stability([feature('border',[.001,.001,.001,.001,.001])],.1).length,1);
+assert.equal(stability([{...stable,resolved:false}]).length,0);
+const data=JSON.parse(fs.readFileSync('dist/sid-data.json')),features=featuresAtLevel(data),events=JSON.parse(fs.readFileSync('dist/sid-events.json')).events;
+assert.equal(stability(features).length,19);assert.equal(stability(features).filter(f=>f.relativeRange<=50).length,0);
+const distances=adjacentChanges(features,data.samples);assert.equal(distances.length,4);assert.ok(distances.every(s=>s.brayCurtis>=0&&s.brayCurtis<=1));assert.equal(distances.reduce((a,b)=>a.brayCurtis>b.brayCurtis?a:b).start,0);
+assert.equal(adjacentChanges([feature('a',[1,0]),feature('b',[0,1])],[{date:'2026-01-01'},{date:'2026-01-02'}])[0].brayCurtis,1);
+const treatments=treatmentEvents(events,'2026-03-10','2026-03-27','Antibiotics');assert.equal(treatments.filter(e=>e.title==='Cefazolin').length,1);assert.ok(!treatments.some(e=>e.title==='Dostarlimab'));
+assert.ok(treatmentEvents(events,'2025-10-22','2025-10-22').some(e=>e.title==='Dalbavancin'));
+console.log('Passed: stability vs endpoint return, zero exclusion, threshold boundaries, named features, distances, interval ranking, exposure clipping and duplicate handling.');

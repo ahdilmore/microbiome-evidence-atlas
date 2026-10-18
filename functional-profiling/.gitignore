@@ -1,0 +1,4 @@
+.env/
+work/
+databases/
+__pycache__/

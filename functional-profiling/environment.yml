@@ -1,0 +1,12 @@
+name: sid-functions
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - humann=3.9
+  - metaphlan=4.1.1
+  - bowtie2=2.5.5
+  - diamond=2.2.8
+  - fastp=1.4.0
+  - curl
